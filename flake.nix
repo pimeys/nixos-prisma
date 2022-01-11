@@ -18,7 +18,7 @@
       devShell = forAllSystems (system:
         let
           pkgs = (pkgsFor inputs.nixpkgs system);
-        in 
+        in
           pkgs.mkShell {
             nativeBuildInputs = [ pkgs.bashInteractive ];
             buildInputs = with pkgs; [
@@ -39,9 +39,8 @@
             inherit system;
             config = { allowUnfree = true; };
           };
-          packages = import ./default.nix { pkgs = pkgs; };
-        in {
-          prisma-language-server = packages.prisma-language-server;
+        in import ./default.nix {
+          inherit pkgs;
         });
     };
 }

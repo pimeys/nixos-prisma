@@ -1,0 +1,53 @@
+* Fresh Prisma packages for NixOS
+
+Currently heavily under construction, and only the following packages are available:
+
+- ~@prisma/language-server~ for the latest stable Prisma language server
+- ~@prisma/language-server-dev~ for the latest development Prisma language server
+- ~@prisma/language-server-integration~ for a custom integration version of Prisma language server
+
+* Using the overlay
+
+Add an input to your flake inputs:
+
+#+begin_src nix
+{
+  inputs = {
+    prisma = {
+      url = "github:pimeys/nixos-prisma";
+    };
+  };
+}
+#+end_src
+
+Then in the outputs, add the overlay to your configuration:
+
+#+begin_src nix
+{
+  outputs = inputs @ { nixpkgs, prisma, ... }:
+    let
+      common = { pkgs, config, ... }: {
+        nixpkgs.overlays = [
+          prisma.overlay
+        ];
+      };
+    in {
+      nixosConfigurations = {
+        localhost = nixpkgs.lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [ ./localhost/configuration.nix ] ++ common;
+        };
+      };
+  };
+}
+#+end_src
+
+The packages can be added from the `pkgs` collection:
+
+#+begin_src nix
+{
+  environment.systemPackages = with pkgs; [
+    prismaPackages."@prisma/language-server"
+  ];
+}
+#+end_src
