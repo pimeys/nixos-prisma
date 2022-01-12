@@ -40,6 +40,33 @@ let
         sha512 = "QNn0DnpSzgVkTSbMIWFFdizRDkWkLRvETRoidgQkaDTSCiDlAB+ana3cBnSwYMSwrnLiwNrlz925TJ1LoS+lcQ==";
       };
     };
+    "@prisma/engines-3.8.0-39.c3eecc84ac8d11972b9167175f8c4038487ba3f6" = {
+      name = "_at_prisma_slash_engines";
+      packageName = "@prisma/engines";
+      version = "3.8.0-39.c3eecc84ac8d11972b9167175f8c4038487ba3f6";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@prisma/engines/-/engines-3.8.0-39.c3eecc84ac8d11972b9167175f8c4038487ba3f6.tgz";
+        sha512 = "bH97dHPNI8kx5TvbBuXOmHmqMXrkSITovvx0pmoH0hO0OHmE6EXI5+PKQtTeIdQLyNT8DPiGPU113RgYtiUpuQ==";
+      };
+    };
+    "@prisma/engines-3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f" = {
+      name = "_at_prisma_slash_engines";
+      packageName = "@prisma/engines";
+      version = "3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@prisma/engines/-/engines-3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f.tgz";
+        sha512 = "bHYubuItSN/DGYo36aDu7xJiJmK52JOSHs4MK+KbceAtwS20BCWadRgtpQ3iZ2EXfN/B1T0iCXlNraaNwnpU2w==";
+      };
+    };
+    "@prisma/engines-3.9.0-1.d1166d247dd202237421769dae77fda4e872aab5" = {
+      name = "_at_prisma_slash_engines";
+      packageName = "@prisma/engines";
+      version = "3.9.0-1.d1166d247dd202237421769dae77fda4e872aab5";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@prisma/engines/-/engines-3.9.0-1.d1166d247dd202237421769dae77fda4e872aab5.tgz";
+        sha512 = "mf1Y9jbIMNzsDrYg8F9FQABlIUZmM5pSCCYA5JM2ltz7UX1otAzhBKbIyipzuKeFpP+ia62xuC9wRwajkhoKOg==";
+      };
+    };
     "@prisma/fetch-engine-2.20.0-dev.6" = {
       name = "_at_prisma_slash_fetch-engine";
       packageName = "@prisma/fetch-engine";
@@ -1309,6 +1336,69 @@ in
     meta = {
       description = "Implementation of a language server in node.";
       homepage = "https://github.com/prisma/vscode#readme";
+      license = "Apache-2.0";
+    };
+    production = true;
+    bypassCache = true;
+    reconstructLock = true;
+  };
+  prisma = nodeEnv.buildNodePackage {
+    name = "prisma";
+    packageName = "prisma";
+    version = "3.8.0";
+    src = fetchurl {
+      url = "https://registry.npmjs.org/prisma/-/prisma-3.8.0.tgz";
+      sha512 = "xLmVyO/L6C4ZdHzHqiJVq3ZfDWSym29x75JcwJx746ps61UcNEg4ozSwN9ud7UjXLntdXe1xDLNOUO1lc7LN5g==";
+    };
+    dependencies = [
+      sources."@prisma/engines-3.8.0-43.34df67547cf5598f5a6cd3eb45f14ee70c3fb86f"
+    ];
+    buildInputs = globalBuildInputs;
+    meta = {
+      description = "Prisma is an open-source database toolkit. It includes a JavaScript/TypeScript ORM for Node.js, migrations and a modern GUI to view and edit the data in your database. You can use Prisma in new projects or add it to an existing one.";
+      homepage = "https://www.prisma.io";
+      license = "Apache-2.0";
+    };
+    production = true;
+    bypassCache = true;
+    reconstructLock = true;
+  };
+  prisma-dev = nodeEnv.buildNodePackage {
+    name = "prisma";
+    packageName = "prisma";
+    version = "3.9.0-dev.1";
+    src = fetchurl {
+      url = "https://registry.npmjs.org/prisma/-/prisma-3.9.0-dev.1.tgz";
+      sha512 = "5fvDyKWF4D2Y432Qqxk3GDKVZZr3CsEEQAZx9dLEAxyUBzPmqjDAn9yy+n2SVO1qFipA4F33ynb+zCa2hKw0yw==";
+    };
+    dependencies = [
+      sources."@prisma/engines-3.9.0-1.d1166d247dd202237421769dae77fda4e872aab5"
+    ];
+    buildInputs = globalBuildInputs;
+    meta = {
+      description = "Prisma is an open-source database toolkit. It includes a JavaScript/TypeScript ORM for Node.js, migrations and a modern GUI to view and edit the data in your database. You can use Prisma in new projects or add it to an existing one.";
+      homepage = "https://www.prisma.io";
+      license = "Apache-2.0";
+    };
+    production = true;
+    bypassCache = true;
+    reconstructLock = true;
+  };
+  prisma-integration = nodeEnv.buildNodePackage {
+    name = "prisma";
+    packageName = "prisma";
+    version = "3.8.0-integration-proxy-interactive-transactions-early-bail.2";
+    src = fetchurl {
+      url = "https://registry.npmjs.org/prisma/-/prisma-3.8.0-integration-proxy-interactive-transactions-early-bail.2.tgz";
+      sha512 = "XJJsQLy2igxUueBjH1xNKsl0SMUkzI/mNcii033tVlD3c1s/ab4QmQ/9j5HdVFa4BbeX2l3dWvDgcyOwyW/T6A==";
+    };
+    dependencies = [
+      sources."@prisma/engines-3.8.0-39.c3eecc84ac8d11972b9167175f8c4038487ba3f6"
+    ];
+    buildInputs = globalBuildInputs;
+    meta = {
+      description = "Prisma is an open-source database toolkit. It includes a JavaScript/TypeScript ORM for Node.js, migrations and a modern GUI to view and edit the data in your database. You can use Prisma in new projects or add it to an existing one.";
+      homepage = "https://www.prisma.io";
       license = "Apache-2.0";
     };
     production = true;

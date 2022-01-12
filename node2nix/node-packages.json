@@ -1,5 +1,8 @@
 [
-  "@prisma/language-server",
+  { "@prisma/language-server": "latest" },
   { "@prisma/language-server": "dev" },
-  { "@prisma/language-server": "integration" }
+  { "@prisma/language-server": "integration" },
+  { "prisma": "latest" },
+  { "prisma": "dev" },
+  { "prisma": "integration" }
 ]
