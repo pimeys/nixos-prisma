@@ -1,0 +1,35 @@
+name: Build and update Prisma packages to the latest
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Build and publish @prisma/prisma-fmt-wasm
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.4
+
+      - uses: cachix/install-nix-action@v14
+        with:
+          install_url: https://nixos-nix-install-tests.cachix.org/serve/vij683ly7sl95nnhb67bdjjfabclr85m/install
+          install_options: '--tarball-url-prefix https://nixos-nix-install-tests.cachix.org/serve'
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update packages
+        run: |
+          nix run .#updatePackages
+
+      - name: Build language server
+        run: |
+          nix build .#"@prisma/language-server"
+          nix build .#"@prisma/language-server-dev"
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Packages update
+          commit_user_name: prisma-bot
+          commit_user_email: prismabots@gmail.com
+          commit_author: prisma-bot <prismabots@gmail.com>
