@@ -6,7 +6,14 @@
     let
       nameValuePair = name: value: { inherit name value; };
       genAttrs = names: f: builtins.listToAttrs (map (n: nameValuePair n (f n)) names);
-      forAllSystems = genAttrs [ "x86_64-linux" "i686-linux" "aarch64-linux" ];
+
+      forAllSystems = genAttrs [
+        "x86_64-linux"
+        "x86_64-darwin"
+        "i686-linux"
+        "aarch64-linux"
+        "aarch64-darwin"
+      ];
 
       pkgsFor = pkgs: sys:
         import pkgs {
