@@ -67,13 +67,13 @@ let
         sha512 = "r3eqcIkyLMLGXMAO5anxDUlDjkJQLJ9WfVyBzaPDQICNw+506MWx3J3jllGSPEqifch17NLNEckfb9ox5gn7tA==";
       };
     };
-    "@prisma/prisma-fmt-wasm-3.9.0-44.45e6871398e3e66d16be7a12a029938abdc1709c" = {
+    "@prisma/prisma-fmt-wasm-3.9.0-45.9c250037509f550c7339a25474b76ad0c6e466bf" = {
       name = "_at_prisma_slash_prisma-fmt-wasm";
       packageName = "@prisma/prisma-fmt-wasm";
-      version = "3.9.0-44.45e6871398e3e66d16be7a12a029938abdc1709c";
+      version = "3.9.0-45.9c250037509f550c7339a25474b76ad0c6e466bf";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-3.9.0-44.45e6871398e3e66d16be7a12a029938abdc1709c.tgz";
-        sha512 = "JLaBLHsfjETCVROg90/MAdhkHWyuf1vpD/1m9ZWNCRqjXAynhFh6EewZXD2Us4odn6AB31hP5x+0G9Z6qrReFA==";
+        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-3.9.0-45.9c250037509f550c7339a25474b76ad0c6e466bf.tgz";
+        sha512 = "L3bgrG1dGcZYkGZKCK114hL6HQfB1Z7qXCZy8GKpgSrGqRqwWJHEK4iOELgrv2qTr56/H94YbA0WeLSzXLiw1A==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -1200,13 +1200,13 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.559";
+    version = "31.0.561";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.559.tgz";
-      sha512 = "dA06sWjjNzVBddoWmMCraPs5VZEETLHJbacWjQ6BkRgHyiittdIe4AM6xdGE8rCW3iTLrYZaUyOc1gas7EeGGQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.561.tgz";
+      sha512 = "bc6yHWeRL8kMZaEakmKkyochDkFICIA+WakqnmR5jz18uaGQKN8COCCtP/1MmhUcnYJTGfuFvOE/QDFAOPeRPQ==";
     };
     dependencies = [
-      sources."@prisma/prisma-fmt-wasm-3.9.0-44.45e6871398e3e66d16be7a12a029938abdc1709c"
+      sources."@prisma/prisma-fmt-wasm-3.9.0-45.9c250037509f550c7339a25474b76ad0c6e466bf"
       sources."@types/js-levenshtein-1.1.1"
       sources."anymatch-3.1.2"
       sources."binary-extensions-2.2.0"
