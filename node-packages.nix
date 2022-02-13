@@ -670,13 +670,13 @@ let
         sha512 = "OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==";
       };
     };
-    "minimatch-3.0.5" = {
+    "minimatch-3.0.6" = {
       name = "minimatch";
       packageName = "minimatch";
-      version = "3.0.5";
+      version = "3.0.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minimatch/-/minimatch-3.0.5.tgz";
-        sha512 = "tUpxzX0VAzJHjLu0xUfFv1gwVp9ba3IOuRAVH2EGuRW8a5emA2FlACLqiT/lDVtS1W+TGNwqz3sWaNyLgDJWuw==";
+        url = "https://registry.npmjs.org/minimatch/-/minimatch-3.0.6.tgz";
+        sha512 = "dpxq1Q5/wIfWZjlpjEZMpHWLDIEGKAzfxdWG/vDJs6sX2mtpm0vuysXd9bD/XnMrGc/O14D116bYXsSDBJK2lQ==";
       };
     };
     "ms-2.1.2" = {
@@ -1336,7 +1336,7 @@ in
       sources."merge2-1.4.1"
       sources."micromatch-4.0.4"
       sources."mimic-fn-2.1.0"
-      sources."minimatch-3.0.5"
+      sources."minimatch-3.0.6"
       sources."ms-2.1.3"
       sources."node-fetch-2.6.1"
       sources."npm-6.14.11"
