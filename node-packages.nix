@@ -1215,10 +1215,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.709";
+    version = "31.0.710";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.709.tgz";
-      sha512 = "ADdkVQzS+Bx3+jRtKoQTLyoKQ1emxh+xanzDQf29zA8sXNn1F3+LcpneWod3O9CsL3TqDeWizDrxjVEZSpfTpg==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.710.tgz";
+      sha512 = "/w4rZ1oYQkGaDRPQSkTkv5Sp8PJA+4+12xnVoBf/8Hd3KVpqEn1+2l+dXyktJYCCwuHX3BzNgIcnIm6Zg4VDeA==";
     };
     dependencies = [
       sources."@prisma/prisma-fmt-wasm-3.11.0-37.907f5acbe6036378a1c96de75bfaf98ed6873439"
