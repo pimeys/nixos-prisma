@@ -67,13 +67,13 @@ let
         sha512 = "bp8ksqxPmTIuAF13ujxtyUnbbeQl5H3EVLUDjswSARK/8dwQ6ORQC/Ho1wv63joyiuZstwl7K3FgqIY1OB1lcA==";
       };
     };
-    "@prisma/prisma-fmt-wasm-3.12.0-18.e9aaf2ae00c5c7a241450d0e08165acb030422d0" = {
+    "@prisma/prisma-fmt-wasm-3.12.0-30.6f1b5b24baff9909403d1355bfee5155e02940b8" = {
       name = "_at_prisma_slash_prisma-fmt-wasm";
       packageName = "@prisma/prisma-fmt-wasm";
-      version = "3.12.0-18.e9aaf2ae00c5c7a241450d0e08165acb030422d0";
+      version = "3.12.0-30.6f1b5b24baff9909403d1355bfee5155e02940b8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-3.12.0-18.e9aaf2ae00c5c7a241450d0e08165acb030422d0.tgz";
-        sha512 = "bH9PlChxhza/4CT/jOIuPlgDPycOdQc9u4WBmZReklfYfy2+90BIeBCcDie3bWv2iPRK2h0MG6WBT+9VRuIr3w==";
+        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-3.12.0-30.6f1b5b24baff9909403d1355bfee5155e02940b8.tgz";
+        sha512 = "0a37eVcMLJTRFeFZ3+xbEMnyQkg+SdeM49gcelJZEdUQkQBGHzqkIO53ggt4tkdH9LRW7Zvu0QObY8sV6BJfzw==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -1215,13 +1215,13 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.765";
+    version = "31.0.788";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.765.tgz";
-      sha512 = "gyLpsz9DvVFkuHjjMlYKpUpoyvYztkBTy3cZIB5KcC6GGc9lKTTH/9Tk2/181mBrSzMHvyxg0/7+6Zh6nk+WoA==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.788.tgz";
+      sha512 = "BFGWJCjLV7vRbAn4zhm/d+tVyU1arO0R8xlGZhv11MTMu36QNWpFdTcxsRF0/n0vVv4aqIQjs2u+a1faIHMnUw==";
     };
     dependencies = [
-      sources."@prisma/prisma-fmt-wasm-3.12.0-18.e9aaf2ae00c5c7a241450d0e08165acb030422d0"
+      sources."@prisma/prisma-fmt-wasm-3.12.0-30.6f1b5b24baff9909403d1355bfee5155e02940b8"
       sources."@types/js-levenshtein-1.1.1"
       sources."anymatch-3.1.2"
       sources."binary-extensions-2.2.0"
@@ -1249,7 +1249,6 @@ in
     buildInputs = globalBuildInputs;
     meta = {
       description = "Prisma Language Server";
-      homepage = "https://github.com/prisma/language-tools#readme";
       license = "Apache-2.0";
     };
     production = true;
