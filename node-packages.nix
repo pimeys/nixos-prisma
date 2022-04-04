@@ -1215,31 +1215,16 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.814";
+    version = "31.0.817";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.814.tgz";
-      sha512 = "27z3szV52O+/O2pkW5Vq5xRX+lmyCTRB+9rRbD047fZBdyF4Xz/60V3x0L9MmUWFm1tu9B3DfEbROZdzm6mewQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.817.tgz";
+      sha512 = "3BT0i8aphw4sgnyG3kzRF8yUJqhgHjUqEbjk5cekm17bb3Ep4QFOEDs4RHkCHPljTG82rud26g/S/RhcrnDcpQ==";
     };
     dependencies = [
       sources."@prisma/prisma-fmt-wasm-3.12.0-34.fe68ee16ec7694924b82bf075382fa68e69989da"
       sources."@types/js-levenshtein-1.1.1"
-      sources."anymatch-3.1.2"
-      sources."binary-extensions-2.2.0"
-      sources."braces-3.0.2"
-      sources."chokidar-3.5.3"
-      sources."fill-range-7.0.1"
-      sources."fsevents-2.3.2"
-      sources."glob-parent-5.1.2"
-      sources."is-binary-path-2.1.0"
-      sources."is-extglob-2.1.1"
-      sources."is-glob-4.0.3"
-      sources."is-number-7.0.0"
       sources."js-levenshtein-1.1.6"
       sources."klona-2.0.5"
-      sources."normalize-path-3.0.0"
-      sources."picomatch-2.3.1"
-      sources."readdirp-3.6.0"
-      sources."to-regex-range-5.0.1"
       sources."vscode-jsonrpc-6.0.0"
       sources."vscode-languageserver-7.0.0"
       sources."vscode-languageserver-protocol-3.16.0"
