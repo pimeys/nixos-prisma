@@ -58,15 +58,6 @@ let
         sha512 = "ZYqUixxg1RxA9wGd66PF0fmzq5x94gtTeL1FnQm1E2iPE5BgoUmetrR1f40/t32SmmvgOWOpczoVxJINS336bg==";
       };
     };
-    "@prisma/prisma-fmt-wasm-3.11.0-48.b371888aaf8f51357c7457d836b86d12da91658b" = {
-      name = "_at_prisma_slash_prisma-fmt-wasm";
-      packageName = "@prisma/prisma-fmt-wasm";
-      version = "3.11.0-48.b371888aaf8f51357c7457d836b86d12da91658b";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-3.11.0-48.b371888aaf8f51357c7457d836b86d12da91658b.tgz";
-        sha512 = "bp8ksqxPmTIuAF13ujxtyUnbbeQl5H3EVLUDjswSARK/8dwQ6ORQC/Ho1wv63joyiuZstwl7K3FgqIY1OB1lcA==";
-      };
-    };
     "@prisma/prisma-fmt-wasm-3.12.0-37.22b822189f46ef0dc5c5b503368d1bee01213980" = {
       name = "_at_prisma_slash_prisma-fmt-wasm";
       packageName = "@prisma/prisma-fmt-wasm";
@@ -139,15 +130,6 @@ let
         sha512 = "zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==";
       };
     };
-    "anymatch-3.1.2" = {
-      name = "anymatch";
-      packageName = "anymatch";
-      version = "3.1.2";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/anymatch/-/anymatch-3.1.2.tgz";
-        sha512 = "P43ePfOAIupkguHUycrc4qJ9kz8ZiuOUijaETwX7THt0Y/GNK7v0aa8rY816xWjZ7rJdA5XdMcpVFTKMq+RvWg==";
-      };
-    };
     "array-union-2.1.0" = {
       name = "array-union";
       packageName = "array-union";
@@ -164,15 +146,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz";
         sha512 = "3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==";
-      };
-    };
-    "binary-extensions-2.2.0" = {
-      name = "binary-extensions";
-      packageName = "binary-extensions";
-      version = "2.2.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz";
-        sha512 = "jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==";
       };
     };
     "brace-expansion-1.1.11" = {
@@ -200,15 +173,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz";
         sha512 = "oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==";
-      };
-    };
-    "chokidar-3.5.3" = {
-      name = "chokidar";
-      packageName = "chokidar";
-      version = "3.5.3";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz";
-        sha512 = "Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==";
       };
     };
     "clean-stack-2.2.0" = {
@@ -373,15 +337,6 @@ let
         sha1 = "1504ad2523158caa40db4a2787cb01411994ea4f";
       };
     };
-    "fsevents-2.3.2" = {
-      name = "fsevents";
-      packageName = "fsevents";
-      version = "2.3.2";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz";
-        sha512 = "xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==";
-      };
-    };
     "get-stream-6.0.1" = {
       name = "get-stream";
       packageName = "get-stream";
@@ -506,15 +461,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz";
         sha512 = "k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==";
-      };
-    };
-    "is-binary-path-2.1.0" = {
-      name = "is-binary-path";
-      packageName = "is-binary-path";
-      version = "2.1.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz";
-        sha512 = "ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==";
       };
     };
     "is-extglob-2.1.1" = {
@@ -704,15 +650,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz";
         sha512 = "V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==";
-      };
-    };
-    "normalize-path-3.0.0" = {
-      name = "normalize-path";
-      packageName = "normalize-path";
-      version = "3.0.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz";
-        sha512 = "6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==";
       };
     };
     "npm-6.14.11" = {
@@ -911,15 +848,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz";
         sha512 = "NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==";
-      };
-    };
-    "readdirp-3.6.0" = {
-      name = "readdirp";
-      packageName = "readdirp";
-      version = "3.6.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz";
-        sha512 = "hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==";
       };
     };
     "retry-0.12.0" = {
@@ -1171,31 +1099,16 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "3.11.0";
+    version = "3.12.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-3.11.0.tgz";
-      sha512 = "gH48Ytf2EOtKAM2uDGbGwh/Y3gHIsHigV4nBbnsodbCZpirbbWXxO/L5+sY1nSeU49wnd6GUcQ7dqZCMW+bcaQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-3.12.0.tgz";
+      sha512 = "YP22QXvdwCHKmYObWJzmHgFJKJ/g4NDhgJ22vfcOYVRIqu4PanK8XyBtjiKqj4SJMkg1QjhxWkdH+KSA6wQszA==";
     };
     dependencies = [
-      sources."@prisma/prisma-fmt-wasm-3.11.0-48.b371888aaf8f51357c7457d836b86d12da91658b"
+      sources."@prisma/prisma-fmt-wasm-3.12.0-37.22b822189f46ef0dc5c5b503368d1bee01213980"
       sources."@types/js-levenshtein-1.1.1"
-      sources."anymatch-3.1.2"
-      sources."binary-extensions-2.2.0"
-      sources."braces-3.0.2"
-      sources."chokidar-3.5.3"
-      sources."fill-range-7.0.1"
-      sources."fsevents-2.3.2"
-      sources."glob-parent-5.1.2"
-      sources."is-binary-path-2.1.0"
-      sources."is-extglob-2.1.1"
-      sources."is-glob-4.0.3"
-      sources."is-number-7.0.0"
       sources."js-levenshtein-1.1.6"
       sources."klona-2.0.5"
-      sources."normalize-path-3.0.0"
-      sources."picomatch-2.3.1"
-      sources."readdirp-3.6.0"
-      sources."to-regex-range-5.0.1"
       sources."vscode-jsonrpc-6.0.0"
       sources."vscode-languageserver-7.0.0"
       sources."vscode-languageserver-protocol-3.16.0"
@@ -1204,7 +1117,7 @@ in
     ];
     buildInputs = globalBuildInputs;
     meta = {
-      description = "Implementation of a language server in Node.";
+      description = "Prisma Language Server";
       homepage = "https://github.com/prisma/language-tools#readme";
       license = "Apache-2.0";
     };
