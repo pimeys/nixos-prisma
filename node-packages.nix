@@ -67,13 +67,13 @@ let
         sha512 = "9L+jHXt1zFcnhhcxa+oUBI9r0qh+fNFtDKxndj0C4pnAnGGNevvAo4GZNqWICa8BJbNgiV/XacTMea+98e1Rhw==";
       };
     };
-    "@prisma/prisma-fmt-wasm-3.13.0-8.15bb79c194330f0a6591c38ffc95c885d3a2be46" = {
+    "@prisma/prisma-fmt-wasm-3.13.0-9.a10084a836a379babc008c28b143dc1c7e644453" = {
       name = "_at_prisma_slash_prisma-fmt-wasm";
       packageName = "@prisma/prisma-fmt-wasm";
-      version = "3.13.0-8.15bb79c194330f0a6591c38ffc95c885d3a2be46";
+      version = "3.13.0-9.a10084a836a379babc008c28b143dc1c7e644453";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-3.13.0-8.15bb79c194330f0a6591c38ffc95c885d3a2be46.tgz";
-        sha512 = "H3mAOcXDGv8J2KzVlu28EShwqr2dn4GzVnWcheE0U4csgt50krUQbd0bBESFcHdLoYrF3rZYRP1Vv2hysPVqyg==";
+        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-3.13.0-9.a10084a836a379babc008c28b143dc1c7e644453.tgz";
+        sha512 = "H5mZ1KU4QKfWTFgqyXV2BNFzkWXJBmf8+7Ryp7Zdi0q+yUeS9SDYfQS8qnevkHOVp89XAzDXmfiHGAZOb+cSBQ==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -418,13 +418,13 @@ let
         sha512 = "k0zdNgqWTGA6aeIRVpvfVob4fL52dTfaehylg0Y4UvSySvOq/Y+BOyPrgpUrA7HylqvU8vIZGsRuXmspskV0Tg==";
       };
     };
-    "https-proxy-agent-5.0.0" = {
+    "https-proxy-agent-5.0.1" = {
       name = "https-proxy-agent";
       packageName = "https-proxy-agent";
-      version = "5.0.0";
+      version = "5.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz";
-        sha512 = "EkYm5BcKUGiduxzSt3Eppko+PiNWNEpa4ySk9vTC6wDsQJW9rHSa+UhGNJoRYp7bz6Ht1eaRIa6QaJqO5rCFbA==";
+        url = "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz";
+        sha512 = "dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==";
       };
     };
     "human-signals-2.1.0" = {
@@ -1137,13 +1137,13 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.851";
+    version = "31.0.852";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.851.tgz";
-      sha512 = "hVIOOPdlbYbU1J9svht3fRjEzPyG6JHDGYXhm5drTRJojf6O6fposgqKFDATPa2yoqXdWPnjmJ3b+IiKTrZoUw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.852.tgz";
+      sha512 = "LMDCiScTsxPbjnGAhC7pzAUaXI8juI/pUcIU/PvwAAmyyCdFTDrUFvwzYKwSocD2yyx3pFLd3Ju4FM5yl2Mgsw==";
     };
     dependencies = [
-      sources."@prisma/prisma-fmt-wasm-3.13.0-8.15bb79c194330f0a6591c38ffc95c885d3a2be46"
+      sources."@prisma/prisma-fmt-wasm-3.13.0-9.a10084a836a379babc008c28b143dc1c7e644453"
       sources."@types/js-levenshtein-1.1.1"
       sources."js-levenshtein-1.1.6"
       sources."klona-2.0.5"
@@ -1222,7 +1222,7 @@ in
       sources."has-flag-4.0.0"
       sources."hasha-5.2.2"
       sources."http-proxy-agent-4.0.1"
-      sources."https-proxy-agent-5.0.0"
+      sources."https-proxy-agent-5.0.1"
       sources."human-signals-2.1.0"
       sources."ignore-5.2.0"
       sources."indent-string-4.0.0"
