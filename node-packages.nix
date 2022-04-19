@@ -1137,10 +1137,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.855";
+    version = "31.0.856";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.855.tgz";
-      sha512 = "QZHcfUwXBN1RFTzRZ7NklMIWacJvZkmUrwQMH13hVHQUoMrs89nZb/oiW6J9h3qIR4rne67AWakMo0gftc4HoQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.856.tgz";
+      sha512 = "048Jag+ukMb76DCAtXFMvgyPWpj32dfK2CZeK3/ZNmKJ8nC9borHbnubDjp1kmD1QK55MWcjsE2JwCaB3q2GYQ==";
     };
     dependencies = [
       sources."@prisma/prisma-fmt-wasm-3.13.0-9.a10084a836a379babc008c28b143dc1c7e644453"
