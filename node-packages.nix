@@ -256,13 +256,13 @@ let
         sha512 = "mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==";
       };
     };
-    "del-6.1.0" = {
+    "del-6.1.1" = {
       name = "del";
       packageName = "del";
-      version = "6.1.0";
+      version = "6.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/del/-/del-6.1.0.tgz";
-        sha512 = "OpcRktOt7G7HBfyxP0srBH4Djg4824EQORX8E1qvIhIzthNNArxxhrB/Mm7dRMiLi1nvFyUpDhzD2cTtbBhV8A==";
+        url = "https://registry.npmjs.org/del/-/del-6.1.1.tgz";
+        sha512 = "ua8BhapfP0JUJKC/zV9yHHDW/rDoDxP4Zhn3AkA6/xT6gY7jYXJiaeyBZznYVujhZZET+UgcbZiQ7sN3WqcImg==";
       };
     };
     "dir-glob-3.0.1" = {
@@ -1237,7 +1237,7 @@ in
           sources."ms-2.1.2"
         ];
       })
-      sources."del-6.1.0"
+      sources."del-6.1.1"
       sources."dir-glob-3.0.1"
       sources."execa-5.0.0"
       sources."fast-glob-3.2.11"
