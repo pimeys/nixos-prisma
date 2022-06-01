@@ -685,7 +685,7 @@ let
       version = "1.4.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/once/-/once-1.4.0.tgz";
-        sha1 = "583b1aa775961d4b113ac17d9c50baef9dd76bd1";
+        sha512 = "lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==";
       };
     };
     "onetime-5.1.2" = {
@@ -1173,10 +1173,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.983";
+    version = "31.0.984";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.983.tgz";
-      sha512 = "GBH8Z2iLj83LansN1NViNkVjhT49fwpRszQrCwuzOkUsCDSEmnj6W78vRk7FckR6CRG1k+x+25wBNfhWXlPV9Q==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.984.tgz";
+      sha512 = "kga6VNX0v4bOz1d/IKciwPVyHTV8x1sog9HVHbCj4gSBc5LPLxgU4HGOiCwFt6ev1ti2NtjoskSEdoP530vCLg==";
     };
     dependencies = [
       sources."@prisma/prisma-fmt-wasm-3.15.0-11.1c05d2fd02981d04d5367319e82f44e1c44ec0b7"
