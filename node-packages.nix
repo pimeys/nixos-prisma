@@ -865,7 +865,7 @@ let
       version = "0.12.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/retry/-/retry-0.12.0.tgz";
-        sha1 = "1b42a6266a21f07421d1b0b54b7dc167b01c013b";
+        sha512 = "9LkiTwjUh6rT555DtE9rTX+BKByPfrMzEAtnlEtdEwr3Nkffwiihqe2bWADg+OQRjt9gl6ICdmB/ZFDCGAtSow==";
       };
     };
     "reusify-1.0.4" = {
