@@ -58,15 +58,6 @@ let
         sha512 = "ZYqUixxg1RxA9wGd66PF0fmzq5x94gtTeL1FnQm1E2iPE5BgoUmetrR1f40/t32SmmvgOWOpczoVxJINS336bg==";
       };
     };
-    "@prisma/prisma-fmt-wasm-3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a" = {
-      name = "_at_prisma_slash_prisma-fmt-wasm";
-      packageName = "@prisma/prisma-fmt-wasm";
-      version = "3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a.tgz";
-        sha512 = "YwiGDAfUqLPz1NIyd6y6LyT1ViiTCXNx7AFWuMwb7aGhBmzhfuTeo/MQpzlA9x90wKh2ACJ4Fa3nZS5Wvr8xbg==";
-      };
-    };
     "@prisma/prisma-fmt-wasm-3.15.0-29.b9297dc3a59307060c1c39d7e4f5765066f38372" = {
       name = "_at_prisma_slash_prisma-fmt-wasm";
       packageName = "@prisma/prisma-fmt-wasm";
@@ -1144,21 +1135,21 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "3.14.0";
+    version = "3.15.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-3.14.0.tgz";
-      sha512 = "KP562fcqP010ja+Srt6Hi3XOooVQ11SwMAFvY9SxJfdRaLvU/vLxGW3+SnkAjq3tbQ0ij1ZyJTmshMWh/Vwevw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-3.15.0.tgz";
+      sha512 = "zTftMfWBTa2fA2PLUsAiWTML8RbhFceX2/xD02Rajv3zaslDDAmfoe/+KHJ7BUpcP9yACLENUJIEA43qeT9uHQ==";
     };
     dependencies = [
-      sources."@prisma/prisma-fmt-wasm-3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a"
+      sources."@prisma/prisma-fmt-wasm-3.15.0-29.b9297dc3a59307060c1c39d7e4f5765066f38372"
       sources."@types/js-levenshtein-1.1.1"
       sources."js-levenshtein-1.1.6"
       sources."klona-2.0.5"
-      sources."vscode-jsonrpc-6.0.0"
-      sources."vscode-languageserver-7.0.0"
-      sources."vscode-languageserver-protocol-3.16.0"
+      sources."vscode-jsonrpc-8.0.1"
+      sources."vscode-languageserver-8.0.1"
+      sources."vscode-languageserver-protocol-3.17.1"
       sources."vscode-languageserver-textdocument-1.0.4"
-      sources."vscode-languageserver-types-3.16.0"
+      sources."vscode-languageserver-types-3.17.1"
     ];
     buildInputs = globalBuildInputs;
     meta = {
@@ -1173,10 +1164,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.1004";
+    version = "31.0.1005";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1004.tgz";
-      sha512 = "1Zj64FRFlfyx5FaIYsEKNAPWFlP0M8v6AhmQCluTZ6s+Xl3Y5m+G1JMvlICrmatccNxuDbCSiSRNmEbL0NCdVw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1005.tgz";
+      sha512 = "PU8hRWetRTdXsFqTe7QMQfGf8e96zuyp0ZYE4lvlJfDovS/MTPeyqkEYOlpHWf4pESZXfSvmFMSTx5C60c6g8w==";
     };
     dependencies = [
       sources."@prisma/prisma-fmt-wasm-3.15.0-29.b9297dc3a59307060c1c39d7e4f5765066f38372"
