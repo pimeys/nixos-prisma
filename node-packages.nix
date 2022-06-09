@@ -67,13 +67,13 @@ let
         sha512 = "WZPmtF1rejy5aWyldms+zwP2IvI/g/j09fOD9+PnJJYAzgOXqGcp9lp0StTWZI0mZ1xNMlF5EIbcQHTWxGDYnw==";
       };
     };
-    "@prisma/prisma-fmt-wasm-3.16.0-6.751ec15f8acbaeb0db23f8adb70dd68e94629f59" = {
+    "@prisma/prisma-fmt-wasm-3.16.0-7.24a869423481c8cd431a064e5c84f5a58778e574" = {
       name = "_at_prisma_slash_prisma-fmt-wasm";
       packageName = "@prisma/prisma-fmt-wasm";
-      version = "3.16.0-6.751ec15f8acbaeb0db23f8adb70dd68e94629f59";
+      version = "3.16.0-7.24a869423481c8cd431a064e5c84f5a58778e574";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-3.16.0-6.751ec15f8acbaeb0db23f8adb70dd68e94629f59.tgz";
-        sha512 = "zFTo6OzRy9h3KvElvWeLOGVv3LA3R8gN+vskPZPYAT7/oIj1nVpNDia5NTdUIx/Pn9StSzfALR7h6ZIJCNyzsg==";
+        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-3.16.0-7.24a869423481c8cd431a064e5c84f5a58778e574.tgz";
+        sha512 = "ZAnBKeW9OmQos8Jz7aQRXGqvGcTIu1FinmwqOL3YvaMyaHHjx6R2FJZyLZqOaFeGfunATDQ5RdCM/4A1YcdQWg==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -1182,13 +1182,13 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.1024";
+    version = "31.0.1025";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1024.tgz";
-      sha512 = "ug/s/57gOxay5/gjz2HB8Ge/Ox1Cgc6mWDY/VYa8qdMXh7i76GDA9klFIU49goisEweF912Qcjk81xGQRKPHPA==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1025.tgz";
+      sha512 = "RG8nZSmDbHAYtStVLOqY6aJE0XBhL2X3B9oa+AmNHhVUS0C1ABWJhM80PLh+K5VebSVHMVcRYho33Ltg+bzaNw==";
     };
     dependencies = [
-      sources."@prisma/prisma-fmt-wasm-3.16.0-6.751ec15f8acbaeb0db23f8adb70dd68e94629f59"
+      sources."@prisma/prisma-fmt-wasm-3.16.0-7.24a869423481c8cd431a064e5c84f5a58778e574"
       sources."@types/js-levenshtein-1.1.1"
       sources."js-levenshtein-1.1.6"
       sources."klona-2.0.5"
