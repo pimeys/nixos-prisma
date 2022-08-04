@@ -166,13 +166,13 @@ let
         sha512 = "u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==";
       };
     };
-    "@babel/parser-7.18.10" = {
+    "@babel/parser-7.18.11" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.18.10";
+      version = "7.18.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.18.10.tgz";
-        sha512 = "TYk3OA0HKL6qNryUayb5UUEhM/rkOQozIBEA5ITXh5DWrSp0TlUQXMyZmnWxG/DizSWBeeQ0Zbc5z8UGaaqoeg==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.18.11.tgz";
+        sha512 = "9JKn5vN+hDt0Hdqn1PiJ2guflwP+B6Ga8qbDuoF0PzzVhrzsKIJo8yGqVk6CmMHiMei9w1C1Bp9IMJSIK+HPIQ==";
       };
     };
     "@babel/template-7.18.10" = {
@@ -184,13 +184,13 @@ let
         sha512 = "TI+rCtooWHr3QJ27kJxfjutghu44DLnasDMwpDqCXVTal9RLp3RSYNh4NdBrRP2cQAoG9A8juOQl6P6oZG4JxA==";
       };
     };
-    "@babel/traverse-7.18.10" = {
+    "@babel/traverse-7.18.11" = {
       name = "_at_babel_slash_traverse";
       packageName = "@babel/traverse";
-      version = "7.18.10";
+      version = "7.18.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/traverse/-/traverse-7.18.10.tgz";
-        sha512 = "J7ycxg0/K9XCtLyHf0cz2DqDihonJeIo+z+HEdRe9YuT8TY4A66i+Ab2/xZCEW7Ro60bPCBBfqqboHSamoV3+g==";
+        url = "https://registry.npmjs.org/@babel/traverse/-/traverse-7.18.11.tgz";
+        sha512 = "TG9PiM2R/cWCAy6BPJKeHzNbu4lPzOSZpeMfeNErskGpTJx6trEvFaVCbDvpcxwy49BKWmEPwiW8mrysNiDvIQ==";
       };
     };
     "@babel/types-7.18.10" = {
@@ -2173,9 +2173,9 @@ in
       sources."@babel/helper-validator-option-7.18.6"
       sources."@babel/helpers-7.18.9"
       sources."@babel/highlight-7.18.6"
-      sources."@babel/parser-7.18.10"
+      sources."@babel/parser-7.18.11"
       sources."@babel/template-7.18.10"
-      sources."@babel/traverse-7.18.10"
+      sources."@babel/traverse-7.18.11"
       sources."@babel/types-7.18.10"
       sources."@istanbuljs/load-nyc-config-1.1.0"
       sources."@istanbuljs/schema-0.1.3"
