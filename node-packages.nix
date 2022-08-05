@@ -40,13 +40,13 @@ let
         sha512 = "JQM6k6ENcBFKVtWvLavlvi/mPcpYZ3+R+2EySDEMSMbp7Mn4FexlbbJVrx2R7Ijhr01T8gyqrOaABWIOgxeUyw==";
       };
     };
-    "@babel/generator-7.18.10" = {
+    "@babel/generator-7.18.12" = {
       name = "_at_babel_slash_generator";
       packageName = "@babel/generator";
-      version = "7.18.10";
+      version = "7.18.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.18.10.tgz";
-        sha512 = "0+sW7e3HjQbiHbj1NeU/vN8ornohYlacAfZIaXhdoGweQqgcNy69COVciYYqEXJ/v+9OBA7Frxm4CVAuNqKeNA==";
+        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.18.12.tgz";
+        sha512 = "dfQ8ebCN98SvyL7IxNMCUtZQSq5R7kxgN+r8qYTGDmmSion1hX2C0zq2yo1bsCDhXixokv1SAWTZUMYbO/V5zg==";
       };
     };
     "@babel/helper-compilation-targets-7.18.9" = {
@@ -2145,17 +2145,17 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.1261";
+    version = "31.0.1262";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1261.tgz";
-      sha512 = "VNjlsQmwzuX1Uu3R/RfrqnrAO7nDR6v4PNf1v3gYa9Or2IzFAA9jzQGgUBsCLzCiaFPPSatgNI5mI3aM0Zk+eA==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1262.tgz";
+      sha512 = "UpsFEEPlgMr0+zqa1VdeP16cQ7bwF3eeUl7fG7jgfFI05oOPkCV0DVtlzwAPo9t8m1BX52pizzNPZiId38GTaA==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.0"
       sources."@babel/code-frame-7.18.6"
       sources."@babel/compat-data-7.18.8"
       sources."@babel/core-7.18.10"
-      (sources."@babel/generator-7.18.10" // {
+      (sources."@babel/generator-7.18.12" // {
         dependencies = [
           sources."@jridgewell/gen-mapping-0.3.2"
         ];
