@@ -328,15 +328,6 @@ let
         sha512 = "ZYqUixxg1RxA9wGd66PF0fmzq5x94gtTeL1FnQm1E2iPE5BgoUmetrR1f40/t32SmmvgOWOpczoVxJINS336bg==";
       };
     };
-    "@prisma/prisma-fmt-wasm-4.1.0-48.8d8414deb360336e4698a65aa45a1fbaf1ce13d8" = {
-      name = "_at_prisma_slash_prisma-fmt-wasm";
-      packageName = "@prisma/prisma-fmt-wasm";
-      version = "4.1.0-48.8d8414deb360336e4698a65aa45a1fbaf1ce13d8";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-4.1.0-48.8d8414deb360336e4698a65aa45a1fbaf1ce13d8.tgz";
-        sha512 = "FMluV86ivbESe7I7cw/e3ee/iU2z0zbV5z9ELNRoNBG/H3FUaMN1ZtVa4RwbY8EgfatfF+6TQamsU1DmNp5i4w==";
-      };
-    };
     "@prisma/prisma-fmt-wasm-4.2.0-33.2920a97877e12e055c1333079b8d19cee7f33826" = {
       name = "_at_prisma_slash_prisma-fmt-wasm";
       packageName = "@prisma/prisma-fmt-wasm";
@@ -2116,21 +2107,181 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "4.1.0";
+    version = "4.2.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-4.1.0.tgz";
-      sha512 = "T/YJw8BEAVi0dnhEw/gmQdwacFwr8rB7lDdqPbuIyWlu/0V9lYKZBvFfc4R+vBv/dQ4TJfuhUxwvduS8jFYaXA==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-4.2.0.tgz";
+      sha512 = "PkG6LexHKfiIAbJ8mNkkjbodN5SSfZFPT5WLnLBgBGgUO9IL0o90MfsmOLz2ua6Mi2v0uX5RRBjh7KoxzApt8Q==";
     };
     dependencies = [
-      sources."@prisma/prisma-fmt-wasm-4.1.0-48.8d8414deb360336e4698a65aa45a1fbaf1ce13d8"
+      sources."@ampproject/remapping-2.2.0"
+      sources."@babel/code-frame-7.18.6"
+      sources."@babel/compat-data-7.18.8"
+      sources."@babel/core-7.18.10"
+      (sources."@babel/generator-7.18.12" // {
+        dependencies = [
+          sources."@jridgewell/gen-mapping-0.3.2"
+        ];
+      })
+      sources."@babel/helper-compilation-targets-7.18.9"
+      sources."@babel/helper-environment-visitor-7.18.9"
+      sources."@babel/helper-function-name-7.18.9"
+      sources."@babel/helper-hoist-variables-7.18.6"
+      sources."@babel/helper-module-imports-7.18.6"
+      sources."@babel/helper-module-transforms-7.18.9"
+      sources."@babel/helper-simple-access-7.18.6"
+      sources."@babel/helper-split-export-declaration-7.18.6"
+      sources."@babel/helper-string-parser-7.18.10"
+      sources."@babel/helper-validator-identifier-7.18.6"
+      sources."@babel/helper-validator-option-7.18.6"
+      sources."@babel/helpers-7.18.9"
+      sources."@babel/highlight-7.18.6"
+      sources."@babel/parser-7.18.11"
+      sources."@babel/template-7.18.10"
+      sources."@babel/traverse-7.18.11"
+      sources."@babel/types-7.18.10"
+      sources."@istanbuljs/load-nyc-config-1.1.0"
+      sources."@istanbuljs/schema-0.1.3"
+      sources."@jridgewell/gen-mapping-0.1.1"
+      sources."@jridgewell/resolve-uri-3.1.0"
+      sources."@jridgewell/set-array-1.1.2"
+      sources."@jridgewell/sourcemap-codec-1.4.14"
+      sources."@jridgewell/trace-mapping-0.3.14"
+      sources."@prisma/prisma-fmt-wasm-4.2.0-33.2920a97877e12e055c1333079b8d19cee7f33826"
       sources."@types/js-levenshtein-1.1.1"
+      sources."aggregate-error-3.1.0"
+      sources."ansi-regex-5.0.1"
+      sources."ansi-styles-3.2.1"
+      sources."append-transform-2.0.0"
+      sources."archy-1.0.0"
+      sources."argparse-1.0.10"
+      sources."balanced-match-1.0.2"
+      sources."brace-expansion-1.1.11"
+      sources."browserslist-4.21.3"
+      sources."caching-transform-4.0.0"
+      sources."camelcase-5.3.1"
+      sources."caniuse-lite-1.0.30001374"
+      sources."chalk-2.4.2"
+      sources."clean-stack-2.2.0"
+      sources."cliui-6.0.0"
+      sources."color-convert-1.9.3"
+      sources."color-name-1.1.3"
+      sources."commondir-1.0.1"
+      sources."concat-map-0.0.1"
+      sources."convert-source-map-1.8.0"
+      sources."cross-spawn-7.0.3"
+      sources."debug-4.3.4"
+      sources."decamelize-1.2.0"
+      sources."default-require-extensions-3.0.0"
+      sources."electron-to-chromium-1.4.212"
+      sources."emoji-regex-8.0.0"
+      sources."es6-error-4.1.1"
+      sources."escalade-3.1.1"
+      sources."escape-string-regexp-1.0.5"
+      sources."esprima-4.0.1"
+      sources."find-cache-dir-3.3.2"
+      sources."find-up-4.1.0"
+      sources."foreground-child-2.0.0"
+      sources."fromentries-1.3.2"
+      sources."fs.realpath-1.0.0"
+      sources."gensync-1.0.0-beta.2"
+      sources."get-caller-file-2.0.5"
+      sources."get-package-type-0.1.0"
+      sources."glob-7.2.3"
+      sources."globals-11.12.0"
+      sources."graceful-fs-4.2.10"
+      sources."has-flag-3.0.0"
+      sources."hasha-5.2.2"
+      sources."html-escaper-2.0.2"
+      sources."imurmurhash-0.1.4"
+      sources."indent-string-4.0.0"
+      sources."inflight-1.0.6"
+      sources."inherits-2.0.4"
+      sources."is-fullwidth-code-point-3.0.0"
+      sources."is-stream-2.0.1"
+      sources."is-typedarray-1.0.0"
+      sources."is-windows-1.0.2"
+      sources."isexe-2.0.0"
+      sources."istanbul-lib-coverage-3.2.0"
+      sources."istanbul-lib-hook-3.0.0"
+      sources."istanbul-lib-instrument-4.0.3"
+      sources."istanbul-lib-processinfo-2.0.3"
+      (sources."istanbul-lib-report-3.0.0" // {
+        dependencies = [
+          sources."has-flag-4.0.0"
+          sources."supports-color-7.2.0"
+        ];
+      })
+      sources."istanbul-lib-source-maps-4.0.1"
+      sources."istanbul-reports-3.1.5"
       sources."js-levenshtein-1.1.6"
+      sources."js-tokens-4.0.0"
+      sources."js-yaml-3.14.1"
+      sources."jsesc-2.5.2"
+      sources."json5-2.2.1"
       sources."klona-2.0.5"
+      sources."locate-path-5.0.0"
+      sources."lodash.flattendeep-4.4.0"
+      sources."make-dir-3.1.0"
+      sources."minimatch-3.1.2"
+      sources."ms-2.1.2"
+      sources."node-preload-0.2.1"
+      sources."node-releases-2.0.6"
+      sources."nyc-15.1.0"
+      sources."once-1.4.0"
+      sources."p-limit-2.3.0"
+      sources."p-locate-4.1.0"
+      sources."p-map-3.0.0"
+      sources."p-try-2.2.0"
+      sources."package-hash-4.0.0"
+      sources."path-exists-4.0.0"
+      sources."path-is-absolute-1.0.1"
+      sources."path-key-3.1.1"
+      sources."picocolors-1.0.0"
+      sources."pkg-dir-4.2.0"
+      sources."process-on-spawn-1.0.0"
+      sources."release-zalgo-1.0.0"
+      sources."require-directory-2.1.1"
+      sources."require-main-filename-2.0.0"
+      sources."resolve-from-5.0.0"
+      sources."rimraf-3.0.2"
+      sources."safe-buffer-5.1.2"
+      sources."semver-6.3.0"
+      sources."set-blocking-2.0.0"
+      sources."shebang-command-2.0.0"
+      sources."shebang-regex-3.0.0"
+      sources."signal-exit-3.0.7"
+      sources."source-map-0.6.1"
+      sources."spawn-wrap-2.0.0"
+      sources."sprintf-js-1.0.3"
+      sources."string-width-4.2.3"
+      sources."strip-ansi-6.0.1"
+      sources."strip-bom-4.0.0"
+      sources."supports-color-5.5.0"
+      sources."test-exclude-6.0.0"
+      sources."to-fast-properties-2.0.0"
+      sources."type-fest-0.8.1"
+      sources."typedarray-to-buffer-3.1.5"
+      sources."update-browserslist-db-1.0.5"
+      sources."uuid-8.3.2"
       sources."vscode-jsonrpc-8.0.2"
       sources."vscode-languageserver-8.0.2"
       sources."vscode-languageserver-protocol-3.17.2"
       sources."vscode-languageserver-textdocument-1.0.5"
       sources."vscode-languageserver-types-3.17.2"
+      sources."which-2.0.2"
+      sources."which-module-2.0.0"
+      (sources."wrap-ansi-6.2.0" // {
+        dependencies = [
+          sources."ansi-styles-4.3.0"
+          sources."color-convert-2.0.1"
+          sources."color-name-1.1.4"
+        ];
+      })
+      sources."wrappy-1.0.2"
+      sources."write-file-atomic-3.0.3"
+      sources."y18n-4.0.3"
+      sources."yargs-15.4.1"
+      sources."yargs-parser-18.1.3"
     ];
     buildInputs = globalBuildInputs;
     meta = {
