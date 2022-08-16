@@ -517,13 +517,13 @@ let
         sha512 = "L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==";
       };
     };
-    "caniuse-lite-1.0.30001376" = {
+    "caniuse-lite-1.0.30001377" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001376";
+      version = "1.0.30001377";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001376.tgz";
-        sha512 = "I27WhtOQ3X3v3it9gNs/oTpoE5KpwmqKR5oKPA8M0G7uMXh9Ty81Q904HpKUrM30ei7zfcL5jE7AXefgbOfMig==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001377.tgz";
+        sha512 = "I5XeHI1x/mRSGl96LFOaSk528LA/yZG3m3iQgImGujjO8gotd/DL8QaI1R1h1dg5ATeI2jqPblMpKq4Tr5iKfQ==";
       };
     };
     "chalk-2.4.2" = {
@@ -2168,7 +2168,7 @@ in
       sources."browserslist-4.21.3"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
-      sources."caniuse-lite-1.0.30001376"
+      sources."caniuse-lite-1.0.30001377"
       sources."chalk-2.4.2"
       sources."clean-stack-2.2.0"
       sources."cliui-6.0.0"
@@ -2357,7 +2357,7 @@ in
       sources."browserslist-4.21.3"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
-      sources."caniuse-lite-1.0.30001376"
+      sources."caniuse-lite-1.0.30001377"
       sources."chalk-2.4.2"
       sources."clean-stack-2.2.0"
       sources."cliui-6.0.0"
