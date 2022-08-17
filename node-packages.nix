@@ -517,13 +517,13 @@ let
         sha512 = "L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==";
       };
     };
-    "caniuse-lite-1.0.30001377" = {
+    "caniuse-lite-1.0.30001378" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001377";
+      version = "1.0.30001378";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001377.tgz";
-        sha512 = "I5XeHI1x/mRSGl96LFOaSk528LA/yZG3m3iQgImGujjO8gotd/DL8QaI1R1h1dg5ATeI2jqPblMpKq4Tr5iKfQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001378.tgz";
+        sha512 = "JVQnfoO7FK7WvU4ZkBRbPjaot4+YqxogSDosHv0Hv5mWpUESmN+UubMU6L/hGz8QlQ2aY5U0vR6MOs6j/CXpNA==";
       };
     };
     "chalk-2.4.2" = {
@@ -2168,7 +2168,7 @@ in
       sources."browserslist-4.21.3"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
-      sources."caniuse-lite-1.0.30001377"
+      sources."caniuse-lite-1.0.30001378"
       sources."chalk-2.4.2"
       sources."clean-stack-2.2.0"
       sources."cliui-6.0.0"
@@ -2305,10 +2305,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.1303";
+    version = "31.0.1304";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1303.tgz";
-      sha512 = "URyog9SksKTG3Us7KOSjRQbtics01wxxemBXvYofafKffith9JbJ8yQl3ktRfBKFCMyJOYAaFxWaLv44hjtWJg==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1304.tgz";
+      sha512 = "QCw+NXJLj6mfT3T8VYAecBajOS6b4mXVh3z4O0doGj7Fs5FF9VvU1XMwduwnsaBZzqPKI8XjMM9rOj8QKKJSbA==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.0"
@@ -2357,7 +2357,7 @@ in
       sources."browserslist-4.21.3"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
-      sources."caniuse-lite-1.0.30001377"
+      sources."caniuse-lite-1.0.30001378"
       sources."chalk-2.4.2"
       sources."clean-stack-2.2.0"
       sources."cliui-6.0.0"
