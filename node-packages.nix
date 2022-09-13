@@ -1912,13 +1912,13 @@ let
         sha512 = "uNaeirEPvpZWSgzwsPGtU2zVSTrn/8L5q/IexZmH0eH6SA73CmAA5U4GwORTxQAZs95TAXLNqeLoPPNO5gZfWg==";
       };
     };
-    "update-browserslist-db-1.0.8" = {
+    "update-browserslist-db-1.0.9" = {
       name = "update-browserslist-db";
       packageName = "update-browserslist-db";
-      version = "1.0.8";
+      version = "1.0.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.8.tgz";
-        sha512 = "GHg7C4M7oJSJYW/ED/5QOJ7nL/E0lwTOBGsOorA7jqHr8ExUhPfwAotIAmdSw/LWv3SMLSNpzTAgeLG9zaZKTA==";
+        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.9.tgz";
+        sha512 = "/xsqn21EGVdXI3EXSum1Yckj3ZVZugqyOZQ/CxYPBD/R+ko9NSUScf8tFF4dOKY+2pvSSJA/S+5B8s4Zr4kyvg==";
       };
     };
     "uuid-8.3.2" = {
@@ -2270,7 +2270,7 @@ in
       sources."to-fast-properties-2.0.0"
       sources."type-fest-0.8.1"
       sources."typedarray-to-buffer-3.1.5"
-      sources."update-browserslist-db-1.0.8"
+      sources."update-browserslist-db-1.0.9"
       sources."uuid-8.3.2"
       sources."vscode-jsonrpc-8.0.2"
       sources."vscode-languageserver-8.0.2"
@@ -2459,7 +2459,7 @@ in
       sources."to-fast-properties-2.0.0"
       sources."type-fest-0.8.1"
       sources."typedarray-to-buffer-3.1.5"
-      sources."update-browserslist-db-1.0.8"
+      sources."update-browserslist-db-1.0.9"
       sources."uuid-8.3.2"
       sources."vscode-jsonrpc-8.0.2"
       sources."vscode-languageserver-8.0.2"
