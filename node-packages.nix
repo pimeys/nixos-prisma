@@ -337,13 +337,13 @@ let
         sha512 = "65su522mHdxErZ7yIF/jd2/1gyj6lONpcpMchDUW+rWMCnqAjMXE3hxdmpdCetIV4Wfupgot1Uqd3GlMLU2y6g==";
       };
     };
-    "@prisma/prisma-fmt-wasm-4.4.0-64.d4893900cd55257755a38b705cded8be222730fa" = {
+    "@prisma/prisma-fmt-wasm-4.4.0-65.5a6e984d0af2ae89b66d9dc15f7093b942e48f20" = {
       name = "_at_prisma_slash_prisma-fmt-wasm";
       packageName = "@prisma/prisma-fmt-wasm";
-      version = "4.4.0-64.d4893900cd55257755a38b705cded8be222730fa";
+      version = "4.4.0-65.5a6e984d0af2ae89b66d9dc15f7093b942e48f20";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-4.4.0-64.d4893900cd55257755a38b705cded8be222730fa.tgz";
-        sha512 = "yHFUrL1nFc8eBS2uM7d03z8+qumoUkp+DOTbnfOLtQp8cMNS0mflotFwiPo0J/uaooZC0P7uU/cSniqPMjM1Kg==";
+        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-4.4.0-65.5a6e984d0af2ae89b66d9dc15f7093b942e48f20.tgz";
+        sha512 = "EpLXPLJX0+rotlknJyzQUhtEw1tm2yaboIFtGiCobOaWOwTzSIns432fyR+tvWQ2505gwZ6MDf4+pOZTC4PWSw==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -697,13 +697,13 @@ let
         sha512 = "WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==";
       };
     };
-    "electron-to-chromium-1.4.262" = {
+    "electron-to-chromium-1.4.263" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.262";
+      version = "1.4.263";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.262.tgz";
-        sha512 = "Ckn5haqmGh/xS8IbcgK3dnwAVnhDyo/WQnklWn6yaMucYTq7NNxwlGE8ElzEOnonzRLzUCo2Ot3vUb2GYUF2Hw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.263.tgz";
+        sha512 = "RcvChwbVkZBe7e+B23+wjXJgRHTy9Byu6JEL8HuNKILALs98deLnyGqv73nvwRKj6VGghrwnwKWC3ukVhQDvpQ==";
       };
     };
     "emoji-regex-8.0.0" = {
@@ -2181,7 +2181,7 @@ in
       sources."debug-4.3.4"
       sources."decamelize-1.2.0"
       sources."default-require-extensions-3.0.0"
-      sources."electron-to-chromium-1.4.262"
+      sources."electron-to-chromium-1.4.263"
       sources."emoji-regex-8.0.0"
       sources."es6-error-4.1.1"
       sources."escalade-3.1.1"
@@ -2305,10 +2305,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.1446";
+    version = "31.0.1448";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1446.tgz";
-      sha512 = "lxssvaw2o51+rx+p47ndcacXkboKpjGniO8nruqnNSCAYa29e5C9cdtqOpwLNfjtRIff/9PfJT+oiaZ0N/zJEQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1448.tgz";
+      sha512 = "KDgNUWjJkjdJHQJ2iETmeET790AxqFlr/H7nUIPY8y+HCRaRNIxE3/vB4nfPRFDinSC+fiIN3lzBnJmWRn+RxA==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.0"
@@ -2344,7 +2344,7 @@ in
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.14"
       sources."@jridgewell/trace-mapping-0.3.15"
-      sources."@prisma/prisma-fmt-wasm-4.4.0-64.d4893900cd55257755a38b705cded8be222730fa"
+      sources."@prisma/prisma-fmt-wasm-4.4.0-65.5a6e984d0af2ae89b66d9dc15f7093b942e48f20"
       sources."@types/js-levenshtein-1.1.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
@@ -2370,7 +2370,7 @@ in
       sources."debug-4.3.4"
       sources."decamelize-1.2.0"
       sources."default-require-extensions-3.0.0"
-      sources."electron-to-chromium-1.4.262"
+      sources."electron-to-chromium-1.4.263"
       sources."emoji-regex-8.0.0"
       sources."es6-error-4.1.1"
       sources."escalade-3.1.1"
