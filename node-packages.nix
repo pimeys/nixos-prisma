@@ -670,13 +670,13 @@ let
         sha512 = "z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==";
       };
     };
-    "default-require-extensions-3.0.0" = {
+    "default-require-extensions-3.0.1" = {
       name = "default-require-extensions";
       packageName = "default-require-extensions";
-      version = "3.0.0";
+      version = "3.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/default-require-extensions/-/default-require-extensions-3.0.0.tgz";
-        sha512 = "ek6DpXq/SCpvjhpFsLFRVtIxJCRw6fUR42lYMVZuUMK7n8eMz4Uh5clckdBjEpLhn/gEBZo7hDJnJcwdKLKQjg==";
+        url = "https://registry.npmjs.org/default-require-extensions/-/default-require-extensions-3.0.1.tgz";
+        sha512 = "eXTJmRbm2TIt9MgWTsOH1wEuhew6XGZcMeGKCtLedIg/NCsg1iBePXkceTdK4Fii7pzmN9tGsZhKzZ4h7O/fxw==";
       };
     };
     "del-6.1.1" = {
@@ -2180,7 +2180,7 @@ in
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.4"
       sources."decamelize-1.2.0"
-      sources."default-require-extensions-3.0.0"
+      sources."default-require-extensions-3.0.1"
       sources."electron-to-chromium-1.4.275"
       sources."emoji-regex-8.0.0"
       sources."es6-error-4.1.1"
@@ -2369,7 +2369,7 @@ in
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.4"
       sources."decamelize-1.2.0"
-      sources."default-require-extensions-3.0.0"
+      sources."default-require-extensions-3.0.1"
       sources."electron-to-chromium-1.4.275"
       sources."emoji-regex-8.0.0"
       sources."es6-error-4.1.1"
