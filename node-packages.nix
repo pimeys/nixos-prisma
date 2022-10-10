@@ -40,13 +40,13 @@ let
         sha512 = "WneDJxdsjEvyKtXKsaBGbDeiyOjR5vYq4HcShxnIbG0qixpoHjI3MqeZM9NDvsojNCEBItQE4juOo/bU6e72gQ==";
       };
     };
-    "@babel/generator-7.19.4" = {
+    "@babel/generator-7.19.5" = {
       name = "_at_babel_slash_generator";
       packageName = "@babel/generator";
-      version = "7.19.4";
+      version = "7.19.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.19.4.tgz";
-        sha512 = "5T2lY5vXqS+5UEit/5TwcIUeCnwgCljcF8IQRT6XRQPBrvLeq5V8W+URv+GvwoF3FP8tkhp++evVyDzkDGzNmA==";
+        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.19.5.tgz";
+        sha512 = "DxbNz9Lz4aMZ99qPpO1raTbcrI1ZeYh+9NR9qhfkQIbFtVEqotHojEBxHzmxhVONkGt6VyrqVQcgpefMy9pqcg==";
       };
     };
     "@babel/helper-compilation-targets-7.19.3" = {
@@ -616,13 +616,13 @@ let
         sha512 = "/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==";
       };
     };
-    "convert-source-map-1.8.0" = {
+    "convert-source-map-1.9.0" = {
       name = "convert-source-map";
       packageName = "convert-source-map";
-      version = "1.8.0";
+      version = "1.9.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.8.0.tgz";
-        sha512 = "+OQdjP49zViI/6i7nIJpA8rAl4sV/JdPfU9nZs3VqOwGIgizICvuN2ru6fMd+4llL0tar18UYJXfZ/TWtmhUjA==";
+        url = "https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.9.0.tgz";
+        sha512 = "ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==";
       };
     };
     "cross-spawn-7.0.3" = {
@@ -1687,15 +1687,6 @@ let
         sha512 = "5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==";
       };
     };
-    "safe-buffer-5.1.2" = {
-      name = "safe-buffer";
-      packageName = "safe-buffer";
-      version = "5.1.2";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz";
-        sha512 = "Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==";
-      };
-    };
     "semver-6.3.0" = {
       name = "semver";
       packageName = "semver";
@@ -2126,7 +2117,7 @@ in
       sources."@babel/code-frame-7.18.6"
       sources."@babel/compat-data-7.19.4"
       sources."@babel/core-7.19.3"
-      (sources."@babel/generator-7.19.4" // {
+      (sources."@babel/generator-7.19.5" // {
         dependencies = [
           sources."@jridgewell/gen-mapping-0.3.2"
         ];
@@ -2176,7 +2167,7 @@ in
       sources."color-name-1.1.3"
       sources."commondir-1.0.1"
       sources."concat-map-0.0.1"
-      sources."convert-source-map-1.8.0"
+      sources."convert-source-map-1.9.0"
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.4"
       sources."decamelize-1.2.0"
@@ -2253,7 +2244,6 @@ in
       sources."require-main-filename-2.0.0"
       sources."resolve-from-5.0.0"
       sources."rimraf-3.0.2"
-      sources."safe-buffer-5.1.2"
       sources."semver-6.3.0"
       sources."set-blocking-2.0.0"
       sources."shebang-command-2.0.0"
@@ -2315,7 +2305,7 @@ in
       sources."@babel/code-frame-7.18.6"
       sources."@babel/compat-data-7.19.4"
       sources."@babel/core-7.19.3"
-      (sources."@babel/generator-7.19.4" // {
+      (sources."@babel/generator-7.19.5" // {
         dependencies = [
           sources."@jridgewell/gen-mapping-0.3.2"
         ];
@@ -2365,7 +2355,7 @@ in
       sources."color-name-1.1.3"
       sources."commondir-1.0.1"
       sources."concat-map-0.0.1"
-      sources."convert-source-map-1.8.0"
+      sources."convert-source-map-1.9.0"
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.4"
       sources."decamelize-1.2.0"
@@ -2442,7 +2432,6 @@ in
       sources."require-main-filename-2.0.0"
       sources."resolve-from-5.0.0"
       sources."rimraf-3.0.2"
-      sources."safe-buffer-5.1.2"
       sources."semver-6.3.0"
       sources."set-blocking-2.0.0"
       sources."shebang-command-2.0.0"
