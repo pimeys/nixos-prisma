@@ -40,13 +40,13 @@ let
         sha512 = "w7DbG8DtMrJcFOi4VrLm+8QM4az8Mo+PuLBKLp2zrYRCow8W/f9xiXm5sN53C8HksCyDQwCKha9JiDoIyPjT2g==";
       };
     };
-    "@babel/generator-7.20.3" = {
+    "@babel/generator-7.20.4" = {
       name = "_at_babel_slash_generator";
       packageName = "@babel/generator";
-      version = "7.20.3";
+      version = "7.20.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.20.3.tgz";
-        sha512 = "Wl5ilw2UD1+ZYprHVprxHZJCFeBWlzZYOovE4SDYLZnqCOD11j+0QzNeEWKLLTWM7nixrZEh7vNIyb76MyJg3A==";
+        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.20.4.tgz";
+        sha512 = "luCf7yk/cm7yab6CAW1aiFnmEfBJplb/JojV56MYEK7ziWfGmFlTfmL9Ehwfy4gFhbjBfWO1wj7/TuSbVNEEtA==";
       };
     };
     "@babel/helper-compilation-targets-7.20.0" = {
@@ -2117,7 +2117,7 @@ in
       sources."@babel/code-frame-7.18.6"
       sources."@babel/compat-data-7.20.1"
       sources."@babel/core-7.20.2"
-      (sources."@babel/generator-7.20.3" // {
+      (sources."@babel/generator-7.20.4" // {
         dependencies = [
           sources."@jridgewell/gen-mapping-0.3.2"
         ];
@@ -2305,7 +2305,7 @@ in
       sources."@babel/code-frame-7.18.6"
       sources."@babel/compat-data-7.20.1"
       sources."@babel/core-7.20.2"
-      (sources."@babel/generator-7.20.3" // {
+      (sources."@babel/generator-7.20.4" // {
         dependencies = [
           sources."@jridgewell/gen-mapping-0.3.2"
         ];
