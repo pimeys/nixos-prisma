@@ -328,15 +328,6 @@ let
         sha512 = "ZYqUixxg1RxA9wGd66PF0fmzq5x94gtTeL1FnQm1E2iPE5BgoUmetrR1f40/t32SmmvgOWOpczoVxJINS336bg==";
       };
     };
-    "@prisma/prisma-fmt-wasm-4.6.1-3.694eea289a8462c80264df36757e4fdc129b1b32" = {
-      name = "_at_prisma_slash_prisma-fmt-wasm";
-      packageName = "@prisma/prisma-fmt-wasm";
-      version = "4.6.1-3.694eea289a8462c80264df36757e4fdc129b1b32";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-4.6.1-3.694eea289a8462c80264df36757e4fdc129b1b32.tgz";
-        sha512 = "hT+YRaH5NTZDYhLhSKMUdtY+i8sKkjjFwiDYhy6688G+H8oFklIwPNeApKH8Jw5bbtuH6onIzo1oivapOFJryg==";
-      };
-    };
     "@prisma/prisma-fmt-wasm-4.7.0-74.39190b250ebc338586e25e6da45e5e783bc8a635" = {
       name = "_at_prisma_slash_prisma-fmt-wasm";
       packageName = "@prisma/prisma-fmt-wasm";
@@ -2107,10 +2098,10 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "4.6.1";
+    version = "4.7.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-4.6.1.tgz";
-      sha512 = "ZD5aZF9a/Vft1CLauizH3NQ1HnbPUZlmqCA7SL5B/fJ9+TkFCLdw99C9/saUwGTGngjjB9xMdDh3eWH7igKUKw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-4.7.0.tgz";
+      sha512 = "tu621HGXG3Tvfziwx7aX+pNjE8jHe3uHb7ch9+4ckC4WQFsiqNqAJrSOswP5px3vfq98zS7NapipYGuM2q+71A==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.0"
@@ -2146,7 +2137,7 @@ in
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.14"
       sources."@jridgewell/trace-mapping-0.3.17"
-      sources."@prisma/prisma-fmt-wasm-4.6.1-3.694eea289a8462c80264df36757e4fdc129b1b32"
+      sources."@prisma/prisma-fmt-wasm-4.7.0-74.39190b250ebc338586e25e6da45e5e783bc8a635"
       sources."@types/js-levenshtein-1.1.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
