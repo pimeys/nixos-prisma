@@ -1993,6 +1993,15 @@ let
         sha512 = "bFJH7UQxlXT8kKeyiyu41r22jCZXG8kuuVVA33OEJn1diWOZK5n8zBSPZFHVBOu8kXZ6h0LIRhf5UnCo61J4Hg==";
       };
     };
+    "vscode-languageserver-textdocument-1.0.8" = {
+      name = "vscode-languageserver-textdocument";
+      packageName = "vscode-languageserver-textdocument";
+      version = "1.0.8";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.8.tgz";
+        sha512 = "1bonkGqQs5/fxGT5UchTgjGVnfysL0O8v1AYMBjqTbWQTFn721zaPGDYFkOKtfDgFiSgXM3KwaG3FMGfW4Ed9Q==";
+      };
+    };
     "vscode-languageserver-types-3.16.0" = {
       name = "vscode-languageserver-types";
       packageName = "vscode-languageserver-types";
@@ -2295,10 +2304,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.1711";
+    version = "31.0.1712";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1711.tgz";
-      sha512 = "rhay0mjJmYpn9S9nsaBBg0+IOzGL0o1dYTii4KtoMtWwyrxhRFgrhIyvJ7raCD8/yFCW4DpLzQv3ak6K4hBriw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1712.tgz";
+      sha512 = "aCRXaWOtdZ7zLZYNUHYFxDUSU8FNioGF4500fpeFDfGU98xjbMM8pkuszz2SB11At4p+hEjw2JTXGcxP1QHjbA==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.0"
@@ -2453,7 +2462,7 @@ in
       sources."vscode-jsonrpc-8.0.2"
       sources."vscode-languageserver-8.0.2"
       sources."vscode-languageserver-protocol-3.17.2"
-      sources."vscode-languageserver-textdocument-1.0.7"
+      sources."vscode-languageserver-textdocument-1.0.8"
       sources."vscode-languageserver-types-3.17.2"
       sources."which-2.0.2"
       sources."which-module-2.0.0"
