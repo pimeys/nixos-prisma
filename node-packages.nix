@@ -1219,13 +1219,13 @@ let
         sha512 = "OYu7XEzjkCQ3C5Ps3QIZsQfNpqoJyZZA99wd9aWd05NCtC5pWOkShK2mkL6HXQR6/Cy2lbNdPlZBpuQHXE63gA==";
       };
     };
-    "json5-2.2.1" = {
+    "json5-2.2.2" = {
       name = "json5";
       packageName = "json5";
-      version = "2.2.1";
+      version = "2.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/json5/-/json5-2.2.1.tgz";
-        sha512 = "1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==";
+        url = "https://registry.npmjs.org/json5/-/json5-2.2.2.tgz";
+        sha512 = "46Tk9JiOL2z7ytNQWFLpj99RZkVgeHf87yGQKsIkaPz1qSH9UczKH1rO7K3wgRselo0tYMUNfecYpm/p1vC7tQ==";
       };
     };
     "klona-2.0.4" = {
@@ -2226,7 +2226,7 @@ in
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
       sources."jsesc-2.5.2"
-      sources."json5-2.2.1"
+      sources."json5-2.2.2"
       sources."klona-2.0.5"
       sources."locate-path-5.0.0"
       sources."lodash.flattendeep-4.4.0"
@@ -2414,7 +2414,7 @@ in
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
       sources."jsesc-2.5.2"
-      sources."json5-2.2.1"
+      sources."json5-2.2.2"
       sources."klona-2.0.5"
       sources."locate-path-5.0.0"
       sources."lodash.flattendeep-4.4.0"
