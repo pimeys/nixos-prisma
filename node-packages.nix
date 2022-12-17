@@ -1363,13 +1363,13 @@ let
         sha512 = "RM5oyBy45cLEoHqCeh+MNuFAxO0vTFBLskvQbOKnEE7YTTSN4tbN8QWDIPQ6L+WvKsB/qLEGpYe2ZZ9d4W9OIQ==";
       };
     };
-    "node-releases-2.0.7" = {
+    "node-releases-2.0.8" = {
       name = "node-releases";
       packageName = "node-releases";
-      version = "2.0.7";
+      version = "2.0.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.7.tgz";
-        sha512 = "EJ3rzxL9pTWPjk5arA0s0dgXpnyiAbJDE6wHT62g7VsgrgQgmmZ+Ru++M1BFofncWja+Pnn3rEr3fieRySAdKQ==";
+        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.8.tgz";
+        sha512 = "dFSmB8fFHEH/s81Xi+Y/15DQY6VHW81nXRj86EMSL3lmuTmK1e+aT4wrFCkTbm+gSwkw4KpX+rT/pMM2c1mF+A==";
       };
     };
     "npm-6.14.11" = {
@@ -2234,7 +2234,7 @@ in
       sources."minimatch-3.1.2"
       sources."ms-2.1.2"
       sources."node-preload-0.2.1"
-      sources."node-releases-2.0.7"
+      sources."node-releases-2.0.8"
       sources."nyc-15.1.0"
       sources."once-1.4.0"
       sources."p-limit-2.3.0"
@@ -2422,7 +2422,7 @@ in
       sources."minimatch-3.1.2"
       sources."ms-2.1.2"
       sources."node-preload-0.2.1"
-      sources."node-releases-2.0.7"
+      sources."node-releases-2.0.8"
       sources."nyc-15.1.0"
       sources."once-1.4.0"
       sources."p-limit-2.3.0"
