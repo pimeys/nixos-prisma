@@ -337,6 +337,15 @@ let
         sha512 = "0/X9/6R4HudrfYjKmQXMMckXJ61eZnWLpc8K3rdCWCJPki+9Jzjw7dTM7A2LG3lx/UMiSnLvM4o+/mBVqeBPGg==";
       };
     };
+    "@prisma/prisma-fmt-wasm-4.9.0-2.c8f7657d570c599bdb5ffd72b92e5123c3b07175" = {
+      name = "_at_prisma_slash_prisma-fmt-wasm";
+      packageName = "@prisma/prisma-fmt-wasm";
+      version = "4.9.0-2.c8f7657d570c599bdb5ffd72b92e5123c3b07175";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-4.9.0-2.c8f7657d570c599bdb5ffd72b92e5123c3b07175.tgz";
+        sha512 = "809Vspy5wATlmeTL3Ux+X8NN0ZRmsi0J7sxXDUoj3Zum4cgWBHmlvalUKIMOtVNXuMaxhi36BVgQNeiyRsXPkw==";
+      };
+    };
     "@tootallnate/once-1.1.2" = {
       name = "_at_tootallnate_slash_once";
       packageName = "@tootallnate/once";
@@ -508,13 +517,13 @@ let
         sha512 = "L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==";
       };
     };
-    "caniuse-lite-1.0.30001439" = {
+    "caniuse-lite-1.0.30001441" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001439";
+      version = "1.0.30001441";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001439.tgz";
-        sha512 = "1MgUzEkoMO6gKfXflStpYgZDlFM7M/ck/bgfVCACO5vnAf0fXoNVHdWtqGU+MYca+4bL9Z5bpOVmR33cWW9G2A==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001441.tgz";
+        sha512 = "OyxRR4Vof59I3yGWXws6i908EtGbMzVUi3ganaZQHmydk1iwDhRnvaPG2WaR0KcqrDFKrxVZHULT396LEPhXfg==";
       };
     };
     "chalk-2.4.2" = {
@@ -2150,7 +2159,7 @@ in
       sources."browserslist-4.21.4"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
-      sources."caniuse-lite-1.0.30001439"
+      sources."caniuse-lite-1.0.30001441"
       sources."chalk-2.4.2"
       sources."clean-stack-2.2.0"
       sources."cliui-6.0.0"
@@ -2286,10 +2295,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.1756";
+    version = "31.0.1757";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1756.tgz";
-      sha512 = "yqsv+8TMgwMgowL74/+zYBOXcaWtN9/OXJ0grbprAObLG4PacLt1dW6BtotFngt4leQu8I4kwuxD+3e1NXZ3AQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1757.tgz";
+      sha512 = "v0Z6ekaL468LAog/BDrf6xkEf4q+nXmfzY5rkHfIDc3mlpeAAZni+84j9s8HwOby/xv/0Oa/0bTxVXAE8IB8Sg==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.0"
@@ -2325,7 +2334,7 @@ in
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.14"
       sources."@jridgewell/trace-mapping-0.3.17"
-      sources."@prisma/prisma-fmt-wasm-4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe"
+      sources."@prisma/prisma-fmt-wasm-4.9.0-2.c8f7657d570c599bdb5ffd72b92e5123c3b07175"
       sources."@types/js-levenshtein-1.1.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
@@ -2338,7 +2347,7 @@ in
       sources."browserslist-4.21.4"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
-      sources."caniuse-lite-1.0.30001439"
+      sources."caniuse-lite-1.0.30001441"
       sources."chalk-2.4.2"
       sources."clean-stack-2.2.0"
       sources."cliui-6.0.0"
