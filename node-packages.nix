@@ -184,13 +184,13 @@ let
         sha512 = "8SegXApWe6VoNw0r9JHpSteLKTpTiLZ4rMlGIm9JQ18KiCtyQiAMEazujAHrUS5flrcqYZa75ukev3P6QmUwUw==";
       };
     };
-    "@babel/traverse-7.20.7" = {
+    "@babel/traverse-7.20.8" = {
       name = "_at_babel_slash_traverse";
       packageName = "@babel/traverse";
-      version = "7.20.7";
+      version = "7.20.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/traverse/-/traverse-7.20.7.tgz";
-        sha512 = "xueOL5+ZKX2dJbg8z8o4f4uTRTqGDRjilva9D1hiRlayJbTY8jBRL+Ph67IeRTIE439/VifHk+Z4g0SwRtQE0A==";
+        url = "https://registry.npmjs.org/@babel/traverse/-/traverse-7.20.8.tgz";
+        sha512 = "/RNkaYDeCy4MjyV70+QkSHhxbvj2JO/5Ft2Pa880qJOG8tWrqcT/wXUuCCv43yogfqPzHL77Xu101KQPf4clnQ==";
       };
     };
     "@babel/types-7.20.7" = {
@@ -2155,7 +2155,7 @@ in
       sources."@babel/highlight-7.18.6"
       sources."@babel/parser-7.20.7"
       sources."@babel/template-7.20.7"
-      sources."@babel/traverse-7.20.7"
+      sources."@babel/traverse-7.20.8"
       sources."@babel/types-7.20.7"
       sources."@istanbuljs/load-nyc-config-1.1.0"
       sources."@istanbuljs/schema-0.1.3"
@@ -2345,7 +2345,7 @@ in
       sources."@babel/highlight-7.18.6"
       sources."@babel/parser-7.20.7"
       sources."@babel/template-7.20.7"
-      sources."@babel/traverse-7.20.7"
+      sources."@babel/traverse-7.20.8"
       sources."@babel/types-7.20.7"
       sources."@istanbuljs/load-nyc-config-1.1.0"
       sources."@istanbuljs/schema-0.1.3"
