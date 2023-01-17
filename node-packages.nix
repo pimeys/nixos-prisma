@@ -1246,6 +1246,15 @@ let
         sha512 = "pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ==";
       };
     };
+    "klona-2.0.6" = {
+      name = "klona";
+      packageName = "klona";
+      version = "2.0.6";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/klona/-/klona-2.0.6.tgz";
+        sha512 = "dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==";
+      };
+    };
     "locate-path-5.0.0" = {
       name = "locate-path";
       packageName = "locate-path";
@@ -2315,10 +2324,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.1829";
+    version = "31.0.1830";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1829.tgz";
-      sha512 = "W4JEMXtSIX5818tRRprjyIrE03a/hQbZAI7MyNnTtNfBubTtGqH/86AcDyiVVlnIJlSpd6enAKF5InbXU312qA==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1830.tgz";
+      sha512 = "Ow7DnvVPomQnojXPYlKpZyP4x/uoAO+MMKaotIvV4Sbo/yr3W84OdxPhea4tEHgDZT4wzkBqi0x/I46PFi7zcg==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.0"
@@ -2426,7 +2435,7 @@ in
       sources."js-yaml-3.14.1"
       sources."jsesc-2.5.2"
       sources."json5-2.2.3"
-      sources."klona-2.0.5"
+      sources."klona-2.0.6"
       sources."locate-path-5.0.0"
       sources."lodash.flattendeep-4.4.0"
       sources."lru-cache-5.1.1"
