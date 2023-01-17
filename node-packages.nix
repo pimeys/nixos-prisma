@@ -328,15 +328,6 @@ let
         sha512 = "ZYqUixxg1RxA9wGd66PF0fmzq5x94gtTeL1FnQm1E2iPE5BgoUmetrR1f40/t32SmmvgOWOpczoVxJINS336bg==";
       };
     };
-    "@prisma/prisma-fmt-wasm-4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe" = {
-      name = "_at_prisma_slash_prisma-fmt-wasm";
-      packageName = "@prisma/prisma-fmt-wasm";
-      version = "4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe.tgz";
-        sha512 = "0/X9/6R4HudrfYjKmQXMMckXJ61eZnWLpc8K3rdCWCJPki+9Jzjw7dTM7A2LG3lx/UMiSnLvM4o+/mBVqeBPGg==";
-      };
-    };
     "@prisma/prisma-fmt-wasm-4.9.0-42.ceb5c99003b99c9ee2c1d2e618e359c14aef2ea5" = {
       name = "_at_prisma_slash_prisma-fmt-wasm";
       packageName = "@prisma/prisma-fmt-wasm";
@@ -1237,15 +1228,6 @@ let
         sha512 = "ZRbnvdg/NxqzC7L9Uyqzf4psi1OM4Cuc+sJAkQPjO6XkQIJTNbfK2Rsmbw8fx1p2mkZdp2FZYo2+LwXYY/uwIA==";
       };
     };
-    "klona-2.0.5" = {
-      name = "klona";
-      packageName = "klona";
-      version = "2.0.5";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/klona/-/klona-2.0.5.tgz";
-        sha512 = "pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ==";
-      };
-    };
     "klona-2.0.6" = {
       name = "klona";
       packageName = "klona";
@@ -2134,10 +2116,10 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "4.8.1";
+    version = "4.9.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-4.8.1.tgz";
-      sha512 = "PPjednk4nG5rH1HnyOi3dYnaSPrWSFittCg0LlfLnEhVGBGGJwr4x3KM1pNPClysccmO34h3socUT9TUCoDMhw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-4.9.0.tgz";
+      sha512 = "Q1KS0GoQG0284hI5CqAdfyq+oLKC7SnB9N6g6ldA7Jqs96rlFVe2Te0UW8bvA9AyG3uljmB0MjlEQDLWPFo8+A==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.0"
@@ -2173,7 +2155,7 @@ in
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.14"
       sources."@jridgewell/trace-mapping-0.3.17"
-      sources."@prisma/prisma-fmt-wasm-4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe"
+      sources."@prisma/prisma-fmt-wasm-4.9.0-42.ceb5c99003b99c9ee2c1d2e618e359c14aef2ea5"
       sources."@types/js-levenshtein-1.1.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
@@ -2245,7 +2227,7 @@ in
       sources."js-yaml-3.14.1"
       sources."jsesc-2.5.2"
       sources."json5-2.2.3"
-      sources."klona-2.0.5"
+      sources."klona-2.0.6"
       sources."locate-path-5.0.0"
       sources."lodash.flattendeep-4.4.0"
       sources."lru-cache-5.1.1"
