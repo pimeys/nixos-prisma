@@ -166,13 +166,13 @@ let
         sha512 = "u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==";
       };
     };
-    "@babel/parser-7.20.13" = {
+    "@babel/parser-7.20.15" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.20.13";
+      version = "7.20.15";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.20.13.tgz";
-        sha512 = "gFDLKMfpiXCsjt4za2JA9oTMn70CeseCehb11kRZgvd7+F67Hih3OHOK24cRrWECJ/ljfPGac6ygXAs/C8kIvw==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.20.15.tgz";
+        sha512 = "DI4a1oZuf8wC+oAJA9RW6ga3Zbe8RZFt7kD9i4qAspz3I/yHet1VvC3DiSy/fsUvv5pvJuNPh0LPOdCcqinDPg==";
       };
     };
     "@babel/template-7.20.7" = {
@@ -2153,7 +2153,7 @@ in
       sources."@babel/helper-validator-option-7.18.6"
       sources."@babel/helpers-7.20.13"
       sources."@babel/highlight-7.18.6"
-      sources."@babel/parser-7.20.13"
+      sources."@babel/parser-7.20.15"
       sources."@babel/template-7.20.7"
       sources."@babel/traverse-7.20.13"
       sources."@babel/types-7.20.7"
@@ -2315,10 +2315,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.1907";
+    version = "31.0.1909";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1907.tgz";
-      sha512 = "ObDQsG/nj7duOxf1zW0+gVpnyLXNyLr89SHkrG5Ypp50ZWSTRaE3DZix92L5voUzeDhWyFNpGQGHJpl+UOKzAg==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.1909.tgz";
+      sha512 = "/4mUcHnYDt7sE9BzqBsmfgIwtW3BXRLJbDCcV7Ykue87EGKKYvaCWV34EBzX9sAEx4vqaRpLCskFPxo3StxnGA==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.0"
@@ -2343,7 +2343,7 @@ in
       sources."@babel/helper-validator-option-7.18.6"
       sources."@babel/helpers-7.20.13"
       sources."@babel/highlight-7.18.6"
-      sources."@babel/parser-7.20.13"
+      sources."@babel/parser-7.20.15"
       sources."@babel/template-7.20.7"
       sources."@babel/traverse-7.20.13"
       sources."@babel/types-7.20.7"
