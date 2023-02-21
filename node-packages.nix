@@ -40,13 +40,13 @@ let
         sha512 = "PuxUbxcW6ZYe656yL3EAhpy7qXKq0DmYsrJLpbB8XrsCP9Nm+XCg9XFMb5vIDliPD7+U/+M+QJlH17XOcB7eXA==";
       };
     };
-    "@babel/generator-7.21.0" = {
+    "@babel/generator-7.21.1" = {
       name = "_at_babel_slash_generator";
       packageName = "@babel/generator";
-      version = "7.21.0";
+      version = "7.21.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.21.0.tgz";
-        sha512 = "z/zN3SePOtxN1/vPFdqrkuJGCD2Vx469+dSbNRD+4TF2+6e4Of5exHqAtcfL/2Nwu0RN0QsFwjyDBFwdUMzNSA==";
+        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.21.1.tgz";
+        sha512 = "1lT45bAYlQhFn/BHivJs43AiW2rg3/UbLyShGfF3C0KmHvO5fSghWd5kBJy30kpRRucGzXStvnnCFniCR2kXAA==";
       };
     };
     "@babel/helper-compilation-targets-7.20.7" = {
@@ -166,13 +166,13 @@ let
         sha512 = "u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==";
       };
     };
-    "@babel/parser-7.21.0" = {
+    "@babel/parser-7.21.1" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.21.0";
+      version = "7.21.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.21.0.tgz";
-        sha512 = "ONjtg4renj14A9pj3iA5T5+r5Eijxbr2eNIkMBTC74occDSsRZUpe8vowmowAjFR1imWlkD8eEmjYXiREZpGZg==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.21.1.tgz";
+        sha512 = "JzhBFpkuhBNYUY7qs+wTzNmyCWUHEaAFpQQD2YfU1rPL38/L43Wvid0fFkiOCnHvsGncRZgEPyGnltABLcVDTg==";
       };
     };
     "@babel/template-7.20.7" = {
@@ -2135,7 +2135,7 @@ in
       sources."@babel/code-frame-7.18.6"
       sources."@babel/compat-data-7.21.0"
       sources."@babel/core-7.21.0"
-      (sources."@babel/generator-7.21.0" // {
+      (sources."@babel/generator-7.21.1" // {
         dependencies = [
           sources."@jridgewell/gen-mapping-0.3.2"
         ];
@@ -2153,7 +2153,7 @@ in
       sources."@babel/helper-validator-option-7.21.0"
       sources."@babel/helpers-7.21.0"
       sources."@babel/highlight-7.18.6"
-      sources."@babel/parser-7.21.0"
+      sources."@babel/parser-7.21.1"
       sources."@babel/template-7.20.7"
       sources."@babel/traverse-7.21.0"
       sources."@babel/types-7.21.0"
@@ -2325,7 +2325,7 @@ in
       sources."@babel/code-frame-7.18.6"
       sources."@babel/compat-data-7.21.0"
       sources."@babel/core-7.21.0"
-      (sources."@babel/generator-7.21.0" // {
+      (sources."@babel/generator-7.21.1" // {
         dependencies = [
           sources."@jridgewell/gen-mapping-0.3.2"
         ];
@@ -2343,7 +2343,7 @@ in
       sources."@babel/helper-validator-option-7.21.0"
       sources."@babel/helpers-7.21.0"
       sources."@babel/highlight-7.18.6"
-      sources."@babel/parser-7.21.0"
+      sources."@babel/parser-7.21.1"
       sources."@babel/template-7.20.7"
       sources."@babel/traverse-7.21.0"
       sources."@babel/types-7.21.0"
