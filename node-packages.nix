@@ -913,13 +913,13 @@ let
         sha512 = "jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==";
       };
     };
-    "graceful-fs-4.2.10" = {
+    "graceful-fs-4.2.11" = {
       name = "graceful-fs";
       packageName = "graceful-fs";
-      version = "4.2.10";
+      version = "4.2.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz";
-        sha512 = "9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==";
+        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz";
+        sha512 = "RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==";
       };
     };
     "has-flag-3.0.0" = {
@@ -2206,7 +2206,7 @@ in
       sources."get-package-type-0.1.0"
       sources."glob-7.2.3"
       sources."globals-11.12.0"
-      sources."graceful-fs-4.2.10"
+      sources."graceful-fs-4.2.11"
       sources."has-flag-3.0.0"
       sources."hasha-5.2.2"
       sources."html-escaper-2.0.2"
@@ -2396,7 +2396,7 @@ in
       sources."get-package-type-0.1.0"
       sources."glob-7.2.3"
       sources."globals-11.12.0"
-      sources."graceful-fs-4.2.10"
+      sources."graceful-fs-4.2.11"
       sources."has-flag-3.0.0"
       sources."hasha-5.2.2"
       sources."html-escaper-2.0.2"
@@ -2557,7 +2557,7 @@ in
       sources."glob-7.2.3"
       sources."glob-parent-5.1.2"
       sources."globby-11.1.0"
-      sources."graceful-fs-4.2.10"
+      sources."graceful-fs-4.2.11"
       sources."has-flag-4.0.0"
       sources."hasha-5.2.2"
       sources."http-proxy-agent-4.0.1"
