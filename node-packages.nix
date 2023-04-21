@@ -2038,13 +2038,13 @@ let
         sha512 = "BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==";
       };
     };
-    "which-module-2.0.0" = {
+    "which-module-2.0.1" = {
       name = "which-module";
       packageName = "which-module";
-      version = "2.0.0";
+      version = "2.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/which-module/-/which-module-2.0.0.tgz";
-        sha512 = "B+enWhmw6cjfVC7kS8Pj9pCrKSc5txArRyaYGe088shv/FGWH+0Rjx/xPgtsWfsUtS27FkP697E4DDhgrgoc0Q==";
+        url = "https://registry.npmjs.org/which-module/-/which-module-2.0.1.tgz";
+        sha512 = "iBdZ57RDvnOR9AGBhML2vFZf7h8vmBjhoaZqODJBFWHVtKkDmKuHai3cx5PgVMrX5YDNp27AofYbAwctSS+vhQ==";
       };
     };
     "wrap-ansi-6.2.0" = {
@@ -2287,7 +2287,7 @@ in
       sources."vscode-languageserver-textdocument-1.0.8"
       sources."vscode-languageserver-types-3.17.2"
       sources."which-2.0.2"
-      sources."which-module-2.0.0"
+      sources."which-module-2.0.1"
       (sources."wrap-ansi-6.2.0" // {
         dependencies = [
           sources."ansi-styles-4.3.0"
@@ -2477,7 +2477,7 @@ in
       sources."vscode-languageserver-textdocument-1.0.8"
       sources."vscode-languageserver-types-3.17.2"
       sources."which-2.0.2"
-      sources."which-module-2.0.0"
+      sources."which-module-2.0.1"
       (sources."wrap-ansi-6.2.0" // {
         dependencies = [
           sources."ansi-styles-4.3.0"
