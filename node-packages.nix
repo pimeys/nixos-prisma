@@ -22,13 +22,13 @@ let
         sha512 = "LYvhNKfwWSPpocw8GI7gpK2nq3HSDuEPC/uSYaALSJu9xjsalaaYFOq0Pwt5KmVqwEbZlDu81aLXwBOmD/Fv9g==";
       };
     };
-    "@babel/compat-data-7.21.5" = {
+    "@babel/compat-data-7.21.7" = {
       name = "_at_babel_slash_compat-data";
       packageName = "@babel/compat-data";
-      version = "7.21.5";
+      version = "7.21.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.21.5.tgz";
-        sha512 = "M+XAiQ7GzQ3FDPf0KOLkugzptnIypt0X0ma0wmlTKPR3IchgNFdx2JXxZdvd18JY5s7QkaFD/qyX0dsMpog/Ug==";
+        url = "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.21.7.tgz";
+        sha512 = "KYMqFYTaenzMK4yUtf4EW9wc4N9ef80FsbMtkwool5zpwl4YrT1SdWYSTRcT94KO4hannogdS+LxY7L+arP3gA==";
       };
     };
     "@babel/core-7.21.5" = {
@@ -2169,7 +2169,7 @@ in
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
       sources."@babel/code-frame-7.21.4"
-      sources."@babel/compat-data-7.21.5"
+      sources."@babel/compat-data-7.21.7"
       sources."@babel/core-7.21.5"
       sources."@babel/generator-7.21.5"
       sources."@babel/helper-compilation-targets-7.21.5"
@@ -2359,7 +2359,7 @@ in
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
       sources."@babel/code-frame-7.21.4"
-      sources."@babel/compat-data-7.21.5"
+      sources."@babel/compat-data-7.21.7"
       sources."@babel/core-7.21.5"
       sources."@babel/generator-7.21.5"
       sources."@babel/helper-compilation-targets-7.21.5"
