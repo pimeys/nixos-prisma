@@ -337,13 +337,13 @@ let
         sha512 = "kEYSUa3XT1Oiu/MbdUkyjfVtAOQmZz69KGKFH/GWoQNLvkscrqy4J4XewEY80BrVuyC3vbV7un4kea0xklWhpA==";
       };
     };
-    "@prisma/prisma-fmt-wasm-4.14.0-66.20385323b6a30937c33354d7a9f7aeaff98185af" = {
+    "@prisma/prisma-fmt-wasm-4.14.0-67.d9a4c5988f480fa576d43970d5a23641aa77bc9c" = {
       name = "_at_prisma_slash_prisma-fmt-wasm";
       packageName = "@prisma/prisma-fmt-wasm";
-      version = "4.14.0-66.20385323b6a30937c33354d7a9f7aeaff98185af";
+      version = "4.14.0-67.d9a4c5988f480fa576d43970d5a23641aa77bc9c";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-4.14.0-66.20385323b6a30937c33354d7a9f7aeaff98185af.tgz";
-        sha512 = "S9bbxyDIDLLkxWxCjFPTP173Gctkhke8PBx2VqClYfpanToERPzOMwcbmP16PYhlnnB+Odiy+gIKcx4A4ADggw==";
+        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-4.14.0-67.d9a4c5988f480fa576d43970d5a23641aa77bc9c.tgz";
+        sha512 = "qvxi6xbUb4wcawvLju0t2soGBPGs13L6HVmJrZG+RGaDDuJn9qzDAdZl97YdyFgn4jN6VMJeSqXt3yTWKkaaUw==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -2351,10 +2351,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.2160";
+    version = "31.0.2161";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2160.tgz";
-      sha512 = "DKmfPHfNsSCStG/4YaAZW/tJ9tnJgJgmz4BjTwgZ4itJwjVtVO1cPvoUlT0QdeZ7ZgWXfp3sQhC2fyBtBtleJw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2161.tgz";
+      sha512 = "3H1CatqPUSd32j8NM7hyKcqbHBzRvy+jDh3af3yjkulNMgyFPBQB1of2iL4k+kDOOwip8zrxX7G2GOL5puU66g==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2390,7 +2390,7 @@ in
           sources."@jridgewell/sourcemap-codec-1.4.14"
         ];
       })
-      sources."@prisma/prisma-fmt-wasm-4.14.0-66.20385323b6a30937c33354d7a9f7aeaff98185af"
+      sources."@prisma/prisma-fmt-wasm-4.14.0-67.d9a4c5988f480fa576d43970d5a23641aa77bc9c"
       sources."@types/js-levenshtein-1.1.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
