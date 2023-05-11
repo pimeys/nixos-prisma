@@ -337,6 +337,15 @@ let
         sha512 = "qvxi6xbUb4wcawvLju0t2soGBPGs13L6HVmJrZG+RGaDDuJn9qzDAdZl97YdyFgn4jN6VMJeSqXt3yTWKkaaUw==";
       };
     };
+    "@prisma/prisma-fmt-wasm-4.14.0-68.d9c07544fc26f4e90f8662fbb2276b3e09980208" = {
+      name = "_at_prisma_slash_prisma-fmt-wasm";
+      packageName = "@prisma/prisma-fmt-wasm";
+      version = "4.14.0-68.d9c07544fc26f4e90f8662fbb2276b3e09980208";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-4.14.0-68.d9c07544fc26f4e90f8662fbb2276b3e09980208.tgz";
+        sha512 = "FL5UgNtv4d2TwIdl5rq+qPH+przKPZW0peVsyDJy21QBj5sYpmOm6K7/sx1Z/E2s4k7BpYEbuiZRs/rwnv8sZw==";
+      };
+    };
     "@tootallnate/once-1.1.2" = {
       name = "_at_tootallnate_slash_once";
       packageName = "@tootallnate/once";
@@ -2306,10 +2315,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.2167";
+    version = "31.0.2169";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2167.tgz";
-      sha512 = "NKA4cRMrenLdqE8UW8wJM7TzJ785hb8OSd1rX94vM01p6DxoQd2TrY4SKdlJUDxKJa/Wpa6kpjBG2vsn2aZEaQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2169.tgz";
+      sha512 = "yn0l+VEZgfwYKOwq8rmLSLAnpSMk5p9UQmkYNAjFpQrCOr+HwwLPSys9zLxMSk17MqYXorxER3JAxj8i1D73Qw==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2345,7 +2354,7 @@ in
           sources."@jridgewell/sourcemap-codec-1.4.14"
         ];
       })
-      sources."@prisma/prisma-fmt-wasm-4.14.0-67.d9a4c5988f480fa576d43970d5a23641aa77bc9c"
+      sources."@prisma/prisma-fmt-wasm-4.14.0-68.d9c07544fc26f4e90f8662fbb2276b3e09980208"
       sources."@types/js-levenshtein-1.1.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
