@@ -2125,10 +2125,10 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "4.14.0";
+    version = "4.14.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-4.14.0.tgz";
-      sha512 = "MgTc2WY4zdcy2a659kjXtotjL4YsATLMqDyYf95c9zRYmEX7mpFXRYVMUXQPwkdaWK446wCJltwOBcoO0Lky+A==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-4.14.1.tgz";
+      sha512 = "I9VBVjyTBBEDuluVu+ZuvKyrWYltCzT/qGfeiDObCxWc69xJOYnAB65wKTQZpBD03ZHqThRnlhFtgljRjibYng==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2315,10 +2315,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.2210";
+    version = "31.0.2211";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2210.tgz";
-      sha512 = "LvAjINhb0cZ40q/Uf1a/KmSykNAfvDW3ucuiRHXgZpHElExk/bvCMIf9iNi3UiKXkoY2YqgugEoeVAiIadQ2ig==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2211.tgz";
+      sha512 = "XML2XP2cTXRadFmK1lvH+2bTShHpPOYeBDn2Dk5YWuG0xJCQ4+iBICnZvsmKmd9WZRt3Kf4cd7wGfsK1vu7AOg==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
