@@ -22,13 +22,13 @@ let
         sha512 = "LYvhNKfwWSPpocw8GI7gpK2nq3HSDuEPC/uSYaALSJu9xjsalaaYFOq0Pwt5KmVqwEbZlDu81aLXwBOmD/Fv9g==";
       };
     };
-    "@babel/compat-data-7.21.7" = {
+    "@babel/compat-data-7.21.9" = {
       name = "_at_babel_slash_compat-data";
       packageName = "@babel/compat-data";
-      version = "7.21.7";
+      version = "7.21.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.21.7.tgz";
-        sha512 = "KYMqFYTaenzMK4yUtf4EW9wc4N9ef80FsbMtkwool5zpwl4YrT1SdWYSTRcT94KO4hannogdS+LxY7L+arP3gA==";
+        url = "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.21.9.tgz";
+        sha512 = "FUGed8kfhyWvbYug/Un/VPJD41rDIgoVVcR+FuzhzOYyRz5uED+Gd3SLZml0Uw2l2aHFb7ZgdW5mGA3G2cCCnQ==";
       };
     };
     "@babel/core-7.21.8" = {
@@ -40,13 +40,13 @@ let
         sha512 = "YeM22Sondbo523Sz0+CirSPnbj9bG3P0CdHcBZdqUuaeOaYEFbOLoGU7lebvGP6P5J/WE9wOn7u7C4J9HvS1xQ==";
       };
     };
-    "@babel/generator-7.21.5" = {
+    "@babel/generator-7.21.9" = {
       name = "_at_babel_slash_generator";
       packageName = "@babel/generator";
-      version = "7.21.5";
+      version = "7.21.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.21.5.tgz";
-        sha512 = "SrKK/sRv8GesIW1bDagf9cCG38IOMYZusoe1dfg0D8aiUe3Amvoj1QtjTPAWcfrZFvIwlleLb0gxzQidL9w14w==";
+        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.21.9.tgz";
+        sha512 = "F3fZga2uv09wFdEjEQIJxXALXfz0+JaOb7SabvVMmjHxeVTuGW8wgE8Vp1Hd7O+zMTYtcfEISGRzPkeiaPPsvg==";
       };
     };
     "@babel/helper-compilation-targets-7.21.5" = {
@@ -166,22 +166,22 @@ let
         sha512 = "u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==";
       };
     };
-    "@babel/parser-7.21.8" = {
+    "@babel/parser-7.21.9" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.21.8";
+      version = "7.21.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.21.8.tgz";
-        sha512 = "6zavDGdzG3gUqAdWvlLFfk+36RilI+Pwyuuh7HItyeScCWP3k6i8vKclAQ0bM/0y/Kz/xiwvxhMv9MgTJP5gmA==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.21.9.tgz";
+        sha512 = "q5PNg/Bi1OpGgx5jYlvWZwAorZepEudDMCLtj967aeS7WMont7dUZI46M2XwcIQqvUlMxWfdLFu4S/qSxeUu5g==";
       };
     };
-    "@babel/template-7.20.7" = {
+    "@babel/template-7.21.9" = {
       name = "_at_babel_slash_template";
       packageName = "@babel/template";
-      version = "7.20.7";
+      version = "7.21.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/template/-/template-7.20.7.tgz";
-        sha512 = "8SegXApWe6VoNw0r9JHpSteLKTpTiLZ4rMlGIm9JQ18KiCtyQiAMEazujAHrUS5flrcqYZa75ukev3P6QmUwUw==";
+        url = "https://registry.npmjs.org/@babel/template/-/template-7.21.9.tgz";
+        sha512 = "MK0X5k8NKOuWRamiEfc3KEJiHMTkGZNUjzMipqCGDDc6ijRl/B7RGSKVGncu4Ro/HdyzzY6cmoXuKI2Gffk7vQ==";
       };
     };
     "@babel/traverse-7.21.5" = {
@@ -517,13 +517,13 @@ let
         sha512 = "L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==";
       };
     };
-    "caniuse-lite-1.0.30001488" = {
+    "caniuse-lite-1.0.30001489" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001488";
+      version = "1.0.30001489";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001488.tgz";
-        sha512 = "NORIQuuL4xGpIy6iCCQGN4iFjlBXtfKWIenlUuyZJumLRIindLb7wXM+GO8erEhb7vXfcnf4BAg2PrSDN5TNLQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001489.tgz";
+        sha512 = "x1mgZEXK8jHIfAxm+xgdpHpk50IN3z3q3zP261/WS+uvePxW8izXuCu6AHz0lkuYTlATDehiZ/tNyYBdSQsOUQ==";
       };
     };
     "chalk-2.4.2" = {
@@ -2133,9 +2133,9 @@ in
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
       sources."@babel/code-frame-7.21.4"
-      sources."@babel/compat-data-7.21.7"
+      sources."@babel/compat-data-7.21.9"
       sources."@babel/core-7.21.8"
-      sources."@babel/generator-7.21.5"
+      sources."@babel/generator-7.21.9"
       sources."@babel/helper-compilation-targets-7.21.5"
       sources."@babel/helper-environment-visitor-7.21.5"
       sources."@babel/helper-function-name-7.21.0"
@@ -2149,8 +2149,8 @@ in
       sources."@babel/helper-validator-option-7.21.0"
       sources."@babel/helpers-7.21.5"
       sources."@babel/highlight-7.18.6"
-      sources."@babel/parser-7.21.8"
-      sources."@babel/template-7.20.7"
+      sources."@babel/parser-7.21.9"
+      sources."@babel/template-7.21.9"
       sources."@babel/traverse-7.21.5"
       sources."@babel/types-7.21.5"
       sources."@istanbuljs/load-nyc-config-1.1.0"
@@ -2177,7 +2177,7 @@ in
       sources."browserslist-4.21.5"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
-      sources."caniuse-lite-1.0.30001488"
+      sources."caniuse-lite-1.0.30001489"
       sources."chalk-2.4.2"
       sources."clean-stack-2.2.0"
       sources."cliui-6.0.0"
@@ -2315,17 +2315,17 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.2220";
+    version = "31.0.2221";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2220.tgz";
-      sha512 = "V4RabK+7l8xu8fCY1bprR897NG1UPxhtXWdfglQcZCNLVfmGToSA/IpXQXKcP/fQ6VigFdgD011svvvnyTtEHA==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2221.tgz";
+      sha512 = "iddy6Gh9GxnHFr5Yby7lsHpKQCRrtFiO4HKJXYD04ILlBOBcZdrrRhD1/z01wPxVwCfgwas+NqLnjDsHcSJ22g==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
       sources."@babel/code-frame-7.21.4"
-      sources."@babel/compat-data-7.21.7"
+      sources."@babel/compat-data-7.21.9"
       sources."@babel/core-7.21.8"
-      sources."@babel/generator-7.21.5"
+      sources."@babel/generator-7.21.9"
       sources."@babel/helper-compilation-targets-7.21.5"
       sources."@babel/helper-environment-visitor-7.21.5"
       sources."@babel/helper-function-name-7.21.0"
@@ -2339,8 +2339,8 @@ in
       sources."@babel/helper-validator-option-7.21.0"
       sources."@babel/helpers-7.21.5"
       sources."@babel/highlight-7.18.6"
-      sources."@babel/parser-7.21.8"
-      sources."@babel/template-7.20.7"
+      sources."@babel/parser-7.21.9"
+      sources."@babel/template-7.21.9"
       sources."@babel/traverse-7.21.5"
       sources."@babel/types-7.21.5"
       sources."@istanbuljs/load-nyc-config-1.1.0"
@@ -2367,7 +2367,7 @@ in
       sources."browserslist-4.21.5"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
-      sources."caniuse-lite-1.0.30001488"
+      sources."caniuse-lite-1.0.30001489"
       sources."chalk-2.4.2"
       sources."clean-stack-2.2.0"
       sources."cliui-6.0.0"
