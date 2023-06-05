@@ -697,13 +697,13 @@ let
         sha512 = "WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==";
       };
     };
-    "electron-to-chromium-1.4.419" = {
+    "electron-to-chromium-1.4.420" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.419";
+      version = "1.4.420";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.419.tgz";
-        sha512 = "jdie3RiEgygvDTyS2sgjq71B36q2cDSBfPlwzUyuOrfYTNoYWyBxxjGJV/HAu3A2hB0Y+HesvCVkVAFoCKwCSw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.420.tgz";
+        sha512 = "BpPy2KXZc+UPbI8NGo2QdHU1Mkq11pO/zaNDHY57L09K/0ytrPw+IiLOUvZ1NjI5BlAVF5DkNr1UBUS76Tc4ow==";
       };
     };
     "emoji-regex-8.0.0" = {
@@ -2190,7 +2190,7 @@ in
       sources."debug-4.3.4"
       sources."decamelize-1.2.0"
       sources."default-require-extensions-3.0.1"
-      sources."electron-to-chromium-1.4.419"
+      sources."electron-to-chromium-1.4.420"
       sources."emoji-regex-8.0.0"
       sources."es6-error-4.1.1"
       sources."escalade-3.1.1"
@@ -2315,10 +2315,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.2278";
+    version = "31.0.2279";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2278.tgz";
-      sha512 = "qvjtK1DdbUzvqjt/Z0brTxarHznR3VJOaSVLAUQrdzMLyti3M55efhz9bfLmQrT5c4jsOqzFbiz3KemvzHBhBg==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2279.tgz";
+      sha512 = "gEwcyu0sItQlP+7H84xvXbbEpj4jUqEHw7h9EeqPA+XYjA1jnJINr2DiS2vZ9karnSxTY08F5AdNaAuHlUt4NQ==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2380,7 +2380,7 @@ in
       sources."debug-4.3.4"
       sources."decamelize-1.2.0"
       sources."default-require-extensions-3.0.1"
-      sources."electron-to-chromium-1.4.419"
+      sources."electron-to-chromium-1.4.420"
       sources."emoji-regex-8.0.0"
       sources."es6-error-4.1.1"
       sources."escalade-3.1.1"
