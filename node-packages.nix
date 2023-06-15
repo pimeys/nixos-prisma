@@ -490,13 +490,13 @@ let
         sha512 = "b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==";
       };
     };
-    "browserslist-4.21.8" = {
+    "browserslist-4.21.9" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.21.8";
+      version = "4.21.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.21.8.tgz";
-        sha512 = "j+7xYe+v+q2Id9qbBeCI8WX5NmZSRe8es1+0xntD/+gaWXznP8tFEkv5IgSaHf5dS1YwVMbX/4W6m937mj+wQw==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.21.9.tgz";
+        sha512 = "M0MFoZzbUrRU4KNfCrDLnvyE7gub+peetoTid3TBIqtunaDJyXlwhakT+/VkvSXcfIzFfK/nkCs4nmyTmxdNSg==";
       };
     };
     "caching-transform-4.0.0" = {
@@ -2174,7 +2174,7 @@ in
       sources."argparse-1.0.10"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.21.8"
+      sources."browserslist-4.21.9"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
       sources."caniuse-lite-1.0.30001503"
@@ -2315,10 +2315,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.2321";
+    version = "31.0.2322";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2321.tgz";
-      sha512 = "efnpiu1IPiJ4BB/sus6F+hWew8cHgwfFYDYkfAeNUy6YkCHIY8uWj7IQ1W8rJkD1Uc1ftu6brIRrDtrhpGGbtw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2322.tgz";
+      sha512 = "lheQF+QoX6bftTW2uLaq6XOuApNZp7387uiAUJQrU20xH2mqOOwlUEzzhCdxPzikNG3xOGE/6pX67iCZsb2cMQ==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2364,7 +2364,7 @@ in
       sources."argparse-1.0.10"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.21.8"
+      sources."browserslist-4.21.9"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
       sources."caniuse-lite-1.0.30001503"
