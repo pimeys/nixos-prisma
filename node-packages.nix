@@ -760,13 +760,13 @@ let
         sha512 = "ov6w/2LCiuyO4RLYGdpFGjkcs0wMTgGE8PrkTHikeUy5iJekXyPIKUjifk5CsE0pt7sMCrMZ3YNqoCj6idQOnQ==";
       };
     };
-    "fast-glob-3.2.12" = {
+    "fast-glob-3.3.0" = {
       name = "fast-glob";
       packageName = "fast-glob";
-      version = "3.2.12";
+      version = "3.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.12.tgz";
-        sha512 = "DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==";
+        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.0.tgz";
+        sha512 = "ChDuvbOypPuNjO8yIDf36x7BlZX1smcUMTTcyoIjycexOxd6DFsKsg21qVBzEmr3G7fUKIRy2/psii+CIUt7FA==";
       };
     };
     "fastq-1.15.0" = {
@@ -2315,10 +2315,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.2377";
+    version = "31.0.2378";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2377.tgz";
-      sha512 = "2NYHQoO3kh6rbdtzTuk/q1X4ps837alyFXW5a9vwVau11XbyP89T0FHPf3lkYg+hRcW4+F+ElxnL2zJYTCokSw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2378.tgz";
+      sha512 = "PnzUBx2j7lthvNy0+oaZnAtHYF/vJ2lO71pFoC02E2uAof245Z9HAzqGdF1FwmnPttlQizotq7ub0LYHoSNJsA==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2543,7 +2543,7 @@ in
       sources."del-6.1.1"
       sources."dir-glob-3.0.1"
       sources."execa-5.0.0"
-      sources."fast-glob-3.2.12"
+      sources."fast-glob-3.3.0"
       sources."fastq-1.15.0"
       sources."fill-range-7.0.1"
       (sources."find-cache-dir-3.3.2" // {
