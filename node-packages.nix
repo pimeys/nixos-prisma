@@ -346,13 +346,13 @@ let
         sha512 = "g090+dEH7wrdCw359+8J9+TGH84qK28V/dxwINjhhNCtju9lej99z9w/AVsJP9UhhcCPS4psYz4iu8d53uxVpA==";
       };
     };
-    "@prisma/prisma-fmt-wasm-4.17.0-16.27eb2449f178cd9fe1a4b892d732cc4795f75085" = {
-      name = "_at_prisma_slash_prisma-fmt-wasm";
-      packageName = "@prisma/prisma-fmt-wasm";
-      version = "4.17.0-16.27eb2449f178cd9fe1a4b892d732cc4795f75085";
+    "@prisma/prisma-schema-wasm-4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584" = {
+      name = "_at_prisma_slash_prisma-schema-wasm";
+      packageName = "@prisma/prisma-schema-wasm";
+      version = "4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-fmt-wasm/-/prisma-fmt-wasm-4.17.0-16.27eb2449f178cd9fe1a4b892d732cc4795f75085.tgz";
-        sha512 = "zYz3rFwPB82mVlHGknAPdnSY/a308dhPOblxQLcZgZTDRtDXOE1MgxoRAys+jekwR4/bm3+rZDPs1xsFMsPZig==";
+        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584.tgz";
+        sha512 = "JFdsnSgBPN8reDTLOI9Vh/6ccCb2aD1LbY/LWQnkcIgNo6IdpzvuM+qRVbBuA6IZP2SdqQI8Lu6RL2P8EFBQUA==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -2325,10 +2325,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.2426";
+    version = "31.0.2428";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2426.tgz";
-      sha512 = "71kF+EX5WEnzYAwXKNJRU1v4zivaRsrD9/gcFrGgW3spuyrMm9CC0UfPYqsv5g3Rra1YjZLrAfLZyyO2CfrVQQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2428.tgz";
+      sha512 = "cBxOwOk5dFvaZkrsJC2fUHkOAWV0u5BIgONxOU0zBXY6DKqsr9bOuTxo/2zZ5AjMtDVOf9WrbbfpUy8sjcL9oA==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2365,7 +2365,7 @@ in
         ];
       })
       sources."@nicolo-ribaudo/semver-v6-6.3.3"
-      sources."@prisma/prisma-fmt-wasm-4.17.0-16.27eb2449f178cd9fe1a4b892d732cc4795f75085"
+      sources."@prisma/prisma-schema-wasm-4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584"
       sources."@types/js-levenshtein-1.1.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
