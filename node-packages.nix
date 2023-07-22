@@ -760,13 +760,13 @@ let
         sha512 = "ov6w/2LCiuyO4RLYGdpFGjkcs0wMTgGE8PrkTHikeUy5iJekXyPIKUjifk5CsE0pt7sMCrMZ3YNqoCj6idQOnQ==";
       };
     };
-    "fast-glob-3.3.0" = {
+    "fast-glob-3.3.1" = {
       name = "fast-glob";
       packageName = "fast-glob";
-      version = "3.3.0";
+      version = "3.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.0.tgz";
-        sha512 = "ChDuvbOypPuNjO8yIDf36x7BlZX1smcUMTTcyoIjycexOxd6DFsKsg21qVBzEmr3G7fUKIRy2/psii+CIUt7FA==";
+        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.1.tgz";
+        sha512 = "kNFPyjhh5cKjrUltxs+wFx+ZkbRaxxmZ+X0ZU31SOsxCEtP9VPgtq2teZw1DebupL5GmDaNQ6yKMMVcM41iqDg==";
       };
     };
     "fastq-1.15.0" = {
@@ -2543,7 +2543,7 @@ in
       sources."del-6.1.1"
       sources."dir-glob-3.0.1"
       sources."execa-5.0.0"
-      sources."fast-glob-3.3.0"
+      sources."fast-glob-3.3.1"
       sources."fastq-1.15.0"
       sources."fill-range-7.0.1"
       (sources."find-cache-dir-3.3.2" // {
