@@ -1156,13 +1156,13 @@ let
         sha512 = "NkwHbo3E00oybX6NGJi6ar0B29vxyvNwoC7eJ4G4Yq28UfY758Hgn/heV8VRFhevPED4LXfFz0DQ8z/0kw9zMg==";
       };
     };
-    "istanbul-lib-report-3.0.0" = {
+    "istanbul-lib-report-3.0.1" = {
       name = "istanbul-lib-report";
       packageName = "istanbul-lib-report";
-      version = "3.0.0";
+      version = "3.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/istanbul-lib-report/-/istanbul-lib-report-3.0.0.tgz";
-        sha512 = "wcdi+uAKzfiGT2abPpKZ0hSU1rGQjUQnLvtY5MpQ7QCTahD3VODhcu4wcfY1YtkGaDD5yuydOLINXsfbus9ROw==";
+        url = "https://registry.npmjs.org/istanbul-lib-report/-/istanbul-lib-report-3.0.1.tgz";
+        sha512 = "GCfE1mtsHGOELCU8e/Z7YWzpmybrx/+dSTfLrvY8qRmaY6zXTKWn6WQIjaAFw069icm6GVMNkgu0NzI4iPZUNw==";
       };
     };
     "istanbul-lib-source-maps-4.0.1" = {
@@ -1174,13 +1174,13 @@ let
         sha512 = "n3s8EwkdFIJCG3BPKBYvskgXGoy88ARzvegkitk60NxRdwltLOTaH7CUiMRXvwYorl0Q712iEjcWB+fK/MrWVw==";
       };
     };
-    "istanbul-reports-3.1.5" = {
+    "istanbul-reports-3.1.6" = {
       name = "istanbul-reports";
       packageName = "istanbul-reports";
-      version = "3.1.5";
+      version = "3.1.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/istanbul-reports/-/istanbul-reports-3.1.5.tgz";
-        sha512 = "nUsEMa9pBt/NOHqbcbeJEgqIlY/K7rVWUX6Lql2orY5e9roQOthbR3vtY4zzf2orPELg80fnxxk9zUyPlgwD1w==";
+        url = "https://registry.npmjs.org/istanbul-reports/-/istanbul-reports-3.1.6.tgz";
+        sha512 = "TLgnMkKg3iTDsQ9PbPTdpfAK2DzjF9mqUG7RMgcQl8oFjad8ob4laGxv5XV5U9MAfx8D6tSJiUyuAwzLicaxlg==";
       };
     };
     "js-levenshtein-1.1.6" = {
@@ -1282,6 +1282,15 @@ let
         sha512 = "KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==";
       };
     };
+    "lru-cache-6.0.0" = {
+      name = "lru-cache";
+      packageName = "lru-cache";
+      version = "6.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz";
+        sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
+      };
+    };
     "make-dir-3.1.0" = {
       name = "make-dir";
       packageName = "make-dir";
@@ -1289,6 +1298,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/make-dir/-/make-dir-3.1.0.tgz";
         sha512 = "g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==";
+      };
+    };
+    "make-dir-4.0.0" = {
+      name = "make-dir";
+      packageName = "make-dir";
+      version = "4.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/make-dir/-/make-dir-4.0.0.tgz";
+        sha512 = "hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==";
       };
     };
     "merge-stream-2.0.0" = {
@@ -1705,6 +1723,15 @@ let
         sha512 = "BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==";
       };
     };
+    "semver-7.5.4" = {
+      name = "semver";
+      packageName = "semver";
+      version = "7.5.4";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/semver/-/semver-7.5.4.tgz";
+        sha512 = "1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==";
+      };
+    };
     "set-blocking-2.0.0" = {
       name = "set-blocking";
       packageName = "set-blocking";
@@ -2092,6 +2119,15 @@ let
         sha512 = "a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==";
       };
     };
+    "yallist-4.0.0" = {
+      name = "yallist";
+      packageName = "yallist";
+      version = "4.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz";
+        sha512 = "3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==";
+      };
+    };
     "yargs-15.4.1" = {
       name = "yargs";
       packageName = "yargs";
@@ -2223,14 +2259,18 @@ in
       sources."istanbul-lib-hook-3.0.0"
       sources."istanbul-lib-instrument-4.0.3"
       sources."istanbul-lib-processinfo-2.0.3"
-      (sources."istanbul-lib-report-3.0.0" // {
+      (sources."istanbul-lib-report-3.0.1" // {
         dependencies = [
           sources."has-flag-4.0.0"
+          sources."lru-cache-6.0.0"
+          sources."make-dir-4.0.0"
+          sources."semver-7.5.4"
           sources."supports-color-7.2.0"
+          sources."yallist-4.0.0"
         ];
       })
       sources."istanbul-lib-source-maps-4.0.1"
-      sources."istanbul-reports-3.1.5"
+      sources."istanbul-reports-3.1.6"
       sources."js-levenshtein-1.1.6"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
@@ -2413,14 +2453,18 @@ in
       sources."istanbul-lib-hook-3.0.0"
       sources."istanbul-lib-instrument-4.0.3"
       sources."istanbul-lib-processinfo-2.0.3"
-      (sources."istanbul-lib-report-3.0.0" // {
+      (sources."istanbul-lib-report-3.0.1" // {
         dependencies = [
           sources."has-flag-4.0.0"
+          sources."lru-cache-6.0.0"
+          sources."make-dir-4.0.0"
+          sources."semver-7.5.4"
           sources."supports-color-7.2.0"
+          sources."yallist-4.0.0"
         ];
       })
       sources."istanbul-lib-source-maps-4.0.1"
-      sources."istanbul-reports-3.1.5"
+      sources."istanbul-reports-3.1.6"
       sources."js-levenshtein-1.1.6"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
