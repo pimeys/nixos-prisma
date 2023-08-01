@@ -328,15 +328,6 @@ let
         sha512 = "ZYqUixxg1RxA9wGd66PF0fmzq5x94gtTeL1FnQm1E2iPE5BgoUmetrR1f40/t32SmmvgOWOpczoVxJINS336bg==";
       };
     };
-    "@prisma/prisma-schema-wasm-4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584" = {
-      name = "_at_prisma_slash_prisma-schema-wasm";
-      packageName = "@prisma/prisma-schema-wasm";
-      version = "4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584.tgz";
-        sha512 = "JFdsnSgBPN8reDTLOI9Vh/6ccCb2aD1LbY/LWQnkcIgNo6IdpzvuM+qRVbBuA6IZP2SdqQI8Lu6RL2P8EFBQUA==";
-      };
-    };
     "@prisma/prisma-schema-wasm-5.1.0-28.a9b7003df90aa623086e4d6f4e43c72468e6339b" = {
       name = "_at_prisma_slash_prisma-schema-wasm";
       packageName = "@prisma/prisma-schema-wasm";
@@ -2161,10 +2152,10 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "5.0.63";
+    version = "5.1.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-5.0.63.tgz";
-      sha512 = "jMXjfu5Uw20FMr4ZvV5p0tjZzbcNZpfcZXnAM52yweBHDo+gxyZf5cw1jh2Pv/thQo4Yoj0za2KnerfVMaAIQg==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-5.1.0.tgz";
+      sha512 = "n7TS0Wgupl4FXytRrR8vCgjfoJEmKuHIHLaYrServN6pWnEyKY/vAYAhDRPYV/IduxV1ZzPqCJvdGRK/53Gf4w==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2200,7 +2191,7 @@ in
           sources."@jridgewell/sourcemap-codec-1.4.14"
         ];
       })
-      sources."@prisma/prisma-schema-wasm-4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584"
+      sources."@prisma/prisma-schema-wasm-5.1.0-28.a9b7003df90aa623086e4d6f4e43c72468e6339b"
       sources."@types/js-levenshtein-1.1.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
