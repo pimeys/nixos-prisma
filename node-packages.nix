@@ -319,15 +319,6 @@ let
         sha512 = "ZYqUixxg1RxA9wGd66PF0fmzq5x94gtTeL1FnQm1E2iPE5BgoUmetrR1f40/t32SmmvgOWOpczoVxJINS336bg==";
       };
     };
-    "@prisma/prisma-schema-wasm-5.1.0-28.a9b7003df90aa623086e4d6f4e43c72468e6339b" = {
-      name = "_at_prisma_slash_prisma-schema-wasm";
-      packageName = "@prisma/prisma-schema-wasm";
-      version = "5.1.0-28.a9b7003df90aa623086e4d6f4e43c72468e6339b";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-5.1.0-28.a9b7003df90aa623086e4d6f4e43c72468e6339b.tgz";
-        sha512 = "rm2mg85O/p99NhOgQfXwP78CCo+bkWNI1vNveQqmmlnra/74vYbvEj/Er+u3ML2u8Kl5tPRzuewt3RYkT36eFw==";
-      };
-    };
     "@prisma/prisma-schema-wasm-5.2.0-25.2804dc98259d2ea960602aca6b8e7fdc03c1758f" = {
       name = "_at_prisma_slash_prisma-schema-wasm";
       packageName = "@prisma/prisma-schema-wasm";
@@ -2152,10 +2143,10 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "5.1.0";
+    version = "5.2.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-5.1.0.tgz";
-      sha512 = "n7TS0Wgupl4FXytRrR8vCgjfoJEmKuHIHLaYrServN6pWnEyKY/vAYAhDRPYV/IduxV1ZzPqCJvdGRK/53Gf4w==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-5.2.0.tgz";
+      sha512 = "pYoH9pZkkAYqaDTyMP+viuOBvNOJjHJQc9o2uStknw4JJ9JTOcRSGsGu74rgHdJEIOQReFAk15mZ+ONlb3nNNw==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2187,7 +2178,7 @@ in
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
       sources."@jridgewell/trace-mapping-0.3.19"
-      sources."@prisma/prisma-schema-wasm-5.1.0-28.a9b7003df90aa623086e4d6f4e43c72468e6339b"
+      sources."@prisma/prisma-schema-wasm-5.2.0-25.2804dc98259d2ea960602aca6b8e7fdc03c1758f"
       sources."@types/js-levenshtein-1.1.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
