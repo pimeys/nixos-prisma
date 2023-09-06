@@ -166,13 +166,13 @@ let
         sha512 = "C/BaXcnnvBCmHTpz/VGZ8jgtE2aYlW4hxDhseJAWZb7gqGM/qtCK6iZUb0TyKFf7BOUsBH7Q7fkRsDRhg1XklQ==";
       };
     };
-    "@babel/parser-7.22.15" = {
+    "@babel/parser-7.22.16" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.22.15";
+      version = "7.22.16";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.22.15.tgz";
-        sha512 = "RWmQ/sklUN9BvGGpCDgSubhHWfAx24XDTDObup4ffvxaYsptOg2P3KG0j+1eWKLxpkX0j0uHxmpq2Z1SP/VhxA==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.22.16.tgz";
+        sha512 = "+gPfKv8UWeKKeJTUxe59+OobVcrYHETCsORl61EmSkmgymguYk/X5bp7GuUIXaFsc6y++v8ZxPsLSSuujqDphA==";
       };
     };
     "@babel/template-7.22.15" = {
@@ -2176,7 +2176,7 @@ in
       sources."@babel/helper-validator-option-7.22.15"
       sources."@babel/helpers-7.22.15"
       sources."@babel/highlight-7.22.13"
-      sources."@babel/parser-7.22.15"
+      sources."@babel/parser-7.22.16"
       sources."@babel/template-7.22.15"
       sources."@babel/traverse-7.22.15"
       sources."@babel/types-7.22.15"
@@ -2366,7 +2366,7 @@ in
       sources."@babel/helper-validator-option-7.22.15"
       sources."@babel/helpers-7.22.15"
       sources."@babel/highlight-7.22.13"
-      sources."@babel/parser-7.22.15"
+      sources."@babel/parser-7.22.16"
       sources."@babel/template-7.22.15"
       sources."@babel/traverse-7.22.15"
       sources."@babel/types-7.22.15"
