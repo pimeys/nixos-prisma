@@ -328,6 +328,15 @@ let
         sha512 = "XJZdIKjjITdpM6h806lnAPNu1VZsl8e/DZ8QN9ecZgbyC3X3sU8kxdYtvKziLSQKiU6suECAaWEBNEa9x5JDzw==";
       };
     };
+    "@prisma/prisma-schema-wasm-5.3.0-39.5106138372c1c3548573a157b3853d067694f669" = {
+      name = "_at_prisma_slash_prisma-schema-wasm";
+      packageName = "@prisma/prisma-schema-wasm";
+      version = "5.3.0-39.5106138372c1c3548573a157b3853d067694f669";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-5.3.0-39.5106138372c1c3548573a157b3853d067694f669.tgz";
+        sha512 = "v9DEbGfMbMAmuA3kOsjWdZAJoQbnKj+lUTewxIkG40vkwxAViTTKvcW0Z69b+n9Y072XDqW+zXDDyc8munKviA==";
+      };
+    };
     "@tootallnate/once-1.1.2" = {
       name = "_at_tootallnate_slash_once";
       packageName = "@tootallnate/once";
@@ -2333,10 +2342,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.2710";
+    version = "31.0.2712";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2710.tgz";
-      sha512 = "sOL97b/68Zqq/NYw1ofnu+xgZ2SaqDcxVXiAPsZo3H+VdZ37fA8LWeQsJiZgrkkUfRqjE9ez1iG5Wgylax3R2w==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2712.tgz";
+      sha512 = "ZTF6U13azkpUZgWMFf0/Ch0uvnFBP3tkmjD9bZoRz611UkajcmwMDbkUWJ3KZDvZnsrsBkf/FsjFnKnOjTPVYQ==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2368,7 +2377,7 @@ in
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
       sources."@jridgewell/trace-mapping-0.3.19"
-      sources."@prisma/prisma-schema-wasm-5.3.0-36.e90b936d84779543cbe0e494bc8b9d7337fad8e4"
+      sources."@prisma/prisma-schema-wasm-5.3.0-39.5106138372c1c3548573a157b3853d067694f669"
       sources."@types/js-levenshtein-1.1.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
