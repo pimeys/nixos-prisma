@@ -481,13 +481,13 @@ let
         sha512 = "b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==";
       };
     };
-    "browserslist-4.21.10" = {
+    "browserslist-4.21.11" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.21.10";
+      version = "4.21.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.21.10.tgz";
-        sha512 = "bipEBdZfVH5/pwrvqc+Ub0kUPVfGUhlKxbvfD+z1BDnPEO/X98ruXGA1WP5ASpAFKan7Qr6j736IacbZQuAlKQ==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.21.11.tgz";
+        sha512 = "xn1UXOKUz7DjdGlg9RrUr0GGiWzI97UQJnugHtH0OLDfJB7jMgoIkYvRIEO1l9EeEERVqeqLYOcFBW9ldjypbQ==";
       };
     };
     "caching-transform-4.0.0" = {
@@ -2197,7 +2197,7 @@ in
       sources."argparse-1.0.10"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.21.10"
+      sources."browserslist-4.21.11"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
       sources."caniuse-lite-1.0.30001538"
@@ -2387,7 +2387,7 @@ in
       sources."argparse-1.0.10"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.21.10"
+      sources."browserslist-4.21.11"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
       sources."caniuse-lite-1.0.30001538"
