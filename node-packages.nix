@@ -328,13 +328,13 @@ let
         sha512 = "+zUI7NQDXfcNnU8HgrAj4jRMv8yRfITLzcfv0Urf0adKimM+hkkVG4rX38i9zWMlxekkEBw7NLFx3Gxxy8d3iQ==";
       };
     };
-    "@prisma/prisma-schema-wasm-5.4.0-35.147b77a820feb1786449562fdffa0c015193eebc" = {
+    "@prisma/prisma-schema-wasm-5.4.0-37.109b8f121d606613e20abfe67c2348a5d636b6df" = {
       name = "_at_prisma_slash_prisma-schema-wasm";
       packageName = "@prisma/prisma-schema-wasm";
-      version = "5.4.0-35.147b77a820feb1786449562fdffa0c015193eebc";
+      version = "5.4.0-37.109b8f121d606613e20abfe67c2348a5d636b6df";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-5.4.0-35.147b77a820feb1786449562fdffa0c015193eebc.tgz";
-        sha512 = "mdqv3p/SnUD3QOHsX2SNl6y6Ykx76pGMYIcyC+YbQI93oPQBrZWhiDL0bmCrWGRFynMTLGCfsyglwxhStcxytQ==";
+        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-5.4.0-37.109b8f121d606613e20abfe67c2348a5d636b6df.tgz";
+        sha512 = "1WNwrjMi7YcyfOIY9EkXbvMFk7gaZkDmeHlDDVxhm5xrYEA5LirqbvlNY7bTALXUaA3A5HFQZaOQjFMa7J/oaw==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -481,13 +481,13 @@ let
         sha512 = "b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==";
       };
     };
-    "browserslist-4.22.0" = {
+    "browserslist-4.22.1" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.22.0";
+      version = "4.22.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.22.0.tgz";
-        sha512 = "v+Jcv64L2LbfTC6OnRcaxtqJNJuQAVhZKSJfR/6hn7lhnChUXl4amwVviqN1k411BB+3rRoKMitELRn1CojeRA==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.22.1.tgz";
+        sha512 = "FEVc202+2iuClEhZhrWy6ZiAcRLvNMyYcxZ8raemul1DYVOVdFsbqckWLdsixQZCpJlwe77Z3UTalE7jsjnKfQ==";
       };
     };
     "caching-transform-4.0.0" = {
@@ -2219,7 +2219,7 @@ in
       sources."argparse-1.0.10"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.22.0"
+      sources."browserslist-4.22.1"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
       sources."caniuse-lite-1.0.30001541"
@@ -2364,10 +2364,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.2778";
+    version = "31.0.2779";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2778.tgz";
-      sha512 = "7Ie/Q1T8Oa3TOrtFQbZHaqckBXLPHlFDs7llcmdX4X2Vi+LPRNUvUDmFo7mpTFZbz0PI6ZEi6ZDL+nKcRfEa6g==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2779.tgz";
+      sha512 = "v+Nq2LryQ3XSitC+RoNXfQBG7VKw4IsQ6ptoHgnCIq5oL5uPhQg+cuHoGS61od3n+yPBkyOP7tLRzDonsKY21g==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2403,7 +2403,7 @@ in
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
       sources."@jridgewell/trace-mapping-0.3.19"
-      sources."@prisma/prisma-schema-wasm-5.4.0-35.147b77a820feb1786449562fdffa0c015193eebc"
+      sources."@prisma/prisma-schema-wasm-5.4.0-37.109b8f121d606613e20abfe67c2348a5d636b6df"
       sources."@types/js-levenshtein-1.1.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
@@ -2413,7 +2413,7 @@ in
       sources."argparse-1.0.10"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.22.0"
+      sources."browserslist-4.22.1"
       sources."caching-transform-4.0.0"
       sources."camelcase-5.3.1"
       sources."caniuse-lite-1.0.30001541"
