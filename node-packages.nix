@@ -319,15 +319,6 @@ let
         sha512 = "ZYqUixxg1RxA9wGd66PF0fmzq5x94gtTeL1FnQm1E2iPE5BgoUmetrR1f40/t32SmmvgOWOpczoVxJINS336bg==";
       };
     };
-    "@prisma/prisma-schema-wasm-5.3.1-2.61e140623197a131c2a6189271ffee05a7aa9a59" = {
-      name = "_at_prisma_slash_prisma-schema-wasm";
-      packageName = "@prisma/prisma-schema-wasm";
-      version = "5.3.1-2.61e140623197a131c2a6189271ffee05a7aa9a59";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-5.3.1-2.61e140623197a131c2a6189271ffee05a7aa9a59.tgz";
-        sha512 = "+zUI7NQDXfcNnU8HgrAj4jRMv8yRfITLzcfv0Urf0adKimM+hkkVG4rX38i9zWMlxekkEBw7NLFx3Gxxy8d3iQ==";
-      };
-    };
     "@prisma/prisma-schema-wasm-5.4.0-47.a5596b96668f0f4b397761ce0956db54e17e48c4" = {
       name = "_at_prisma_slash_prisma-schema-wasm";
       packageName = "@prisma/prisma-schema-wasm";
@@ -2029,15 +2020,6 @@ let
         sha512 = "X+8T3GoiwTVlJbicx/sIAF+yuJAqz8VvwJyoMVhwEMoEKE/fkDmrqUgDMyBECcM2A2frVZIUj5HI/ErRXCfOeA==";
       };
     };
-    "vscode-languageserver-textdocument-1.0.8" = {
-      name = "vscode-languageserver-textdocument";
-      packageName = "vscode-languageserver-textdocument";
-      version = "1.0.8";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.8.tgz";
-        sha512 = "1bonkGqQs5/fxGT5UchTgjGVnfysL0O8v1AYMBjqTbWQTFn721zaPGDYFkOKtfDgFiSgXM3KwaG3FMGfW4Ed9Q==";
-      };
-    };
     "vscode-languageserver-types-3.16.0" = {
       name = "vscode-languageserver-types";
       packageName = "vscode-languageserver-types";
@@ -2170,10 +2152,10 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "5.3.1";
+    version = "5.4.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-5.3.1.tgz";
-      sha512 = "6ceoPN03gG1JBoZK0ufrmYLLS6g6JbBzpbDewwPc6FI+w3cPAnLmMRfmwqSl6Uy3lUMPzx2iqAHX2mlQovC9Mg==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-5.4.0.tgz";
+      sha512 = "iTfOVYOJNi7wLPurLYHP9iZ2IuX0LFl0cDKSE8BiVgAjjhqdWLq2PMEuHJMlvJDy2X5uWMR5F6vF0toqAy61nA==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2209,7 +2191,7 @@ in
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
       sources."@jridgewell/trace-mapping-0.3.19"
-      sources."@prisma/prisma-schema-wasm-5.3.1-2.61e140623197a131c2a6189271ffee05a7aa9a59"
+      sources."@prisma/prisma-schema-wasm-5.4.0-47.a5596b96668f0f4b397761ce0956db54e17e48c4"
       sources."@types/js-levenshtein-1.1.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
@@ -2333,7 +2315,7 @@ in
       sources."vscode-jsonrpc-8.1.0"
       sources."vscode-languageserver-8.1.0"
       sources."vscode-languageserver-protocol-3.17.3"
-      sources."vscode-languageserver-textdocument-1.0.8"
+      sources."vscode-languageserver-textdocument-1.0.11"
       sources."vscode-languageserver-types-3.17.3"
       sources."which-2.0.2"
       sources."which-module-2.0.1"
