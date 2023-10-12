@@ -31,13 +31,13 @@ let
         sha512 = "0S9TQMmDHlqAZ2ITT95irXKfxN9bncq8ZCoJhun3nHL/lLUxd2NKBJYoNGWH7S0hz6fRQwWlAWn/ILM0C70KZQ==";
       };
     };
-    "@babel/core-7.23.0" = {
+    "@babel/core-7.23.2" = {
       name = "_at_babel_slash_core";
       packageName = "@babel/core";
-      version = "7.23.0";
+      version = "7.23.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/core/-/core-7.23.0.tgz";
-        sha512 = "97z/ju/Jy1rZmDxybphrBuI+jtJjFVoz7Mr9yUQVVVi+DNZE333uFQeMOqcCIy1x3WYBIbWftUSLmbNXNT7qFQ==";
+        url = "https://registry.npmjs.org/@babel/core/-/core-7.23.2.tgz";
+        sha512 = "n7s51eWdaWZ3vGT2tD4T7J6eJs3QoBXydv7vkUM06Bf1cbVD2Kc2UrkzhiQwobfV7NwOnQXYL7UBJ5VPU+RGoQ==";
       };
     };
     "@babel/generator-7.23.0" = {
@@ -2170,7 +2170,7 @@ in
       sources."@ampproject/remapping-2.2.1"
       sources."@babel/code-frame-7.22.13"
       sources."@babel/compat-data-7.23.2"
-      (sources."@babel/core-7.23.0" // {
+      (sources."@babel/core-7.23.2" // {
         dependencies = [
           sources."convert-source-map-2.0.0"
         ];
@@ -2364,7 +2364,7 @@ in
       sources."@ampproject/remapping-2.2.1"
       sources."@babel/code-frame-7.22.13"
       sources."@babel/compat-data-7.23.2"
-      (sources."@babel/core-7.23.0" // {
+      (sources."@babel/core-7.23.2" // {
         dependencies = [
           sources."convert-source-map-2.0.0"
         ];
