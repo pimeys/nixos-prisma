@@ -373,13 +373,13 @@ let
         sha512 = "/NCbMABw2uacuyE16Iwka1EzREDD50/W2ggRBad0y1WHBvAkvR9OEINxModVY7D428gXBe0igeVX7bUc9GaslQ==";
       };
     };
-    "@types/retry-0.12.3" = {
+    "@types/retry-0.12.4" = {
       name = "_at_types_slash_retry";
       packageName = "@types/retry";
-      version = "0.12.3";
+      version = "0.12.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/retry/-/retry-0.12.3.tgz";
-        sha512 = "rkxEZUFIyDEZhC6EfHz6Hwos2zXewCOLBzhdgv7D55qu4OAySNwDZzxbaMpFI6XthdBa5oHhR5s6/9MSuTfw4g==";
+        url = "https://registry.npmjs.org/@types/retry/-/retry-0.12.4.tgz";
+        sha512 = "l1YzFLj8Y6OhLdt7HKXlz56DoEmksB7qR8KVk+MpFsS4duwnoszLgDlLxJB0vgSqtg/rAS5gmYg5Bjw2sMJ8Ew==";
       };
     };
     "agent-base-6.0.2" = {
@@ -2572,7 +2572,7 @@ in
       sources."@prisma/get-platform-2.20.0-dev.6"
       sources."@tootallnate/once-1.1.2"
       sources."@types/js-levenshtein-1.1.0"
-      sources."@types/retry-0.12.3"
+      sources."@types/retry-0.12.4"
       sources."agent-base-6.0.2"
       sources."aggregate-error-3.1.0"
       sources."ansi-styles-4.3.0"
