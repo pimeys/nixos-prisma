@@ -1120,13 +1120,13 @@ let
         sha512 = "RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==";
       };
     };
-    "istanbul-lib-coverage-3.2.0" = {
+    "istanbul-lib-coverage-3.2.1" = {
       name = "istanbul-lib-coverage";
       packageName = "istanbul-lib-coverage";
-      version = "3.2.0";
+      version = "3.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/istanbul-lib-coverage/-/istanbul-lib-coverage-3.2.0.tgz";
-        sha512 = "eOeJ5BHCmHYvQK7xt9GkdHuzuCGS1Y6g9Gvnx3Ym33fz/HpLRYxiS0wHNr+m/MBC8B647Xt608vCDEvhl9c6Mw==";
+        url = "https://registry.npmjs.org/istanbul-lib-coverage/-/istanbul-lib-coverage-3.2.1.tgz";
+        sha512 = "opCrKqbthmq3SKZ10mFMQG9dk3fTa3quaOLD35kJa5ejwZHd9xAr+kLuziiZz2cG32s4lMZxNdmdcEQnTDP4+g==";
       };
     };
     "istanbul-lib-hook-3.0.0" = {
@@ -2255,7 +2255,7 @@ in
       sources."is-typedarray-1.0.0"
       sources."is-windows-1.0.2"
       sources."isexe-2.0.0"
-      sources."istanbul-lib-coverage-3.2.0"
+      sources."istanbul-lib-coverage-3.2.1"
       sources."istanbul-lib-hook-3.0.0"
       sources."istanbul-lib-instrument-4.0.3"
       sources."istanbul-lib-processinfo-2.0.3"
@@ -2355,10 +2355,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.2940";
+    version = "31.0.2941";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2940.tgz";
-      sha512 = "XbBG64aDQ4+MdUZnIp/a2JzXQibRz6mtrpLxB+fPnEDyIYEUQLIMysHKfgWPZXf2dXSTFxLWK3HbtMfdrR5/og==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2941.tgz";
+      sha512 = "hBaR8jWTJEXL3am8g4lK75lqD8I6TqZ+Syw/MnJ4afcbACw7mJcVupcOvVry1tk8Yi1lkT4Ja/ql5tWddanK+g==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2449,7 +2449,7 @@ in
       sources."is-typedarray-1.0.0"
       sources."is-windows-1.0.2"
       sources."isexe-2.0.0"
-      sources."istanbul-lib-coverage-3.2.0"
+      sources."istanbul-lib-coverage-3.2.1"
       sources."istanbul-lib-hook-3.0.0"
       sources."istanbul-lib-instrument-4.0.3"
       sources."istanbul-lib-processinfo-2.0.3"
