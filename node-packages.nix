@@ -1129,13 +1129,13 @@ let
         sha512 = "RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==";
       };
     };
-    "istanbul-lib-coverage-3.2.1" = {
+    "istanbul-lib-coverage-3.2.2" = {
       name = "istanbul-lib-coverage";
       packageName = "istanbul-lib-coverage";
-      version = "3.2.1";
+      version = "3.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/istanbul-lib-coverage/-/istanbul-lib-coverage-3.2.1.tgz";
-        sha512 = "opCrKqbthmq3SKZ10mFMQG9dk3fTa3quaOLD35kJa5ejwZHd9xAr+kLuziiZz2cG32s4lMZxNdmdcEQnTDP4+g==";
+        url = "https://registry.npmjs.org/istanbul-lib-coverage/-/istanbul-lib-coverage-3.2.2.tgz";
+        sha512 = "O8dpsF+r0WV/8MNRKfnmrtCWhuKjxrq2w+jpzBL5UZKTi2LeVWnWOmWRxFlesJONmc+wLAGvKQZEOanko0LFTg==";
       };
     };
     "istanbul-lib-hook-3.0.0" = {
@@ -2264,7 +2264,7 @@ in
       sources."is-typedarray-1.0.0"
       sources."is-windows-1.0.2"
       sources."isexe-2.0.0"
-      sources."istanbul-lib-coverage-3.2.1"
+      sources."istanbul-lib-coverage-3.2.2"
       sources."istanbul-lib-hook-3.0.0"
       sources."istanbul-lib-instrument-4.0.3"
       sources."istanbul-lib-processinfo-2.0.3"
@@ -2458,7 +2458,7 @@ in
       sources."is-typedarray-1.0.0"
       sources."is-windows-1.0.2"
       sources."isexe-2.0.0"
-      sources."istanbul-lib-coverage-3.2.1"
+      sources."istanbul-lib-coverage-3.2.2"
       sources."istanbul-lib-hook-3.0.0"
       sources."istanbul-lib-instrument-4.0.3"
       sources."istanbul-lib-processinfo-2.0.3"
