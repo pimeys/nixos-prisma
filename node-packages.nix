@@ -985,13 +985,13 @@ let
         sha512 = "B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==";
       };
     };
-    "ignore-5.2.4" = {
+    "ignore-5.3.0" = {
       name = "ignore";
       packageName = "ignore";
-      version = "5.2.4";
+      version = "5.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ignore/-/ignore-5.2.4.tgz";
-        sha512 = "MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==";
+        url = "https://registry.npmjs.org/ignore/-/ignore-5.3.0.tgz";
+        sha512 = "g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==";
       };
     };
     "imurmurhash-0.1.4" = {
@@ -2355,10 +2355,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.2996";
+    version = "31.0.2998";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2996.tgz";
-      sha512 = "bpqQ5J5lPSnwOeg73Al8QCK1p/xYjDayLz/HmrcfRBIIGENWxDWWS2h622txXiATIc8ny6yM9UAXKjFlIww0oQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.2998.tgz";
+      sha512 = "u0Szzc4vbHPZuSgdQXaPWxWg96T3wLAejL2PhBJxVQvNOuYI/01w/Jr0qi89YgrScHBDcY8BEYw0KHRA1IQvVg==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2607,7 +2607,7 @@ in
       sources."http-proxy-agent-4.0.1"
       sources."https-proxy-agent-5.0.1"
       sources."human-signals-2.1.0"
-      sources."ignore-5.2.4"
+      sources."ignore-5.3.0"
       sources."indent-string-4.0.0"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
