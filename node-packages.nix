@@ -328,6 +328,15 @@ let
         sha512 = "w+HdQtux0dJDEn6BG3fgNn+fXErXiekj9n//uHRAgrmZghockJkhnikOmG8aSXjTb1Tu5DrGasBX+rYX6rHT1w==";
       };
     };
+    "@prisma/prisma-schema-wasm-5.8.0-1.da4bf559274ccd73e7ec1150914aa716176fc859" = {
+      name = "_at_prisma_slash_prisma-schema-wasm";
+      packageName = "@prisma/prisma-schema-wasm";
+      version = "5.8.0-1.da4bf559274ccd73e7ec1150914aa716176fc859";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-5.8.0-1.da4bf559274ccd73e7ec1150914aa716176fc859.tgz";
+        sha512 = "2eplJ3a2C+E+h1qCkNT3DKqZw7oj21sB4HrTEzOipCpRG734acXo3yM5FVGFmLqL2usUNvwCusfar8bqrcguAQ==";
+      };
+    };
     "@tootallnate/once-1.1.2" = {
       name = "_at_tootallnate_slash_once";
       packageName = "@tootallnate/once";
@@ -2346,10 +2355,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.3114";
+    version = "31.0.3115";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3114.tgz";
-      sha512 = "nOzhKmeNkK6yYyKxdnGLJjXcpDwqhATv6tuT/L3ez3w5iqm8D15Jk/Z+XHbdTZLiYj5/xaIprHf71xIYHLPZ9Q==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3115.tgz";
+      sha512 = "U0NVA0gfB9asAXjzOq3MEH0mZCjCVFdwRIk2PTD2KQOhV+xNBivluvx/HC7C9Zc6QzKm5nN4ITAjU0jlux/ILw==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2385,7 +2394,7 @@ in
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
       sources."@jridgewell/trace-mapping-0.3.20"
-      sources."@prisma/prisma-schema-wasm-5.7.0-41.79fb5193cf0a8fdbef536e4b4a159cad677ab1b9"
+      sources."@prisma/prisma-schema-wasm-5.8.0-1.da4bf559274ccd73e7ec1150914aa716176fc859"
       sources."@types/js-levenshtein-1.1.3"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
