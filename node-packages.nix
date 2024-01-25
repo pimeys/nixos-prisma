@@ -31,13 +31,13 @@ let
         sha512 = "uU27kfDRlhfKl+w1U6vp16IuvSLtjAxdArVXPa9BvLkrr7CYIsxH5adpHObeAGY/41+syctUWOZ140a2Rvkgjw==";
       };
     };
-    "@babel/core-7.23.7" = {
+    "@babel/core-7.23.9" = {
       name = "_at_babel_slash_core";
       packageName = "@babel/core";
-      version = "7.23.7";
+      version = "7.23.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/core/-/core-7.23.7.tgz";
-        sha512 = "+UpDgowcmqe36d4NwqvKsyPMlOLNGMsfMmQ5WGCu+siCe3t3dfe9njrzGfdN4qq+bcNUt0+Vw6haRxBOycs4dw==";
+        url = "https://registry.npmjs.org/@babel/core/-/core-7.23.9.tgz";
+        sha512 = "5q0175NOjddqpvvzU+kDiSOAk4PfdO6FvwCWoQ6RO7rTzEe8vlo+4HVfcnAREhD4npMs0e9uZypjTwzZPCf/cw==";
       };
     };
     "@babel/generator-7.23.6" = {
@@ -148,13 +148,13 @@ let
         sha512 = "85ttAOMLsr53VgXkTbkx8oA6YTfT4q7/HzXSLEYmjcSTJPMPQtvq1BD79Byep5xMUYbGRzEpDsjUf3dyp54IKw==";
       };
     };
-    "@babel/helpers-7.23.8" = {
+    "@babel/helpers-7.23.9" = {
       name = "_at_babel_slash_helpers";
       packageName = "@babel/helpers";
-      version = "7.23.8";
+      version = "7.23.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/helpers/-/helpers-7.23.8.tgz";
-        sha512 = "KDqYz4PiOWvDFrdHLPhKtCThtIcKVy6avWD2oG4GEvyQ+XDZwHD4YQd+H2vNMnq2rkdxsDkU82T+Vk8U/WXHRQ==";
+        url = "https://registry.npmjs.org/@babel/helpers/-/helpers-7.23.9.tgz";
+        sha512 = "87ICKgU5t5SzOT7sBMfCOZQ2rHjRU+Pcb9BoILMYz600W6DkVRLFBPwQ18gwUVvggqXivaUakpnxWQGbpywbBQ==";
       };
     };
     "@babel/highlight-7.23.4" = {
@@ -166,40 +166,40 @@ let
         sha512 = "acGdbYSfp2WheJoJm/EBBBLh/ID8KDc64ISZ9DYtBmC8/Q204PZJLHyzeB5qMzJ5trcOkybd78M4x2KWsUq++A==";
       };
     };
-    "@babel/parser-7.23.6" = {
+    "@babel/parser-7.23.9" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.23.6";
+      version = "7.23.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.23.6.tgz";
-        sha512 = "Z2uID7YJ7oNvAI20O9X0bblw7Qqs8Q2hFy0R9tAfnfLkp5MW0UH9eUvnDSnFwKZ0AvgS1ucqR4KzvVHgnke1VQ==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.23.9.tgz";
+        sha512 = "9tcKgqKbs3xGJ+NtKF2ndOBBLVwPjl1SHxPQkd36r3Dlirw3xWUeGaTbqr7uGZcTaxkVNwc+03SVP7aCdWrTlA==";
       };
     };
-    "@babel/template-7.22.15" = {
+    "@babel/template-7.23.9" = {
       name = "_at_babel_slash_template";
       packageName = "@babel/template";
-      version = "7.22.15";
+      version = "7.23.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/template/-/template-7.22.15.tgz";
-        sha512 = "QPErUVm4uyJa60rkI73qneDacvdvzxshT3kksGqlGWYdOTIUOwJ7RDUL8sGqslY1uXWSL6xMFKEXDS3ox2uF0w==";
+        url = "https://registry.npmjs.org/@babel/template/-/template-7.23.9.tgz";
+        sha512 = "+xrD2BWLpvHKNmX2QbpdpsBaWnRxahMwJjO+KZk2JOElj5nSmKezyS1B4u+QbHMTX69t4ukm6hh9lsYQ7GHCKA==";
       };
     };
-    "@babel/traverse-7.23.7" = {
+    "@babel/traverse-7.23.9" = {
       name = "_at_babel_slash_traverse";
       packageName = "@babel/traverse";
-      version = "7.23.7";
+      version = "7.23.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/traverse/-/traverse-7.23.7.tgz";
-        sha512 = "tY3mM8rH9jM0YHFGyfC0/xf+SB5eKUu7HPj7/k3fpi9dAlsMc5YbQvDi0Sh2QTPXqMhyaAtzAr807TIyfQrmyg==";
+        url = "https://registry.npmjs.org/@babel/traverse/-/traverse-7.23.9.tgz";
+        sha512 = "I/4UJ9vs90OkBtY6iiiTORVMyIhJ4kAVmsKo9KFc8UOxMeUfi2hvtIBsET5u9GizXE6/GFSuKCTNfgCswuEjRg==";
       };
     };
-    "@babel/types-7.23.6" = {
+    "@babel/types-7.23.9" = {
       name = "_at_babel_slash_types";
       packageName = "@babel/types";
-      version = "7.23.6";
+      version = "7.23.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/types/-/types-7.23.6.tgz";
-        sha512 = "+uarb83brBzPKN38NX1MkB6vb6+mwvR6amUulqAE7ccQw1pEl+bCia9TbdG1lsnFP7lZySvUn37CHyXQdfTwzg==";
+        url = "https://registry.npmjs.org/@babel/types/-/types-7.23.9.tgz";
+        sha512 = "dQjSq/7HaSjRM43FFGnv5keM2HsxpmyV1PfaSVm0nzzjwwTmjOe6J4bC8e3+pTEIgHaHj+1ZlLThRJ2auc/w1Q==";
       };
     };
     "@istanbuljs/load-nyc-config-1.1.0" = {
@@ -2170,7 +2170,7 @@ in
       sources."@ampproject/remapping-2.2.1"
       sources."@babel/code-frame-7.23.5"
       sources."@babel/compat-data-7.23.5"
-      (sources."@babel/core-7.23.7" // {
+      (sources."@babel/core-7.23.9" // {
         dependencies = [
           sources."convert-source-map-2.0.0"
         ];
@@ -2187,12 +2187,12 @@ in
       sources."@babel/helper-string-parser-7.23.4"
       sources."@babel/helper-validator-identifier-7.22.20"
       sources."@babel/helper-validator-option-7.23.5"
-      sources."@babel/helpers-7.23.8"
+      sources."@babel/helpers-7.23.9"
       sources."@babel/highlight-7.23.4"
-      sources."@babel/parser-7.23.6"
-      sources."@babel/template-7.22.15"
-      sources."@babel/traverse-7.23.7"
-      sources."@babel/types-7.23.6"
+      sources."@babel/parser-7.23.9"
+      sources."@babel/template-7.23.9"
+      sources."@babel/traverse-7.23.9"
+      sources."@babel/types-7.23.9"
       sources."@istanbuljs/load-nyc-config-1.1.0"
       sources."@istanbuljs/schema-0.1.3"
       sources."@jridgewell/gen-mapping-0.3.3"
@@ -2364,7 +2364,7 @@ in
       sources."@ampproject/remapping-2.2.1"
       sources."@babel/code-frame-7.23.5"
       sources."@babel/compat-data-7.23.5"
-      (sources."@babel/core-7.23.7" // {
+      (sources."@babel/core-7.23.9" // {
         dependencies = [
           sources."convert-source-map-2.0.0"
         ];
@@ -2381,12 +2381,12 @@ in
       sources."@babel/helper-string-parser-7.23.4"
       sources."@babel/helper-validator-identifier-7.22.20"
       sources."@babel/helper-validator-option-7.23.5"
-      sources."@babel/helpers-7.23.8"
+      sources."@babel/helpers-7.23.9"
       sources."@babel/highlight-7.23.4"
-      sources."@babel/parser-7.23.6"
-      sources."@babel/template-7.22.15"
-      sources."@babel/traverse-7.23.7"
-      sources."@babel/types-7.23.6"
+      sources."@babel/parser-7.23.9"
+      sources."@babel/template-7.23.9"
+      sources."@babel/traverse-7.23.9"
+      sources."@babel/types-7.23.9"
       sources."@istanbuljs/load-nyc-config-1.1.0"
       sources."@istanbuljs/schema-0.1.3"
       sources."@jridgewell/gen-mapping-0.3.3"
