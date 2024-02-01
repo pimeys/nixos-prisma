@@ -976,13 +976,13 @@ let
         sha512 = "B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==";
       };
     };
-    "ignore-5.3.0" = {
+    "ignore-5.3.1" = {
       name = "ignore";
       packageName = "ignore";
-      version = "5.3.0";
+      version = "5.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ignore/-/ignore-5.3.0.tgz";
-        sha512 = "g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==";
+        url = "https://registry.npmjs.org/ignore/-/ignore-5.3.1.tgz";
+        sha512 = "5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==";
       };
     };
     "imurmurhash-0.1.4" = {
@@ -2598,7 +2598,7 @@ in
       sources."http-proxy-agent-4.0.1"
       sources."https-proxy-agent-5.0.1"
       sources."human-signals-2.1.0"
-      sources."ignore-5.3.0"
+      sources."ignore-5.3.1"
       sources."indent-string-4.0.0"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
