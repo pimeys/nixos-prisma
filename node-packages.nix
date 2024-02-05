@@ -1723,13 +1723,13 @@ let
         sha512 = "BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==";
       };
     };
-    "semver-7.5.4" = {
+    "semver-7.6.0" = {
       name = "semver";
       packageName = "semver";
-      version = "7.5.4";
+      version = "7.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.5.4.tgz";
-        sha512 = "1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.6.0.tgz";
+        sha512 = "EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==";
       };
     };
     "set-blocking-2.0.0" = {
@@ -2264,7 +2264,7 @@ in
           sources."has-flag-4.0.0"
           sources."lru-cache-6.0.0"
           sources."make-dir-4.0.0"
-          sources."semver-7.5.4"
+          sources."semver-7.6.0"
           sources."supports-color-7.2.0"
           sources."yallist-4.0.0"
         ];
@@ -2458,7 +2458,7 @@ in
           sources."has-flag-4.0.0"
           sources."lru-cache-6.0.0"
           sources."make-dir-4.0.0"
-          sources."semver-7.5.4"
+          sources."semver-7.6.0"
           sources."supports-color-7.2.0"
           sources."yallist-4.0.0"
         ];
