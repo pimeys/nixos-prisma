@@ -724,13 +724,13 @@ let
         sha512 = "Um/+FxMr9CISWh0bi5Zv0iOD+4cFh5qLeks1qhAopKVAJw3drgKbKySikp7wGhDL0HPeaja0P5ULZrxLkniUVg==";
       };
     };
-    "escalade-3.1.1" = {
+    "escalade-3.1.2" = {
       name = "escalade";
       packageName = "escalade";
-      version = "3.1.1";
+      version = "3.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz";
-        sha512 = "k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==";
+        url = "https://registry.npmjs.org/escalade/-/escalade-3.1.2.tgz";
+        sha512 = "ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==";
       };
     };
     "escape-string-regexp-1.0.5" = {
@@ -2229,7 +2229,7 @@ in
       sources."electron-to-chromium-1.4.656"
       sources."emoji-regex-8.0.0"
       sources."es6-error-4.1.1"
-      sources."escalade-3.1.1"
+      sources."escalade-3.1.2"
       sources."escape-string-regexp-1.0.5"
       sources."esprima-4.0.1"
       sources."find-cache-dir-3.3.2"
@@ -2355,10 +2355,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.3275";
+    version = "31.0.3276";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3275.tgz";
-      sha512 = "whg99dVZf2EdkkQIQswsiCpU5+WZru+oaTAbZ83OeHPj73H7mPa2ubVFy2TQswCCOjrZ/OoIZSPwzAk96aqpAw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3276.tgz";
+      sha512 = "bJesrWX56Zisp+Dj0USoLogE1kiG65YRS7+wN7mc/k5CxcECNCLJ7GloH7eSf49I3G6Etyek/J66g/231lGTYQ==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2423,7 +2423,7 @@ in
       sources."electron-to-chromium-1.4.656"
       sources."emoji-regex-8.0.0"
       sources."es6-error-4.1.1"
-      sources."escalade-3.1.1"
+      sources."escalade-3.1.2"
       sources."escape-string-regexp-1.0.5"
       sources."esprima-4.0.1"
       sources."find-cache-dir-3.3.2"
