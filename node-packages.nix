@@ -319,13 +319,13 @@ let
         sha512 = "ZYqUixxg1RxA9wGd66PF0fmzq5x94gtTeL1FnQm1E2iPE5BgoUmetrR1f40/t32SmmvgOWOpczoVxJINS336bg==";
       };
     };
-    "@prisma/prisma-schema-wasm-5.10.0-28.58fef65a004e8cdbe4a2e3cd0847738ab8b6e331" = {
+    "@prisma/prisma-schema-wasm-5.10.0-29.3d78035b979b676786e5afa32cbae45604e161ba" = {
       name = "_at_prisma_slash_prisma-schema-wasm";
       packageName = "@prisma/prisma-schema-wasm";
-      version = "5.10.0-28.58fef65a004e8cdbe4a2e3cd0847738ab8b6e331";
+      version = "5.10.0-29.3d78035b979b676786e5afa32cbae45604e161ba";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-5.10.0-28.58fef65a004e8cdbe4a2e3cd0847738ab8b6e331.tgz";
-        sha512 = "fC5oGGCzRyo/Jn5WinN+Bjb0znn5DqU9euV6UKhmsrsz6thz3D/ClIsonxUGhpgo1FMlEE9Rv8b06DzeQM9N0A==";
+        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-5.10.0-29.3d78035b979b676786e5afa32cbae45604e161ba.tgz";
+        sha512 = "fqBU+viDcjPKuc4K6cLFB1efER10R+UFOj6DxNioUB/qYwnStYHgOHZupen90DFx8N4k5Yj2B3EeqkvHYGLvsA==";
       };
     };
     "@prisma/prisma-schema-wasm-5.9.0-32.23fdc5965b1e05fc54e5f26ed3de66776b93de64" = {
@@ -2355,10 +2355,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.3373";
+    version = "31.0.3374";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3373.tgz";
-      sha512 = "jt2TE3gfjeykqK6LJ/vXE3SQOilvauT6rWcDLnE8xQG9AX3QPOTel8QIHn7Yb2WRtaJbhgudpnxjXqq1+pz7SQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3374.tgz";
+      sha512 = "VWAks8Yduq0s/zA8QunKPenqp4O5HPagnK03wozmDL0g4A1pMOvhI2xaAKFYTRql5DCSv9u/DDIQIpV/shT2GA==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -2394,7 +2394,7 @@ in
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
       sources."@jridgewell/trace-mapping-0.3.22"
-      sources."@prisma/prisma-schema-wasm-5.10.0-28.58fef65a004e8cdbe4a2e3cd0847738ab8b6e331"
+      sources."@prisma/prisma-schema-wasm-5.10.0-29.3d78035b979b676786e5afa32cbae45604e161ba"
       sources."@types/js-levenshtein-1.1.3"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
