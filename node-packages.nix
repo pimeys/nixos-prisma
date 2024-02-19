@@ -1174,13 +1174,13 @@ let
         sha512 = "n3s8EwkdFIJCG3BPKBYvskgXGoy88ARzvegkitk60NxRdwltLOTaH7CUiMRXvwYorl0Q712iEjcWB+fK/MrWVw==";
       };
     };
-    "istanbul-reports-3.1.6" = {
+    "istanbul-reports-3.1.7" = {
       name = "istanbul-reports";
       packageName = "istanbul-reports";
-      version = "3.1.6";
+      version = "3.1.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/istanbul-reports/-/istanbul-reports-3.1.6.tgz";
-        sha512 = "TLgnMkKg3iTDsQ9PbPTdpfAK2DzjF9mqUG7RMgcQl8oFjad8ob4laGxv5XV5U9MAfx8D6tSJiUyuAwzLicaxlg==";
+        url = "https://registry.npmjs.org/istanbul-reports/-/istanbul-reports-3.1.7.tgz";
+        sha512 = "BewmUXImeuRk2YY0PVbxgKAysvhRPUQE0h5QRM++nVWyubKGV0l8qQ5op8+B2DOmwSe63Jivj0BjkPQVf8fP5g==";
       };
     };
     "js-levenshtein-1.1.6" = {
@@ -2270,7 +2270,7 @@ in
         ];
       })
       sources."istanbul-lib-source-maps-4.0.1"
-      sources."istanbul-reports-3.1.6"
+      sources."istanbul-reports-3.1.7"
       sources."js-levenshtein-1.1.6"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
@@ -2464,7 +2464,7 @@ in
         ];
       })
       sources."istanbul-lib-source-maps-4.0.1"
-      sources."istanbul-reports-3.1.6"
+      sources."istanbul-reports-3.1.7"
       sources."js-levenshtein-1.1.6"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
