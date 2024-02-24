@@ -220,13 +220,13 @@ let
         sha512 = "ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==";
       };
     };
-    "@jridgewell/gen-mapping-0.3.3" = {
+    "@jridgewell/gen-mapping-0.3.4" = {
       name = "_at_jridgewell_slash_gen-mapping";
       packageName = "@jridgewell/gen-mapping";
-      version = "0.3.3";
+      version = "0.3.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz";
-        sha512 = "HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==";
+        url = "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.4.tgz";
+        sha512 = "Oud2QPM5dHviZNn4y/WhhYKSXksv+1xLEIsNrAbGcFzUN3ubqWRFT5gwPchNc5NuzILOU4tPBDTZ4VwhL8Y7cw==";
       };
     };
     "@jridgewell/resolve-uri-3.1.2" = {
@@ -2195,7 +2195,7 @@ in
       sources."@babel/types-7.23.9"
       sources."@istanbuljs/load-nyc-config-1.1.0"
       sources."@istanbuljs/schema-0.1.3"
-      sources."@jridgewell/gen-mapping-0.3.3"
+      sources."@jridgewell/gen-mapping-0.3.4"
       sources."@jridgewell/resolve-uri-3.1.2"
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
@@ -2389,7 +2389,7 @@ in
       sources."@babel/types-7.23.9"
       sources."@istanbuljs/load-nyc-config-1.1.0"
       sources."@istanbuljs/schema-0.1.3"
-      sources."@jridgewell/gen-mapping-0.3.3"
+      sources."@jridgewell/gen-mapping-0.3.4"
       sources."@jridgewell/resolve-uri-3.1.2"
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
