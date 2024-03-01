@@ -4,13 +4,13 @@
 
 let
   sources = {
-    "@ampproject/remapping-2.2.1" = {
+    "@ampproject/remapping-2.3.0" = {
       name = "_at_ampproject_slash_remapping";
       packageName = "@ampproject/remapping";
-      version = "2.2.1";
+      version = "2.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.2.1.tgz";
-        sha512 = "lFMjJTrFL3j7L9yBxwYfCq2k6qqwHyzuUl/XBnif78PWTJYyL/dfowQHWE3sp6U6ZzqWiiIZnpTMO96zhkjwtg==";
+        url = "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.3.0.tgz";
+        sha512 = "30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==";
       };
     };
     "@babel/code-frame-7.23.5" = {
@@ -2167,7 +2167,7 @@ in
       sha512 = "geylzJhrw4lJPAUrcpfBHJaxhu4SOqym/yy+1j74ZqJUgAtnfZLW5o9ddE4hwP2ArQwWwdf4aKhYBtwpe6QiIQ==";
     };
     dependencies = [
-      sources."@ampproject/remapping-2.2.1"
+      sources."@ampproject/remapping-2.3.0"
       sources."@babel/code-frame-7.23.5"
       sources."@babel/compat-data-7.23.5"
       (sources."@babel/core-7.24.0" // {
@@ -2361,7 +2361,7 @@ in
       sha512 = "MC9TsEHd4zm2hsn0+v6kt8JkwDaP44GaAuxiB0m6qv7Y7DQmkwdtGEyTASrJ8XJ5baiXgtFTMB+npCw6M93F3Q==";
     };
     dependencies = [
-      sources."@ampproject/remapping-2.2.1"
+      sources."@ampproject/remapping-2.3.0"
       sources."@babel/code-frame-7.23.5"
       sources."@babel/compat-data-7.23.5"
       (sources."@babel/core-7.24.0" // {
