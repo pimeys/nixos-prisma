@@ -256,13 +256,13 @@ let
         sha512 = "eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==";
       };
     };
-    "@jridgewell/trace-mapping-0.3.24" = {
+    "@jridgewell/trace-mapping-0.3.25" = {
       name = "_at_jridgewell_slash_trace-mapping";
       packageName = "@jridgewell/trace-mapping";
-      version = "0.3.24";
+      version = "0.3.25";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.24.tgz";
-        sha512 = "+VaWXDa6+l6MhflBvVXjIEAzb59nQ2JUK3bwRp2zRpPtU+8TFRy9Gg/5oIcNlkEL5PGlBFGfemUVvIgLnTzq7Q==";
+        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.25.tgz";
+        sha512 = "vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==";
       };
     };
     "@nodelib/fs.scandir-2.1.5" = {
@@ -2199,7 +2199,7 @@ in
       sources."@jridgewell/resolve-uri-3.1.2"
       sources."@jridgewell/set-array-1.2.1"
       sources."@jridgewell/sourcemap-codec-1.4.15"
-      sources."@jridgewell/trace-mapping-0.3.24"
+      sources."@jridgewell/trace-mapping-0.3.25"
       sources."@prisma/prisma-schema-wasm-5.10.0-34.5a9203d0590c951969e85a7d07215503f4672eb9"
       sources."@types/js-levenshtein-1.1.3"
       sources."aggregate-error-3.1.0"
@@ -2393,7 +2393,7 @@ in
       sources."@jridgewell/resolve-uri-3.1.2"
       sources."@jridgewell/set-array-1.2.1"
       sources."@jridgewell/sourcemap-codec-1.4.15"
-      sources."@jridgewell/trace-mapping-0.3.24"
+      sources."@jridgewell/trace-mapping-0.3.25"
       sources."@prisma/prisma-schema-wasm-5.11.0-4.09cb2c4b7f5ee2525bb7512bf48fc31167eebdf4"
       sources."@types/js-levenshtein-1.1.3"
       sources."aggregate-error-3.1.0"
