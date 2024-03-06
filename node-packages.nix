@@ -2355,10 +2355,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.3424";
+    version = "31.0.3426";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3424.tgz";
-      sha512 = "mNf8EFAGyrNRLoRzUlgWa62p3x6Rp+KClr6bbZ6616NZ6+ndoS/r1KNh+snb9ke4uiRkceX8fHhVXKncQFhCFA==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3426.tgz";
+      sha512 = "RmT5eT3uezcttddk7iL2ZOgsaqbxYYQ50iPq3nYcXZd+FHuQZZaDvN9NDh/wsfDuOEzXJ69ldpfixta15efUJQ==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.3.0"
