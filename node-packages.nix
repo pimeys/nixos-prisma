@@ -13,13 +13,13 @@ let
         sha512 = "30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==";
       };
     };
-    "@babel/code-frame-7.24.1" = {
+    "@babel/code-frame-7.24.2" = {
       name = "_at_babel_slash_code-frame";
       packageName = "@babel/code-frame";
-      version = "7.24.1";
+      version = "7.24.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.24.1.tgz";
-        sha512 = "bC49z4spJQR3j8vFtJBLqzyzFV0ciuL5HYX7qfSl3KEqeMVV+eTquRvmXxpvB0AMubRrvv7y5DILiLLPi57Ewg==";
+        url = "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.24.2.tgz";
+        sha512 = "y5+tLQyV8pg3fsiln67BVLD1P13Eg4lh5RW9mF0zUuvLrv9uIQ4MCL+CRT+FTsBlBjcIan6PGsLcBN0m3ClUyQ==";
       };
     };
     "@babel/compat-data-7.24.1" = {
@@ -157,13 +157,13 @@ let
         sha512 = "BpU09QqEe6ZCHuIHFphEFgvNSrubve1FtyMton26ekZ85gRGi6LrTF7zArARp2YvyFxloeiRmtSCq5sjh1WqIg==";
       };
     };
-    "@babel/highlight-7.24.1" = {
+    "@babel/highlight-7.24.2" = {
       name = "_at_babel_slash_highlight";
       packageName = "@babel/highlight";
-      version = "7.24.1";
+      version = "7.24.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/highlight/-/highlight-7.24.1.tgz";
-        sha512 = "EPmDPxidWe/Ex+HTFINpvXdPHRmgSF3T8hGvzondYjmgzTQ/0EbLpSxyt+w3zzlYSk9cNBQNF9k0dT5Z2NiBjw==";
+        url = "https://registry.npmjs.org/@babel/highlight/-/highlight-7.24.2.tgz";
+        sha512 = "Yac1ao4flkTxTteCDZLEvdxg2fZfz1v8M4QpaGypq/WPDqg3ijHYbDfs+LG5hvzSoqaSZ9/Z9lKSP3CjZjv+pA==";
       };
     };
     "@babel/parser-7.24.1" = {
@@ -697,13 +697,13 @@ let
         sha512 = "WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==";
       };
     };
-    "electron-to-chromium-1.4.710" = {
+    "electron-to-chromium-1.4.711" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.710";
+      version = "1.4.711";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.710.tgz";
-        sha512 = "w+9yAVHoHhysCa+gln7AzbO9CdjFcL/wN/5dd+XW/Msl2d/4+WisEaCF1nty0xbAKaxdaJfgLB2296U7zZB7BA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.711.tgz";
+        sha512 = "hRg81qzvUEibX2lDxnFlVCHACa+LtrCPIsWAxo161LDYIB3jauf57RGsMZV9mvGwE98yGH06icj3zBEoOkxd/w==";
       };
     };
     "emoji-regex-8.0.0" = {
@@ -2168,7 +2168,7 @@ in
     };
     dependencies = [
       sources."@ampproject/remapping-2.3.0"
-      sources."@babel/code-frame-7.24.1"
+      sources."@babel/code-frame-7.24.2"
       sources."@babel/compat-data-7.24.1"
       (sources."@babel/core-7.24.1" // {
         dependencies = [
@@ -2188,7 +2188,7 @@ in
       sources."@babel/helper-validator-identifier-7.22.20"
       sources."@babel/helper-validator-option-7.23.5"
       sources."@babel/helpers-7.24.1"
-      sources."@babel/highlight-7.24.1"
+      sources."@babel/highlight-7.24.2"
       sources."@babel/parser-7.24.1"
       sources."@babel/template-7.24.0"
       sources."@babel/traverse-7.24.1"
@@ -2226,7 +2226,7 @@ in
       sources."debug-4.3.4"
       sources."decamelize-1.2.0"
       sources."default-require-extensions-3.0.1"
-      sources."electron-to-chromium-1.4.710"
+      sources."electron-to-chromium-1.4.711"
       sources."emoji-regex-8.0.0"
       sources."es6-error-4.1.1"
       sources."escalade-3.1.2"
@@ -2362,7 +2362,7 @@ in
     };
     dependencies = [
       sources."@ampproject/remapping-2.3.0"
-      sources."@babel/code-frame-7.24.1"
+      sources."@babel/code-frame-7.24.2"
       sources."@babel/compat-data-7.24.1"
       (sources."@babel/core-7.24.1" // {
         dependencies = [
@@ -2382,7 +2382,7 @@ in
       sources."@babel/helper-validator-identifier-7.22.20"
       sources."@babel/helper-validator-option-7.23.5"
       sources."@babel/helpers-7.24.1"
-      sources."@babel/highlight-7.24.1"
+      sources."@babel/highlight-7.24.2"
       sources."@babel/parser-7.24.1"
       sources."@babel/template-7.24.0"
       sources."@babel/traverse-7.24.1"
@@ -2420,7 +2420,7 @@ in
       sources."debug-4.3.4"
       sources."decamelize-1.2.0"
       sources."default-require-extensions-3.0.1"
-      sources."electron-to-chromium-1.4.710"
+      sources."electron-to-chromium-1.4.711"
       sources."emoji-regex-8.0.0"
       sources."es6-error-4.1.1"
       sources."escalade-3.1.2"
