@@ -697,13 +697,13 @@ let
         sha512 = "WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==";
       };
     };
-    "electron-to-chromium-1.4.732" = {
+    "electron-to-chromium-1.4.733" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.732";
+      version = "1.4.733";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.732.tgz";
-        sha512 = "nLrzr6UML+oqCyvseTxJ1WxLsnMSQPJCoHu+MuOuNiCp7BHEdG9AmCTw2Y9FU/wFFc/ETE0F6JVtzzPryEjecw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.733.tgz";
+        sha512 = "gUI9nhI2iBGF0OaYYLKOaOtliFMl+Bt1rY7VmEjwxOxqoYLub/D9xmduPEhbw2imE6gYkJKhIE5it+KE2ulVxQ==";
       };
     };
     "emoji-regex-8.0.0" = {
@@ -2226,7 +2226,7 @@ in
       sources."debug-4.3.4"
       sources."decamelize-1.2.0"
       sources."default-require-extensions-3.0.1"
-      sources."electron-to-chromium-1.4.732"
+      sources."electron-to-chromium-1.4.733"
       sources."emoji-regex-8.0.0"
       sources."es6-error-4.1.1"
       sources."escalade-3.1.2"
@@ -2420,7 +2420,7 @@ in
       sources."debug-4.3.4"
       sources."decamelize-1.2.0"
       sources."default-require-extensions-3.0.1"
-      sources."electron-to-chromium-1.4.732"
+      sources."electron-to-chromium-1.4.733"
       sources."emoji-regex-8.0.0"
       sources."es6-error-4.1.1"
       sources."escalade-3.1.2"
