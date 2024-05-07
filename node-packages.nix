@@ -1282,15 +1282,6 @@ let
         sha512 = "KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==";
       };
     };
-    "lru-cache-6.0.0" = {
-      name = "lru-cache";
-      packageName = "lru-cache";
-      version = "6.0.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz";
-        sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
-      };
-    };
     "make-dir-3.1.0" = {
       name = "make-dir";
       packageName = "make-dir";
@@ -1723,13 +1714,13 @@ let
         sha512 = "BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==";
       };
     };
-    "semver-7.6.0" = {
+    "semver-7.6.1" = {
       name = "semver";
       packageName = "semver";
-      version = "7.6.0";
+      version = "7.6.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.6.0.tgz";
-        sha512 = "EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.6.1.tgz";
+        sha512 = "f/vbBsu+fOiYt+lmwZV0rVwJScl46HppnOA1ZvIuBWKOTlllpyJ3bfVax76/OrhCH38dyxoDIA8K7uB963IYgA==";
       };
     };
     "set-blocking-2.0.0" = {
@@ -2119,15 +2110,6 @@ let
         sha512 = "a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==";
       };
     };
-    "yallist-4.0.0" = {
-      name = "yallist";
-      packageName = "yallist";
-      version = "4.0.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz";
-        sha512 = "3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==";
-      };
-    };
     "yargs-15.4.1" = {
       name = "yargs";
       packageName = "yargs";
@@ -2262,11 +2244,9 @@ in
       (sources."istanbul-lib-report-3.0.1" // {
         dependencies = [
           sources."has-flag-4.0.0"
-          sources."lru-cache-6.0.0"
           sources."make-dir-4.0.0"
-          sources."semver-7.6.0"
+          sources."semver-7.6.1"
           sources."supports-color-7.2.0"
-          sources."yallist-4.0.0"
         ];
       })
       sources."istanbul-lib-source-maps-4.0.1"
@@ -2456,11 +2436,9 @@ in
       (sources."istanbul-lib-report-3.0.1" // {
         dependencies = [
           sources."has-flag-4.0.0"
-          sources."lru-cache-6.0.0"
           sources."make-dir-4.0.0"
-          sources."semver-7.6.0"
+          sources."semver-7.6.1"
           sources."supports-color-7.2.0"
-          sources."yallist-4.0.0"
         ];
       })
       sources."istanbul-lib-source-maps-4.0.1"
