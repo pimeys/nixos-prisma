@@ -1714,13 +1714,13 @@ let
         sha512 = "BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==";
       };
     };
-    "semver-7.6.1" = {
+    "semver-7.6.2" = {
       name = "semver";
       packageName = "semver";
-      version = "7.6.1";
+      version = "7.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.6.1.tgz";
-        sha512 = "f/vbBsu+fOiYt+lmwZV0rVwJScl46HppnOA1ZvIuBWKOTlllpyJ3bfVax76/OrhCH38dyxoDIA8K7uB963IYgA==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.6.2.tgz";
+        sha512 = "FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==";
       };
     };
     "set-blocking-2.0.0" = {
@@ -2245,7 +2245,7 @@ in
         dependencies = [
           sources."has-flag-4.0.0"
           sources."make-dir-4.0.0"
-          sources."semver-7.6.1"
+          sources."semver-7.6.2"
           sources."supports-color-7.2.0"
         ];
       })
@@ -2437,7 +2437,7 @@ in
         dependencies = [
           sources."has-flag-4.0.0"
           sources."make-dir-4.0.0"
-          sources."semver-7.6.1"
+          sources."semver-7.6.2"
           sources."supports-color-7.2.0"
         ];
       })
