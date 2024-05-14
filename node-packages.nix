@@ -1570,13 +1570,13 @@ let
         sha512 = "gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==";
       };
     };
-    "picocolors-1.0.0" = {
+    "picocolors-1.0.1" = {
       name = "picocolors";
       packageName = "picocolors";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz";
-        sha512 = "1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==";
+        url = "https://registry.npmjs.org/picocolors/-/picocolors-1.0.1.tgz";
+        sha512 = "anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==";
       };
     };
     "picomatch-2.3.1" = {
@@ -2275,7 +2275,7 @@ in
       sources."path-exists-4.0.0"
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
-      sources."picocolors-1.0.0"
+      sources."picocolors-1.0.1"
       sources."pkg-dir-4.2.0"
       sources."process-on-spawn-1.0.0"
       sources."release-zalgo-1.0.0"
@@ -2467,7 +2467,7 @@ in
       sources."path-exists-4.0.0"
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
-      sources."picocolors-1.0.0"
+      sources."picocolors-1.0.1"
       sources."pkg-dir-4.2.0"
       sources."process-on-spawn-1.0.0"
       sources."release-zalgo-1.0.0"
