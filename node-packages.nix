@@ -319,6 +319,15 @@ let
         sha512 = "ZYqUixxg1RxA9wGd66PF0fmzq5x94gtTeL1FnQm1E2iPE5BgoUmetrR1f40/t32SmmvgOWOpczoVxJINS336bg==";
       };
     };
+    "@prisma/prisma-schema-wasm-5.14.0-17.56ca112d5a19c9925b53af75c3c6b7ada97f9f85" = {
+      name = "_at_prisma_slash_prisma-schema-wasm";
+      packageName = "@prisma/prisma-schema-wasm";
+      version = "5.14.0-17.56ca112d5a19c9925b53af75c3c6b7ada97f9f85";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-5.14.0-17.56ca112d5a19c9925b53af75c3c6b7ada97f9f85.tgz";
+        sha512 = "SX9vE9dGYBap6xsfJuDE5b2eoA6w1vKsx8QpLUHZR+kIV6GQVUYUboEfkvYYoBVen3s9LqxJ1+LjHL/1MqBZag==";
+      };
+    };
     "@prisma/prisma-schema-wasm-5.14.0-25.e9771e62de70f79a5e1c604a2d7c8e2a0a874b48" = {
       name = "_at_prisma_slash_prisma-schema-wasm";
       packageName = "@prisma/prisma-schema-wasm";
@@ -328,13 +337,22 @@ let
         sha512 = "WeTmJ0mK8ALoKJUQFO+465k9lm1JWS4ODUg7akJq1wjgyDU1RTAzDFli8ESmNJlMVgJgoAd6jXmzcnoA0HT9Lg==";
       };
     };
-    "@prisma/prisma-schema-wasm-5.15.0-2.ae0473d812da9ce31f8c62740c937afb9623f2dc" = {
+    "@prisma/prisma-schema-wasm-5.15.0-3.97f638f5e0f371a1a553cf726f9d597bbe811bff" = {
       name = "_at_prisma_slash_prisma-schema-wasm";
       packageName = "@prisma/prisma-schema-wasm";
-      version = "5.15.0-2.ae0473d812da9ce31f8c62740c937afb9623f2dc";
+      version = "5.15.0-3.97f638f5e0f371a1a553cf726f9d597bbe811bff";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-5.15.0-2.ae0473d812da9ce31f8c62740c937afb9623f2dc.tgz";
-        sha512 = "zkpIkkDcU8Sq3O0SSNMnylWRrQHXFeFIlgtR+PG8hISnk5oE6D/JgcRuUUN6ueTfniuQ4GU/4OuQZgWXJVga5g==";
+        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-5.15.0-3.97f638f5e0f371a1a553cf726f9d597bbe811bff.tgz";
+        sha512 = "FGyf9R/qipmCmZ8H7xb1EfH2KfYz5akfXTtON32k9PgrKA2k7h1PAlZXI7JWAYB06HTb5KNRJcpxaNih1W8ueQ==";
+      };
+    };
+    "@prisma/schema-files-loader-5.14.0-dev.77" = {
+      name = "_at_prisma_slash_schema-files-loader";
+      packageName = "@prisma/schema-files-loader";
+      version = "5.14.0-dev.77";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-5.14.0-dev.77.tgz";
+        sha512 = "XajLTyk1J76vXiRwgL9vbIggJDch7acuUwiIPrto/ymqxi5l/272s9dooBMBwuY4FXmtFwsrPnvJVyRDdEMNtg==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -832,6 +850,15 @@ let
         sha512 = "cHEpEQHUg0f8XdtZCc2ZAhrHzKzT0MrFUTcvx+hfxYu7rGMDc5SKoXFh+n4YigxsHXRzc6OrCshdR1bWH6HHyg==";
       };
     };
+    "fs-extra-11.1.1" = {
+      name = "fs-extra";
+      packageName = "fs-extra";
+      version = "11.1.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/fs-extra/-/fs-extra-11.1.1.tgz";
+        sha512 = "MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==";
+      };
+    };
     "fs.realpath-1.0.0" = {
       name = "fs.realpath";
       packageName = "fs.realpath";
@@ -1226,6 +1253,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz";
         sha512 = "XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==";
+      };
+    };
+    "jsonfile-6.1.0" = {
+      name = "jsonfile";
+      packageName = "jsonfile";
+      version = "6.1.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz";
+        sha512 = "5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==";
       };
     };
     "klona-2.0.4" = {
@@ -1930,6 +1966,15 @@ let
         sha512 = "uNaeirEPvpZWSgzwsPGtU2zVSTrn/8L5q/IexZmH0eH6SA73CmAA5U4GwORTxQAZs95TAXLNqeLoPPNO5gZfWg==";
       };
     };
+    "universalify-2.0.1" = {
+      name = "universalify";
+      packageName = "universalify";
+      version = "2.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz";
+        sha512 = "gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==";
+      };
+    };
     "update-browserslist-db-1.0.16" = {
       name = "update-browserslist-db";
       packageName = "update-browserslist-db";
@@ -2045,6 +2090,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.0.2.tgz";
         sha512 = "jkjy6pjU1fxUvI51P+gCsxg1u2n8LSt0W6KrCNQceaziKzff74GoWmjVG46KieVzybO1sttPQmYfrwSHey7GUA==";
+      };
+    };
+    "vscode-uri-3.0.8" = {
+      name = "vscode-uri";
+      packageName = "vscode-uri";
+      version = "3.0.8";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.0.8.tgz";
+        sha512 = "AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==";
       };
     };
     "which-2.0.2" = {
@@ -2335,10 +2389,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.3639";
+    version = "31.0.3642";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3639.tgz";
-      sha512 = "KZQKqjfm6bbCbl0ekPpwi/77URmUFDGDI5lrhSEPna13fibIcWHRtB3GBwB4clBx2ZsVyhVg8ouvC8gH8RnNXg==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3642.tgz";
+      sha512 = "/ohM+lAqF3HVz9kQYKnA9PAw3OMt2Flu8ZUs1kxPRZokTQpi89w+4eBhc8aEcguGOpkN9MFj0eM43lSjPQx04g==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.3.0"
@@ -2374,7 +2428,12 @@ in
       sources."@jridgewell/set-array-1.2.1"
       sources."@jridgewell/sourcemap-codec-1.4.15"
       sources."@jridgewell/trace-mapping-0.3.25"
-      sources."@prisma/prisma-schema-wasm-5.15.0-2.ae0473d812da9ce31f8c62740c937afb9623f2dc"
+      sources."@prisma/prisma-schema-wasm-5.15.0-3.97f638f5e0f371a1a553cf726f9d597bbe811bff"
+      (sources."@prisma/schema-files-loader-5.14.0-dev.77" // {
+        dependencies = [
+          sources."@prisma/prisma-schema-wasm-5.14.0-17.56ca112d5a19c9925b53af75c3c6b7ada97f9f85"
+        ];
+      })
       sources."@types/js-levenshtein-1.1.3"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
@@ -2410,6 +2469,7 @@ in
       sources."find-up-4.1.0"
       sources."foreground-child-2.0.0"
       sources."fromentries-1.3.2"
+      sources."fs-extra-11.1.1"
       sources."fs.realpath-1.0.0"
       sources."gensync-1.0.0-beta.2"
       sources."get-caller-file-2.0.5"
@@ -2448,6 +2508,7 @@ in
       sources."js-yaml-3.14.1"
       sources."jsesc-2.5.2"
       sources."json5-2.2.3"
+      sources."jsonfile-6.1.0"
       sources."klona-2.0.6"
       sources."locate-path-5.0.0"
       sources."lodash.flattendeep-4.4.0"
@@ -2491,6 +2552,7 @@ in
       sources."to-fast-properties-2.0.0"
       sources."type-fest-0.8.1"
       sources."typedarray-to-buffer-3.1.5"
+      sources."universalify-2.0.1"
       sources."update-browserslist-db-1.0.16"
       sources."uuid-8.3.2"
       sources."vscode-jsonrpc-8.1.0"
@@ -2498,6 +2560,7 @@ in
       sources."vscode-languageserver-protocol-3.17.3"
       sources."vscode-languageserver-textdocument-1.0.11"
       sources."vscode-languageserver-types-3.17.3"
+      sources."vscode-uri-3.0.8"
       sources."which-2.0.2"
       sources."which-module-2.0.1"
       (sources."wrap-ansi-6.2.0" // {
