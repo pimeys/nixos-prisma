@@ -337,13 +337,13 @@ let
         sha512 = "HG4+qQHNo9a3JFf801jEkvruKpB2HjQbR8yKgd4vGluevOIOzNMEmLAXxx5V3JpyyHZxsTFQdz4XakqBdJIIug==";
       };
     };
-    "@prisma/schema-files-loader-5.15.0-dev.17" = {
+    "@prisma/schema-files-loader-5.15.0-dev.20" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "5.15.0-dev.17";
+      version = "5.15.0-dev.20";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-5.15.0-dev.17.tgz";
-        sha512 = "GyvYVUB9WimXagoM905P+VWCI27z4GD2SOx1tmdEgcHINTmDyTrUOhFILvsYRL73gxAWhRSMhK4fklmQCuLCig==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-5.15.0-dev.20.tgz";
+        sha512 = "zst8k7xBLRD/Ij9iWHY0khNIqhNzLkuCZ/667RrMTO2wWr7ZGpucUGkhrwClUDEWiAvjTWKAPAHx2Uxb5qAAHw==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -1345,13 +1345,13 @@ let
         sha512 = "8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==";
       };
     };
-    "micromatch-4.0.5" = {
+    "micromatch-4.0.6" = {
       name = "micromatch";
       packageName = "micromatch";
-      version = "4.0.5";
+      version = "4.0.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.5.tgz";
-        sha512 = "DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==";
+        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.6.tgz";
+        sha512 = "Y4Ypn3oujJYxJcMacVgcs92wofTHxp9FzfDpQON4msDefoC0lb3ETvQLOdLcbhSwU1bz8HrL/1sygfBIHudrkQ==";
       };
     };
     "mimic-fn-2.1.0" = {
@@ -1606,13 +1606,13 @@ let
         sha512 = "anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==";
       };
     };
-    "picomatch-2.3.1" = {
+    "picomatch-4.0.2" = {
       name = "picomatch";
       packageName = "picomatch";
-      version = "2.3.1";
+      version = "4.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz";
-        sha512 = "JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==";
+        url = "https://registry.npmjs.org/picomatch/-/picomatch-4.0.2.tgz";
+        sha512 = "M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==";
       };
     };
     "pkg-dir-4.2.0" = {
@@ -2380,14 +2380,14 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.3651";
+    version = "31.0.3654";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3651.tgz";
-      sha512 = "CiMgLRMKuOu1Tasf3Kmmt4F2YGF914NCr0G6UjeeIHxlG3RUdlkapoSIcUmIHhnkAY8foQ1EN+o47aj8ursO8g==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3654.tgz";
+      sha512 = "H14BwRzPBkmU/xzbUndeQnwUp3IiqW0tsy2RrzyJNtlDXsGGB4XSdL8pjKuW6pQFXDFSWZYIkMdA5AyVMXPC7w==";
     };
     dependencies = [
       sources."@prisma/prisma-schema-wasm-5.15.0-7.0af42cb19116c37b029e1f3665681074acb38bb4"
-      sources."@prisma/schema-files-loader-5.15.0-dev.17"
+      sources."@prisma/schema-files-loader-5.15.0-dev.20"
       sources."@types/js-levenshtein-1.1.3"
       sources."fs-extra-11.1.1"
       sources."graceful-fs-4.2.11"
@@ -2490,7 +2490,7 @@ in
       sources."make-dir-3.1.0"
       sources."merge-stream-2.0.0"
       sources."merge2-1.4.1"
-      sources."micromatch-4.0.5"
+      sources."micromatch-4.0.6"
       sources."mimic-fn-2.1.0"
       sources."minimatch-3.1.2"
       sources."ms-2.1.3"
@@ -2513,7 +2513,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
       sources."path-type-4.0.0"
-      sources."picomatch-2.3.1"
+      sources."picomatch-4.0.2"
       (sources."pkg-dir-5.0.0" // {
         dependencies = [
           sources."find-up-5.0.0"
