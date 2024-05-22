@@ -1345,13 +1345,13 @@ let
         sha512 = "8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==";
       };
     };
-    "micromatch-4.0.6" = {
+    "micromatch-4.0.7" = {
       name = "micromatch";
       packageName = "micromatch";
-      version = "4.0.6";
+      version = "4.0.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.6.tgz";
-        sha512 = "Y4Ypn3oujJYxJcMacVgcs92wofTHxp9FzfDpQON4msDefoC0lb3ETvQLOdLcbhSwU1bz8HrL/1sygfBIHudrkQ==";
+        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.7.tgz";
+        sha512 = "LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==";
       };
     };
     "mimic-fn-2.1.0" = {
@@ -1606,13 +1606,13 @@ let
         sha512 = "anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==";
       };
     };
-    "picomatch-4.0.2" = {
+    "picomatch-2.3.1" = {
       name = "picomatch";
       packageName = "picomatch";
-      version = "4.0.2";
+      version = "2.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/picomatch/-/picomatch-4.0.2.tgz";
-        sha512 = "M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==";
+        url = "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz";
+        sha512 = "JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==";
       };
     };
     "pkg-dir-4.2.0" = {
@@ -2490,7 +2490,7 @@ in
       sources."make-dir-3.1.0"
       sources."merge-stream-2.0.0"
       sources."merge2-1.4.1"
-      sources."micromatch-4.0.6"
+      sources."micromatch-4.0.7"
       sources."mimic-fn-2.1.0"
       sources."minimatch-3.1.2"
       sources."ms-2.1.3"
@@ -2513,7 +2513,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
       sources."path-type-4.0.0"
-      sources."picomatch-4.0.2"
+      sources."picomatch-2.3.1"
       (sources."pkg-dir-5.0.0" // {
         dependencies = [
           sources."find-up-5.0.0"
