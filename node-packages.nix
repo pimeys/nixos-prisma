@@ -328,22 +328,22 @@ let
         sha512 = "WeTmJ0mK8ALoKJUQFO+465k9lm1JWS4ODUg7akJq1wjgyDU1RTAzDFli8ESmNJlMVgJgoAd6jXmzcnoA0HT9Lg==";
       };
     };
-    "@prisma/prisma-schema-wasm-5.15.0-13.bca2d360eb207900a78947d8843cf7ebc98e4168" = {
+    "@prisma/prisma-schema-wasm-5.15.0-16.64bb6b95cbf89b742d0a4cbcbebffc973942e7ad" = {
       name = "_at_prisma_slash_prisma-schema-wasm";
       packageName = "@prisma/prisma-schema-wasm";
-      version = "5.15.0-13.bca2d360eb207900a78947d8843cf7ebc98e4168";
+      version = "5.15.0-16.64bb6b95cbf89b742d0a4cbcbebffc973942e7ad";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-5.15.0-13.bca2d360eb207900a78947d8843cf7ebc98e4168.tgz";
-        sha512 = "rwJGGKPMr0xI2QxjCwRTH6nuezs19451a0tdvBTkdn7499CAYcf8etO4kkbndF8yxH1gA4L99pUn2qst/LA5TQ==";
+        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-5.15.0-16.64bb6b95cbf89b742d0a4cbcbebffc973942e7ad.tgz";
+        sha512 = "YqOoP01xok8Mln9LBj1tfGPCZsXHsR+385fjNmJXb0Vcur3JsZUovb92b2x0Q/CSwCsyBr/AgFX+b31z9gJcZg==";
       };
     };
-    "@prisma/schema-files-loader-5.15.0-dev.47" = {
+    "@prisma/schema-files-loader-5.15.0-dev.48" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "5.15.0-dev.47";
+      version = "5.15.0-dev.48";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-5.15.0-dev.47.tgz";
-        sha512 = "z1gRQJIdaLccJ4T6h7c0LoG1bpvbJY5JK+bN2Rp6050ir6BizXzMRyxEx4tmz0ymI/VmkluzbQgkUGVUU23Nhw==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-5.15.0-dev.48.tgz";
+        sha512 = "DFEkVFY3r1bP8NemsahjreoUwEQETyboWOSESBexI3XdBRIch/u5OO2f1ioorne74RCEbTIHK+BaprpjT/cdVQ==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -2380,14 +2380,14 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.3686";
+    version = "31.0.3687";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3686.tgz";
-      sha512 = "is5XpxK7WbwmtCRhCoVDalvfY3cqDFn547ZF5IrOxCPjEpT+Hd2mPq5/qGWBuIvZK2Wpkl+QWl/8JgNzVXETVw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.3687.tgz";
+      sha512 = "uJ1DxztpFf1c3ioikrMYMByRETwVT5aJDzYk2EnPnpA0yo6cERVEcNBZLNEhJW4uTUYzvfDPUKvns9/5voHZAQ==";
     };
     dependencies = [
-      sources."@prisma/prisma-schema-wasm-5.15.0-13.bca2d360eb207900a78947d8843cf7ebc98e4168"
-      sources."@prisma/schema-files-loader-5.15.0-dev.47"
+      sources."@prisma/prisma-schema-wasm-5.15.0-16.64bb6b95cbf89b742d0a4cbcbebffc973942e7ad"
+      sources."@prisma/schema-files-loader-5.15.0-dev.48"
       sources."@types/js-levenshtein-1.1.3"
       sources."fs-extra-11.1.1"
       sources."graceful-fs-4.2.11"
@@ -2458,10 +2458,14 @@ in
       sources."fill-range-7.1.1"
       (sources."find-cache-dir-3.3.2" // {
         dependencies = [
+          sources."find-up-4.1.0"
+          sources."locate-path-5.0.0"
+          sources."p-limit-2.3.0"
+          sources."p-locate-4.1.0"
           sources."pkg-dir-4.2.0"
         ];
       })
-      sources."find-up-4.1.0"
+      sources."find-up-5.0.0"
       sources."fs.realpath-1.0.0"
       sources."get-stream-6.0.1"
       sources."glob-7.2.3"
@@ -2486,7 +2490,7 @@ in
       sources."isexe-2.0.0"
       sources."js-levenshtein-1.1.6"
       sources."klona-2.0.4"
-      sources."locate-path-5.0.0"
+      sources."locate-path-6.0.0"
       sources."make-dir-3.1.0"
       sources."merge-stream-2.0.0"
       sources."merge2-1.4.1"
@@ -2504,8 +2508,8 @@ in
           sources."p-map-2.1.0"
         ];
       })
-      sources."p-limit-2.3.0"
-      sources."p-locate-4.1.0"
+      sources."p-limit-3.1.0"
+      sources."p-locate-5.0.0"
       sources."p-map-4.0.0"
       sources."p-retry-4.4.0"
       sources."p-try-2.2.0"
@@ -2514,14 +2518,7 @@ in
       sources."path-key-3.1.1"
       sources."path-type-4.0.0"
       sources."picomatch-2.3.1"
-      (sources."pkg-dir-5.0.0" // {
-        dependencies = [
-          sources."find-up-5.0.0"
-          sources."locate-path-6.0.0"
-          sources."p-limit-3.1.0"
-          sources."p-locate-5.0.0"
-        ];
-      })
+      sources."pkg-dir-5.0.0"
       sources."progress-2.0.3"
       sources."queue-microtask-1.2.3"
       sources."retry-0.12.0"
