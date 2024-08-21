@@ -85,13 +85,13 @@ let
         sha512 = "JtjPOZ8odMMr3etCcQ5kDsuljmckuNNCRMJglouPWSyzRbv4nOQJZCD4qPmoMUSoX0gwV7wGgwUw50XsoFYVzA==";
       };
     };
-    "@prisma/schema-files-loader-5.19.0-dev.12" = {
+    "@prisma/schema-files-loader-5.19.0-dev.13" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "5.19.0-dev.12";
+      version = "5.19.0-dev.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-5.19.0-dev.12.tgz";
-        sha512 = "nIzkDnC3vYSTwqFjBSgRy/2H3yFPfmy3ldAIWcJ6vNnii7Jkkm5/Ad3yOLeSqXJckkGotLDT7dLntqkrPTueLA==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-5.19.0-dev.13.tgz";
+        sha512 = "Ghksfxj6Sc1k8HkqtfYQMEMLcDCQ9pxSWliwnC+pP5bW6us1FJdPSe9JpOlu6RkSGmt0aTQJAtrJ2nIzVebTLQ==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -1233,14 +1233,14 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.7021";
+    version = "31.0.7022";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7021.tgz";
-      sha512 = "D0RfPRLJ0gnjAEcujjwTIUuy+SMsaSPld8LntCNNaryLsWdwDJg3L0IMBX4UlkhZ65yCtSgjkNQ7IdTtNFYgMw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7022.tgz";
+      sha512 = "atxcn/KmR04WFMLjGE+Sgyt8ziNjT8JLDMIsyYuVeJXlEhyIm3qiKL9Vprlt2hAboJ3SiD+YbstOMQibtzf/8Q==";
     };
     dependencies = [
       sources."@prisma/prisma-schema-wasm-5.19.0-23.c356d1b4064663e128504e183e2b0cbe5fcdb063"
-      sources."@prisma/schema-files-loader-5.19.0-dev.12"
+      sources."@prisma/schema-files-loader-5.19.0-dev.13"
       sources."@types/js-levenshtein-1.1.3"
       sources."fs-extra-11.1.1"
       sources."graceful-fs-4.2.11"
