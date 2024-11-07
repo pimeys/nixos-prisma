@@ -238,13 +238,13 @@ let
         sha512 = "/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==";
       };
     };
-    "cross-spawn-7.0.3" = {
+    "cross-spawn-7.0.4" = {
       name = "cross-spawn";
       packageName = "cross-spawn";
-      version = "7.0.3";
+      version = "7.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz";
-        sha512 = "iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==";
+        url = "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.4.tgz";
+        sha512 = "9KdyVPPtLHjPAD7tcuzSFs64UfHlLJt7U6qP4/bFVLyjLceyizj6s6jO6YBaV5d0G7g/9KnY/dOpLR4Rcg8YDg==";
       };
     };
     "crypto-random-string-2.0.0" = {
@@ -1287,7 +1287,7 @@ in
       sources."color-name-1.1.4"
       sources."commondir-1.0.1"
       sources."concat-map-0.0.1"
-      sources."cross-spawn-7.0.3"
+      sources."cross-spawn-7.0.4"
       sources."crypto-random-string-2.0.0"
       (sources."debug-4.3.2" // {
         dependencies = [
