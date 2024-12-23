@@ -310,13 +310,13 @@ let
         sha512 = "oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==";
       };
     };
-    "fastq-1.17.1" = {
+    "fastq-1.18.0" = {
       name = "fastq";
       packageName = "fastq";
-      version = "1.17.1";
+      version = "1.18.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fastq/-/fastq-1.17.1.tgz";
-        sha512 = "sRVD3lWVIXWg6By68ZN7vho9a1pQcN/WBFaAAsDDFzlJjvoGx0P8z7V1t72grFJfJhu3YPZBuu25f7Kaw2jN1w==";
+        url = "https://registry.npmjs.org/fastq/-/fastq-1.18.0.tgz";
+        sha512 = "QKHXPW0hD8g4UET03SdOdunzSouc9N4AuHdsX8XNcTsuz+yYFILVNIX4l9yHABMhiEI9Db0JTTIpu0wB+Y1QQw==";
       };
     };
     "fill-range-7.1.1" = {
@@ -1307,7 +1307,7 @@ in
       sources."dir-glob-3.0.1"
       sources."execa-5.0.0"
       sources."fast-glob-3.3.2"
-      sources."fastq-1.17.1"
+      sources."fastq-1.18.0"
       sources."fill-range-7.1.1"
       (sources."find-cache-dir-3.3.2" // {
         dependencies = [
