@@ -40,13 +40,13 @@ let
         sha512 = "sOH/2Go9Zer67DNFLZk6pYOHj+rumSb0VILgltkoxOjYnlLqUpHPAN826vnx8HigqnOCxj9LRhT6U7uLiIIWgw==";
       };
     };
-    "@prisma/config-6.6.0-dev.16" = {
+    "@prisma/config-6.6.0-dev.17" = {
       name = "_at_prisma_slash_config";
       packageName = "@prisma/config";
-      version = "6.6.0-dev.16";
+      version = "6.6.0-dev.17";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/config/-/config-6.6.0-dev.16.tgz";
-        sha512 = "JcnA7qit8iX+ivdX/R98oedH/h0WcETNz7vcIehinxmyHGvuKrPDxPOFUsCC8ETlLtfIpXSGqfdww8y+MNwDKg==";
+        url = "https://registry.npmjs.org/@prisma/config/-/config-6.6.0-dev.17.tgz";
+        sha512 = "iu7b9qivh7QNLjmX5Nj2ahBZfEI22YIC1yjm1XHrwggPcxsQuNKcaQ6EHvkjqq2c5AdV0GaDcyM7ddVkZqRE3w==";
       };
     };
     "@prisma/debug-2.20.0-dev.6" = {
@@ -85,13 +85,13 @@ let
         sha512 = "8zmXO5Luw5sCOgTw9nyN4/x7MgmIUUt/9zQZPPStiMUhZsXH72oqFwYJlibdS77gDuH2+DXgSRv6aPleDdTMsQ==";
       };
     };
-    "@prisma/prisma-schema-wasm-6.6.0-10.bc2d18c3f69c7d900942eecbba243c671bb24afb" = {
+    "@prisma/prisma-schema-wasm-6.6.0-12.c30faa9515db5aee8774c0a87c7f95df91253fa9" = {
       name = "_at_prisma_slash_prisma-schema-wasm";
       packageName = "@prisma/prisma-schema-wasm";
-      version = "6.6.0-10.bc2d18c3f69c7d900942eecbba243c671bb24afb";
+      version = "6.6.0-12.c30faa9515db5aee8774c0a87c7f95df91253fa9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-6.6.0-10.bc2d18c3f69c7d900942eecbba243c671bb24afb.tgz";
-        sha512 = "gu9FIOYZQNeQbQg/TPEf+n8nAxEHs1fhll1vfk5Myej+ZKdBW9dkSDgrw/rg2wzmHbSOKcvBbuWeWz7juhTh6A==";
+        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-6.6.0-12.c30faa9515db5aee8774c0a87c7f95df91253fa9.tgz";
+        sha512 = "Zt6Wk2GsqGnIj3W1jmCqoE4dEjegS6i5XOAeh1TPPGWvB6oQ5rVItnk2OGxOUM+RftPy5Rh5PKfIlXJDGpFNrg==";
       };
     };
     "@prisma/schema-files-loader-6.5.0" = {
@@ -103,13 +103,13 @@ let
         sha512 = "BE+YPIcqXx+9MkPsA/mACz3rGhKUfh5rsoGe1Male/0c9my9CaHKzJFxNAV4f70d6GTMMITQgFpwfrudGFOwpw==";
       };
     };
-    "@prisma/schema-files-loader-6.6.0-dev.16" = {
+    "@prisma/schema-files-loader-6.6.0-dev.17" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "6.6.0-dev.16";
+      version = "6.6.0-dev.17";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-6.6.0-dev.16.tgz";
-        sha512 = "GZM4UHbrw9BPP+VVjdIEV+iUvSrJ+7d4PzYHSDVvkYJf+RRUkTq51Ca48u7LExrNjK2cgi9wP41cpe0YcbVlgg==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-6.6.0-dev.17.tgz";
+        sha512 = "hhXZwnwJH9H8eabM3EuJdhvGeWgB0FKP4kqZOKeglGSd9dLTwm4K7mSPDZX/XbZ8zLHw58ULApLBJhpB8hNz0w==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -1283,15 +1283,15 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.7349";
+    version = "31.0.7350";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7349.tgz";
-      sha512 = "TgtC3YbPZD+k6vPFFAdQoIS3soRiTParnmSL6XLbGYRa8AwrC2fj4VEsuAnPcqyFqGZUSPQhx32RbCAo76FZoQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7350.tgz";
+      sha512 = "2YklFZDd+fHOR5ubuqLZSFb4AyABfznO6FV6LBIOPoLT4sZB/dcEKBNGWMFQB6YplUP7t7aWZrkrMOp6nRyMgA==";
     };
     dependencies = [
-      sources."@prisma/config-6.6.0-dev.16"
-      sources."@prisma/prisma-schema-wasm-6.6.0-10.bc2d18c3f69c7d900942eecbba243c671bb24afb"
-      sources."@prisma/schema-files-loader-6.6.0-dev.16"
+      sources."@prisma/config-6.6.0-dev.17"
+      sources."@prisma/prisma-schema-wasm-6.6.0-12.c30faa9515db5aee8774c0a87c7f95df91253fa9"
+      sources."@prisma/schema-files-loader-6.6.0-dev.17"
       sources."@types/js-levenshtein-1.1.3"
       sources."debug-4.4.0"
       sources."esbuild-0.25.1"
