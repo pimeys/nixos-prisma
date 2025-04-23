@@ -319,13 +319,13 @@ let
         sha512 = "WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==";
       };
     };
-    "esbuild-0.25.2" = {
+    "esbuild-0.25.3" = {
       name = "esbuild";
       packageName = "esbuild";
-      version = "0.25.2";
+      version = "0.25.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/esbuild/-/esbuild-0.25.2.tgz";
-        sha512 = "16854zccKPnC+toMywC+uKNeYSv+/eXkevRAfwRD/G9Cleq66m8XFIrigkbvauLLlCfDL45Q2cWegSg53gGBnQ==";
+        url = "https://registry.npmjs.org/esbuild/-/esbuild-0.25.3.tgz";
+        sha512 = "qKA6Pvai73+M2FtftpNKRxJ78GIjmFXFxd/1DVBqGo/qNhLSfv+G12n9pNoWdytJC8U00TrViOwpjT0zgqQS8Q==";
       };
     };
     "esbuild-register-3.6.0" = {
@@ -1254,7 +1254,7 @@ in
       sources."@prisma/schema-files-loader-6.6.0"
       sources."@types/js-levenshtein-1.1.3"
       sources."debug-4.4.0"
-      sources."esbuild-0.25.2"
+      sources."esbuild-0.25.3"
       sources."esbuild-register-3.6.0"
       sources."fs-extra-11.3.0"
       sources."graceful-fs-4.2.11"
@@ -1294,7 +1294,7 @@ in
       sources."@prisma/schema-files-loader-6.7.0-dev.10"
       sources."@types/js-levenshtein-1.1.3"
       sources."debug-4.4.0"
-      sources."esbuild-0.25.2"
+      sources."esbuild-0.25.3"
       sources."esbuild-register-3.6.0"
       sources."fs-extra-11.3.0"
       sources."graceful-fs-4.2.11"
