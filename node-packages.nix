@@ -40,13 +40,13 @@ let
         sha512 = "rf1XrAvdbk2fp+pM8SaKTqrkXZ3aRPDBW8QAQjyBbawD1VtT0U8HXzSC8sq05UD+FzyXaacOPQxDU9ZHEvpH4w==";
       };
     };
-    "@prisma/config-6.8.0-dev.38" = {
+    "@prisma/config-6.8.0-dev.39" = {
       name = "_at_prisma_slash_config";
       packageName = "@prisma/config";
-      version = "6.8.0-dev.38";
+      version = "6.8.0-dev.39";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/config/-/config-6.8.0-dev.38.tgz";
-        sha512 = "cN5FjEDB9GDzv9wB7/fkZFL/tCpQUx/CJmpP+KYDbtEGUi+ws3Bcf5DLirYXwU1BucLC04ngIV9nndNfYLm1hQ==";
+        url = "https://registry.npmjs.org/@prisma/config/-/config-6.8.0-dev.39.tgz";
+        sha512 = "J2ZMR8qcD+5iNzT9DOZgxuDFeo/wXZIbMb2z4tNPnL9xgfnf+FKoK06MuuHlM6ijPGDJMrvpRQjqyACPOWGfRg==";
       };
     };
     "@prisma/debug-2.20.0-dev.6" = {
@@ -103,13 +103,13 @@ let
         sha512 = "JhaDfyEPRnFRLwC8AWmlO0QqN5vvQkbDXZbfggvrjjzqoUiiIigDh9enYbXmGZ1i9Tw8rNmiU2SG5RhcPZJnKA==";
       };
     };
-    "@prisma/schema-files-loader-6.8.0-dev.38" = {
+    "@prisma/schema-files-loader-6.8.0-dev.39" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "6.8.0-dev.38";
+      version = "6.8.0-dev.39";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-6.8.0-dev.38.tgz";
-        sha512 = "YfivbNr3aJ/Pnq1FVSnBZ05cwANJLKp+O1dzd7O4EfSBlF6uDnBWTSQXGgfm2y0bWtThQTREWKa0ha9dpn5KDw==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-6.8.0-dev.39.tgz";
+        sha512 = "bicTAmi9LsB6dP4/2xDHXOR1pYvBhNvhVRqoAgeQqTVwvIBWcU6IFxCFUlbQZ1b8V13catas60NWiZQWjPZ96A==";
       };
     };
     "@tootallnate/once-1.1.2" = {
@@ -605,6 +605,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz";
         sha512 = "RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==";
+      };
+    };
+    "jiti-2.4.2" = {
+      name = "jiti";
+      packageName = "jiti";
+      version = "2.4.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/jiti/-/jiti-2.4.2.tgz";
+        sha512 = "rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==";
       };
     };
     "js-levenshtein-1.1.6" = {
@@ -1283,25 +1292,22 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.7544";
+    version = "31.0.7545";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7544.tgz";
-      sha512 = "OxF0o6oduMO5rAXnoL5xgNKiQW9cErOm7+S5oazHDfh3MTcPjDIZvSAc3QSbFO+qWMIHjnN3uYmBZ51LSg5jMQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7545.tgz";
+      sha512 = "lgCSfPN07UJ2HP1mv41L6z6kcsbYRZ4/2eNXOGaOePjvpiSeRX4RkU3x+BfGzilwhiUrLSYGW5UKmODZ1mym9Q==";
     };
     dependencies = [
-      sources."@prisma/config-6.8.0-dev.38"
+      sources."@prisma/config-6.8.0-dev.39"
       sources."@prisma/prisma-schema-wasm-6.8.0-41.b03dd9008d13ed18b5f85f9fc9d97c16419fd0e2"
-      sources."@prisma/schema-files-loader-6.8.0-dev.38"
+      sources."@prisma/schema-files-loader-6.8.0-dev.39"
       sources."@types/js-levenshtein-1.1.3"
-      sources."debug-4.4.0"
-      sources."esbuild-0.25.4"
-      sources."esbuild-register-3.6.0"
       sources."fs-extra-11.3.0"
       sources."graceful-fs-4.2.11"
+      sources."jiti-2.4.2"
       sources."js-levenshtein-1.1.6"
       sources."jsonfile-6.1.0"
       sources."klona-2.0.6"
-      sources."ms-2.1.3"
       sources."universalify-2.0.1"
       sources."vscode-jsonrpc-8.1.0"
       sources."vscode-languageserver-8.1.0"
