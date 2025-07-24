@@ -796,13 +796,13 @@ let
         sha512 = "rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==";
       };
     };
-    "jiti-2.5.0" = {
+    "jiti-2.5.1" = {
       name = "jiti";
       packageName = "jiti";
-      version = "2.5.0";
+      version = "2.5.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jiti/-/jiti-2.5.0.tgz";
-        sha512 = "NWDAhdnATItTnRhip9VTd8oXDjVcbhetRN6YzckApnXGxpGUooKMAaf0KVvlZG0+KlJMGkeLElVn4M1ReuxKUQ==";
+        url = "https://registry.npmjs.org/jiti/-/jiti-2.5.1.tgz";
+        sha512 = "twQoecYPiVA5K/h6SxtORw/Bs3ar+mLUtoPSc7iMXzQzK8d7eJ/R09wmTwAjiamETn1cXYPGfNnu7DMoHgu12w==";
       };
     };
     "js-levenshtein-1.1.6" = {
@@ -1756,7 +1756,7 @@ in
       sources."graceful-fs-4.2.11"
       sources."hosted-git-info-7.0.2"
       sources."index-to-position-1.1.0"
-      sources."jiti-2.5.0"
+      sources."jiti-2.5.1"
       sources."js-levenshtein-1.1.6"
       sources."js-tokens-4.0.0"
       sources."jsonfile-6.1.0"
