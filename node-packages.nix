@@ -76,13 +76,13 @@ let
         sha512 = "oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==";
       };
     };
-    "@prisma/config-6.12.0" = {
+    "@prisma/config-6.13.0" = {
       name = "_at_prisma_slash_config";
       packageName = "@prisma/config";
-      version = "6.12.0";
+      version = "6.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/config/-/config-6.12.0.tgz";
-        sha512 = "HovZWzhWEMedHxmjefQBRZa40P81N7/+74khKFz9e1AFjakcIQdXgMWKgt20HaACzY+d1LRBC+L4tiz71t9fkg==";
+        url = "https://registry.npmjs.org/@prisma/config/-/config-6.13.0.tgz";
+        sha512 = "OYMM+pcrvj/NqNWCGESSxVG3O7kX6oWuGyvufTUNnDw740KIQvNyA4v0eILgkpuwsKIDU36beZCkUtIt0naTog==";
       };
     };
     "@prisma/config-6.13.0-dev.31" = {
@@ -121,15 +121,6 @@ let
         sha512 = "ZYqUixxg1RxA9wGd66PF0fmzq5x94gtTeL1FnQm1E2iPE5BgoUmetrR1f40/t32SmmvgOWOpczoVxJINS336bg==";
       };
     };
-    "@prisma/prisma-schema-wasm-6.12.0-15.8047c96bbd92db98a2abc7c9323ce77c02c89dbc" = {
-      name = "_at_prisma_slash_prisma-schema-wasm";
-      packageName = "@prisma/prisma-schema-wasm";
-      version = "6.12.0-15.8047c96bbd92db98a2abc7c9323ce77c02c89dbc";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-6.12.0-15.8047c96bbd92db98a2abc7c9323ce77c02c89dbc.tgz";
-        sha512 = "vfBiI2aTDMXM+Enw2p7vV0eIKnZqpER4ktmwOtWn4pD+/GX6mRZusuuYufeHbivMVKAAoaU16+Sb75yomeGs0w==";
-      };
-    };
     "@prisma/prisma-schema-wasm-6.13.0-35.361e86d0ea4987e9f53a565309b3eed797a6bcbd" = {
       name = "_at_prisma_slash_prisma-schema-wasm";
       packageName = "@prisma/prisma-schema-wasm";
@@ -139,13 +130,13 @@ let
         sha512 = "qGm3hbUD9lFWXVqY48v+82F0bWyJHSAFFTKssCzbEsIUDOofmy3d50M9U9fyyOoRrKMekj9YfNhcdThMkIaxxw==";
       };
     };
-    "@prisma/schema-files-loader-6.12.0" = {
+    "@prisma/schema-files-loader-6.13.0" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "6.12.0";
+      version = "6.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-6.12.0.tgz";
-        sha512 = "ZyMZ1nW0ogdHUWw1czgzNe5Hkh4lV41Pr0tY1Hh0Z6xzJzV10J29xFywq0vNoRclMh7P/ElQeb4wZ83cp8bG+w==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-6.13.0.tgz";
+        sha512 = "qalemg1t21AMa4JE6ZSgWn2bVJLV7SHYCJSnweur8CVwTKvZnNFlQMFJBHQsnvulvpm/Dvw3nBDebTL3Q04liw==";
       };
     };
     "@prisma/schema-files-loader-6.13.0-dev.31" = {
@@ -787,15 +778,6 @@ let
         sha512 = "RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==";
       };
     };
-    "jiti-2.4.2" = {
-      name = "jiti";
-      packageName = "jiti";
-      version = "2.4.2";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/jiti/-/jiti-2.4.2.tgz";
-        sha512 = "rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==";
-      };
-    };
     "jiti-2.5.1" = {
       name = "jiti";
       packageName = "jiti";
@@ -1003,13 +985,13 @@ let
         sha512 = "S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==";
       };
     };
-    "nypm-0.6.0" = {
+    "nypm-0.6.1" = {
       name = "nypm";
       packageName = "nypm";
-      version = "0.6.0";
+      version = "0.6.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nypm/-/nypm-0.6.0.tgz";
-        sha512 = "mn8wBFV9G9+UFHIrq+pZ2r2zL4aPau/by3kJb3cM7+5tQHMt6HGQB8FDIeKFYp8o0D2pnH6nVsO88N4AmUxIWg==";
+        url = "https://registry.npmjs.org/nypm/-/nypm-0.6.1.tgz";
+        sha512 = "hlacBiRiv1k9hZFiphPUkfSQ/ZfQzZDzC+8z0wL3lvDAOUu/2NnChkKuMoMjNur/9OpKuz2QsIeiPVN0xM5Q0w==";
       };
     };
     "ohash-2.0.11" = {
@@ -1462,13 +1444,13 @@ let
         sha512 = "eLXG5B1G0mRPHmgH2WydPl5v4jH35qEn3y/rA/aahKhIa91Pn119SsU7n7v/433gtT9ONzC8ISvNHIh2JSTm0w==";
       };
     };
-    "tinyexec-0.3.2" = {
+    "tinyexec-1.0.1" = {
       name = "tinyexec";
       packageName = "tinyexec";
-      version = "0.3.2";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tinyexec/-/tinyexec-0.3.2.tgz";
-        sha512 = "KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==";
+        url = "https://registry.npmjs.org/tinyexec/-/tinyexec-1.0.1.tgz";
+        sha512 = "5uC6DDlmeqiOwCPmK9jMSdOuZTh8bU39Ys6yidB+UTt5hfZUPGAypSgFRiEp+jbi9qH40BLDvy85jIU88wKSqw==";
       };
     };
     "to-regex-range-5.0.1" = {
@@ -1684,23 +1666,73 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "6.12.0";
+    version = "6.13.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-6.12.0.tgz";
-      sha512 = "W15TzoElMDyO1xwP1mKrfgTMusxLTI0jc4QMKBIUmDMtiLwYHZiaf4nH712AkjMtlpfW/IfOSmtCHw1e0zGiSA==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-6.13.0.tgz";
+      sha512 = "h4DqmoEsMbhK+REcngLAMz2zKpJ+1ClzoXDLFUlOjJ04neOU7zS8YtmjNaDi/uYGPOpHR4VrOUF6aiuqGykBCQ==";
     };
     dependencies = [
-      sources."@prisma/config-6.12.0"
-      sources."@prisma/prisma-schema-wasm-6.12.0-15.8047c96bbd92db98a2abc7c9323ce77c02c89dbc"
-      sources."@prisma/schema-files-loader-6.12.0"
+      sources."@babel/code-frame-7.27.1"
+      sources."@babel/helper-string-parser-7.27.1"
+      sources."@babel/helper-validator-identifier-7.27.1"
+      sources."@babel/parser-7.28.0"
+      sources."@babel/types-7.28.2"
+      sources."@prisma/config-6.13.0"
+      sources."@prisma/prisma-schema-wasm-6.13.0-35.361e86d0ea4987e9f53a565309b3eed797a6bcbd"
+      sources."@prisma/schema-files-loader-6.13.0"
+      sources."@standard-schema/spec-1.0.0"
       sources."@types/js-levenshtein-1.1.3"
+      sources."@types/normalize-package-data-2.4.4"
+      sources."c12-3.1.0"
+      sources."chokidar-4.0.3"
+      sources."citty-0.1.6"
+      sources."confbox-0.2.2"
+      sources."consola-3.4.2"
+      sources."deepmerge-ts-7.1.5"
+      sources."defu-6.1.4"
+      sources."destr-2.0.5"
+      sources."dotenv-16.6.1"
+      sources."effect-3.16.12"
+      sources."exsolve-1.0.7"
+      sources."fast-check-3.23.2"
+      sources."find-up-simple-1.0.1"
       sources."fs-extra-11.3.0"
+      sources."giget-2.0.0"
       sources."graceful-fs-4.2.11"
-      sources."jiti-2.4.2"
+      sources."hosted-git-info-7.0.2"
+      sources."index-to-position-1.1.0"
+      sources."jiti-2.5.1"
       sources."js-levenshtein-1.1.6"
+      sources."js-tokens-4.0.0"
       sources."jsonfile-6.1.0"
       sources."klona-2.0.6"
+      sources."lru-cache-10.4.3"
+      sources."magicast-0.3.5"
+      sources."node-fetch-native-1.6.6"
+      sources."normalize-package-data-6.0.2"
+      sources."nypm-0.6.1"
+      sources."ohash-2.0.11"
+      sources."parse-json-8.3.0"
+      sources."pathe-2.0.3"
+      sources."perfect-debounce-1.0.0"
+      sources."picocolors-1.1.1"
+      sources."pkg-types-2.2.0"
+      sources."pure-rand-6.1.0"
+      sources."rc9-2.1.2"
+      sources."read-package-up-11.0.0"
+      sources."read-pkg-9.0.1"
+      sources."readdirp-4.1.2"
+      sources."semver-7.7.2"
+      sources."source-map-js-1.2.1"
+      sources."spdx-correct-3.2.0"
+      sources."spdx-exceptions-2.5.0"
+      sources."spdx-expression-parse-3.0.1"
+      sources."spdx-license-ids-3.0.21"
+      sources."tinyexec-1.0.1"
+      sources."type-fest-4.41.0"
+      sources."unicorn-magic-0.1.0"
       sources."universalify-2.0.1"
+      sources."validate-npm-package-license-3.0.4"
       sources."vscode-jsonrpc-8.1.0"
       sources."vscode-languageserver-8.1.0"
       sources."vscode-languageserver-protocol-3.17.3"
@@ -1765,7 +1797,7 @@ in
       sources."magicast-0.3.5"
       sources."node-fetch-native-1.6.6"
       sources."normalize-package-data-6.0.2"
-      sources."nypm-0.6.0"
+      sources."nypm-0.6.1"
       sources."ohash-2.0.11"
       sources."parse-json-8.3.0"
       sources."pathe-2.0.3"
@@ -1783,7 +1815,7 @@ in
       sources."spdx-exceptions-2.5.0"
       sources."spdx-expression-parse-3.0.1"
       sources."spdx-license-ids-3.0.21"
-      sources."tinyexec-0.3.2"
+      sources."tinyexec-1.0.1"
       sources."type-fest-4.41.0"
       sources."unicorn-magic-0.1.0"
       sources."universalify-2.0.1"
