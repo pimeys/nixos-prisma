@@ -85,13 +85,13 @@ let
         sha512 = "OYMM+pcrvj/NqNWCGESSxVG3O7kX6oWuGyvufTUNnDw740KIQvNyA4v0eILgkpuwsKIDU36beZCkUtIt0naTog==";
       };
     };
-    "@prisma/config-6.14.0-dev.1" = {
+    "@prisma/config-6.14.0-dev.2" = {
       name = "_at_prisma_slash_config";
       packageName = "@prisma/config";
-      version = "6.14.0-dev.1";
+      version = "6.14.0-dev.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/config/-/config-6.14.0-dev.1.tgz";
-        sha512 = "1n0nRlEPiBGGf5raGlfBdYlBLWhtKd0kz0h4o6dRL9IMDYZV4DmmAZozbp3p7p5aXw2gtm62pEjkmVcr54uumg==";
+        url = "https://registry.npmjs.org/@prisma/config/-/config-6.14.0-dev.2.tgz";
+        sha512 = "zWD6eEUmU9TVkZ/YwL9UWOopUX3NYRDD35SMkDIBJ8LP9N0Z2SLjYKv1GybIQ3V9iwZ/CI8Ei28se/grvZP9tA==";
       };
     };
     "@prisma/debug-2.20.0-dev.6" = {
@@ -130,6 +130,15 @@ let
         sha512 = "qGm3hbUD9lFWXVqY48v+82F0bWyJHSAFFTKssCzbEsIUDOofmy3d50M9U9fyyOoRrKMekj9YfNhcdThMkIaxxw==";
       };
     };
+    "@prisma/prisma-schema-wasm-6.14.0-1.b2e5a6c3a6936784f3aefb57ce847e4e7d28986a" = {
+      name = "_at_prisma_slash_prisma-schema-wasm";
+      packageName = "@prisma/prisma-schema-wasm";
+      version = "6.14.0-1.b2e5a6c3a6936784f3aefb57ce847e4e7d28986a";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-6.14.0-1.b2e5a6c3a6936784f3aefb57ce847e4e7d28986a.tgz";
+        sha512 = "sqLadiRD+FyFPrRrH9eRKas2XTL44s/I96SzwzbS+I/Tak7SP07Bm4j7wdZTTtZkXZHXIf6F7i5oPbarS93ZIA==";
+      };
+    };
     "@prisma/schema-files-loader-6.13.0" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
@@ -139,13 +148,13 @@ let
         sha512 = "qalemg1t21AMa4JE6ZSgWn2bVJLV7SHYCJSnweur8CVwTKvZnNFlQMFJBHQsnvulvpm/Dvw3nBDebTL3Q04liw==";
       };
     };
-    "@prisma/schema-files-loader-6.14.0-dev.1" = {
+    "@prisma/schema-files-loader-6.14.0-dev.2" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "6.14.0-dev.1";
+      version = "6.14.0-dev.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-6.14.0-dev.1.tgz";
-        sha512 = "HFE+4KIpcqmCz3YmwkAxsny84U30gdnmFnHfAtrjnfAQ7Za6bXe1tgDVSMULZphFccwZumJZQ83GZXfX+n9Tjw==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-6.14.0-dev.2.tgz";
+        sha512 = "+yQnr2kbziYHwdJwtKhn9PNrNAOG7kVUHettzIBotiuEcyloVPFN/zxVU6wZXA4hydLQNDspVrD3Amzm4bJynA==";
       };
     };
     "@standard-schema/spec-1.0.0" = {
@@ -1753,10 +1762,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.7790";
+    version = "31.0.7791";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7790.tgz";
-      sha512 = "xPmX/IV4o9d9bw8JX00p7skZAcVgkGDq3ZqhJPDZIMzfFQUg4dqSpRBkNU62hBOyIywsAk5PIPSjXJpsAqBTXw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7791.tgz";
+      sha512 = "GFd2YdfzUbbHZ0+PwYFEWjKpU0fIkpZVWX8MC3Pr81r0XgWcRpWannXCccX0uwj60ijL4lQez2E9MRTagVpzRw==";
     };
     dependencies = [
       sources."@babel/code-frame-7.27.1"
@@ -1764,9 +1773,9 @@ in
       sources."@babel/helper-validator-identifier-7.27.1"
       sources."@babel/parser-7.28.0"
       sources."@babel/types-7.28.2"
-      sources."@prisma/config-6.14.0-dev.1"
-      sources."@prisma/prisma-schema-wasm-6.13.0-35.361e86d0ea4987e9f53a565309b3eed797a6bcbd"
-      sources."@prisma/schema-files-loader-6.14.0-dev.1"
+      sources."@prisma/config-6.14.0-dev.2"
+      sources."@prisma/prisma-schema-wasm-6.14.0-1.b2e5a6c3a6936784f3aefb57ce847e4e7d28986a"
+      sources."@prisma/schema-files-loader-6.14.0-dev.2"
       sources."@standard-schema/spec-1.0.0"
       sources."@types/js-levenshtein-1.1.3"
       sources."@types/normalize-package-data-2.4.4"
