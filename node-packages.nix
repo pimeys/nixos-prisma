@@ -958,13 +958,13 @@ let
         sha512 = "V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==";
       };
     };
-    "node-fetch-native-1.6.6" = {
+    "node-fetch-native-1.6.7" = {
       name = "node-fetch-native";
       packageName = "node-fetch-native";
-      version = "1.6.6";
+      version = "1.6.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-fetch-native/-/node-fetch-native-1.6.6.tgz";
-        sha512 = "8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==";
+        url = "https://registry.npmjs.org/node-fetch-native/-/node-fetch-native-1.6.7.tgz";
+        sha512 = "g9yhqoedzIUm0nTnTqAQvueMPVOuIY16bqgAJJC8XOOubYFNwz6IER9qs0Gq2Xd0+CecCKFjtdDTMA4u4xG06Q==";
       };
     };
     "normalize-package-data-6.0.2" = {
@@ -1717,7 +1717,7 @@ in
       sources."klona-2.0.6"
       sources."lru-cache-10.4.3"
       sources."magicast-0.3.5"
-      sources."node-fetch-native-1.6.6"
+      sources."node-fetch-native-1.6.7"
       sources."normalize-package-data-6.0.2"
       sources."nypm-0.6.1"
       sources."ohash-2.0.11"
@@ -1804,7 +1804,7 @@ in
       sources."klona-2.0.6"
       sources."lru-cache-10.4.3"
       sources."magicast-0.3.5"
-      sources."node-fetch-native-1.6.6"
+      sources."node-fetch-native-1.6.7"
       sources."normalize-package-data-6.0.2"
       sources."nypm-0.6.1"
       sources."ohash-2.0.11"
