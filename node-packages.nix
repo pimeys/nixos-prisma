@@ -85,13 +85,13 @@ let
         sha512 = "OYMM+pcrvj/NqNWCGESSxVG3O7kX6oWuGyvufTUNnDw740KIQvNyA4v0eILgkpuwsKIDU36beZCkUtIt0naTog==";
       };
     };
-    "@prisma/config-6.14.0-dev.15" = {
+    "@prisma/config-6.14.0-dev.16" = {
       name = "_at_prisma_slash_config";
       packageName = "@prisma/config";
-      version = "6.14.0-dev.15";
+      version = "6.14.0-dev.16";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/config/-/config-6.14.0-dev.15.tgz";
-        sha512 = "SMcmc+bDJNq1dWeQWqym91GKDTMha2Lq75fwwMhTNl/2FVbAyOrSWh3YnajxG6yf98wEAg2FiCwI+zpJ5ALZ6A==";
+        url = "https://registry.npmjs.org/@prisma/config/-/config-6.14.0-dev.16.tgz";
+        sha512 = "fUgnY2PkzCPDP3WRlW64pifyNcPldc6diRKUN040/PmatL1z+qKLBsShwtGrGtny93MRoCrgdDxXrARu5sCIBA==";
       };
     };
     "@prisma/debug-2.20.0-dev.6" = {
@@ -148,13 +148,13 @@ let
         sha512 = "qalemg1t21AMa4JE6ZSgWn2bVJLV7SHYCJSnweur8CVwTKvZnNFlQMFJBHQsnvulvpm/Dvw3nBDebTL3Q04liw==";
       };
     };
-    "@prisma/schema-files-loader-6.14.0-dev.15" = {
+    "@prisma/schema-files-loader-6.14.0-dev.16" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "6.14.0-dev.15";
+      version = "6.14.0-dev.16";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-6.14.0-dev.15.tgz";
-        sha512 = "rwnHk5WZuKSymucMB4yzqJ2TeToLBdCKkvWcF339m25u21rH7nNVIdWVEGQIcgPLi7GEVM8am4Wa4O9vC164jA==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-6.14.0-dev.16.tgz";
+        sha512 = "28hgr0HTmoV4L1/eaHJ/K5KAaATlzyXQbghT/ijjJ5Jot7ABaqJ/pwaDjm9c8VxL38mChPF2s83V7zPva5zFpQ==";
       };
     };
     "@standard-schema/spec-1.0.0" = {
@@ -461,6 +461,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/effect/-/effect-3.16.12.tgz";
         sha512 = "N39iBk0K71F9nb442TLbTkjl24FLUzuvx2i1I2RsEAQsdAdUTuUoW0vlfUXgkMTUOnYqKnWcFfqw4hK4Pw27hg==";
+      };
+    };
+    "empathic-2.0.0" = {
+      name = "empathic";
+      packageName = "empathic";
+      version = "2.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/empathic/-/empathic-2.0.0.tgz";
+        sha512 = "i6UzDscO/XfAcNYD75CfICkmfLedpyPDdozrLMmQc5ORaQcdMoc21OnlEylMIqI7U8eniKrPMxxtj8k0vhmJhA==";
       };
     };
     "execa-5.0.0" = {
@@ -1762,23 +1771,21 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.7805";
+    version = "31.0.7806";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7805.tgz";
-      sha512 = "cUQjECHggoZtXNCP3A8ryEqn7KMO2CY7ue5huGgD5ScBZz+Vdr6Hl6wAe/W9HorV0e82oJf01IiebIR5opMW7w==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7806.tgz";
+      sha512 = "LcBX9ZK4AwURzexNtAk5v4B0zTsG2zlok0rgNSpc4P4Oi1AkQpuGIUMl1bPD7wuQlYWI4Kan73APa/JCZUTyTA==";
     };
     dependencies = [
-      sources."@babel/code-frame-7.27.1"
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.27.1"
       sources."@babel/parser-7.28.0"
       sources."@babel/types-7.28.2"
-      sources."@prisma/config-6.14.0-dev.15"
+      sources."@prisma/config-6.14.0-dev.16"
       sources."@prisma/prisma-schema-wasm-6.14.0-4.1c4c6a033ef7e7815b76142f9502e03b0d83e1a1"
-      sources."@prisma/schema-files-loader-6.14.0-dev.15"
+      sources."@prisma/schema-files-loader-6.14.0-dev.16"
       sources."@standard-schema/spec-1.0.0"
       sources."@types/js-levenshtein-1.1.3"
-      sources."@types/normalize-package-data-2.4.4"
       sources."c12-3.1.0"
       sources."chokidar-4.0.3"
       sources."citty-0.1.6"
@@ -1789,46 +1796,29 @@ in
       sources."destr-2.0.5"
       sources."dotenv-16.6.1"
       sources."effect-3.16.12"
+      sources."empathic-2.0.0"
       sources."exsolve-1.0.7"
       sources."fast-check-3.23.2"
-      sources."find-up-simple-1.0.1"
       sources."fs-extra-11.3.0"
       sources."giget-2.0.0"
       sources."graceful-fs-4.2.11"
-      sources."hosted-git-info-7.0.2"
-      sources."index-to-position-1.1.0"
       sources."jiti-2.5.1"
       sources."js-levenshtein-1.1.6"
-      sources."js-tokens-4.0.0"
       sources."jsonfile-6.1.0"
       sources."klona-2.0.6"
-      sources."lru-cache-10.4.3"
       sources."magicast-0.3.5"
       sources."node-fetch-native-1.6.7"
-      sources."normalize-package-data-6.0.2"
       sources."nypm-0.6.1"
       sources."ohash-2.0.11"
-      sources."parse-json-8.3.0"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
-      sources."picocolors-1.1.1"
       sources."pkg-types-2.2.0"
       sources."pure-rand-6.1.0"
       sources."rc9-2.1.2"
-      sources."read-package-up-11.0.0"
-      sources."read-pkg-9.0.1"
       sources."readdirp-4.1.2"
-      sources."semver-7.7.2"
       sources."source-map-js-1.2.1"
-      sources."spdx-correct-3.2.0"
-      sources."spdx-exceptions-2.5.0"
-      sources."spdx-expression-parse-3.0.1"
-      sources."spdx-license-ids-3.0.22"
       sources."tinyexec-1.0.1"
-      sources."type-fest-4.41.0"
-      sources."unicorn-magic-0.1.0"
       sources."universalify-2.0.1"
-      sources."validate-npm-package-license-3.0.4"
       sources."vscode-jsonrpc-8.1.0"
       sources."vscode-languageserver-8.1.0"
       sources."vscode-languageserver-protocol-3.17.3"
