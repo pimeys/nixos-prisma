@@ -1408,13 +1408,13 @@ let
         sha512 = "cbqHunsQWnJNE6KhVSMsMeH5H/L9EpymbzqTQ3uLwNCLZ1Q481oWaofqH7nO6V07xlXwY6PhQdQ2IedWx/ZK4Q==";
       };
     };
-    "spdx-license-ids-3.0.21" = {
+    "spdx-license-ids-3.0.22" = {
       name = "spdx-license-ids";
       packageName = "spdx-license-ids";
-      version = "3.0.21";
+      version = "3.0.22";
       src = fetchurl {
-        url = "https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.21.tgz";
-        sha512 = "Bvg/8F5XephndSK3JffaRqdT+gyhfqIPwDHpX80tJrF8QQRYMo8sNMeaZ2Dp5+jhwKnUmIOyFFQfHRkjJm5nXg==";
+        url = "https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.22.tgz";
+        sha512 = "4PRT4nh1EImPbt2jASOKHX7PB7I+e4IWNLvkKFDxNhJlfjbYlleYQh285Z/3mPTHSAK/AvdMmw5BNNuYH8ShgQ==";
       };
     };
     "strip-final-newline-2.0.0" = {
@@ -1736,7 +1736,7 @@ in
       sources."spdx-correct-3.2.0"
       sources."spdx-exceptions-2.5.0"
       sources."spdx-expression-parse-3.0.1"
-      sources."spdx-license-ids-3.0.21"
+      sources."spdx-license-ids-3.0.22"
       sources."tinyexec-1.0.1"
       sources."type-fest-4.41.0"
       sources."unicorn-magic-0.1.0"
@@ -1823,7 +1823,7 @@ in
       sources."spdx-correct-3.2.0"
       sources."spdx-exceptions-2.5.0"
       sources."spdx-expression-parse-3.0.1"
-      sources."spdx-license-ids-3.0.21"
+      sources."spdx-license-ids-3.0.22"
       sources."tinyexec-1.0.1"
       sources."type-fest-4.41.0"
       sources."unicorn-magic-0.1.0"
