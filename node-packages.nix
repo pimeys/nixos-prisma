@@ -76,13 +76,13 @@ let
         sha512 = "IwC7o5KNNGhmblLs23swnfBjADkacBb7wvyDXUWLwuvUQciKJZqyecU0jw0d7JRkswrj+XTL8fdr0y2/VerKQQ==";
       };
     };
-    "@prisma/config-6.15.0-dev.5" = {
+    "@prisma/config-6.15.0-dev.6" = {
       name = "_at_prisma_slash_config";
       packageName = "@prisma/config";
-      version = "6.15.0-dev.5";
+      version = "6.15.0-dev.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/config/-/config-6.15.0-dev.5.tgz";
-        sha512 = "LeymiAFErg6hm0Ub+ev58CAK6jqKqGfXqFAUlYv6Ho9/xOMX+mOilwEx/Y+bmJeQ4SjY6LbXW/QmIrpxMXH1YA==";
+        url = "https://registry.npmjs.org/@prisma/config/-/config-6.15.0-dev.6.tgz";
+        sha512 = "E3D2EgeRobdYYiYZWkIw/jOxjwaF71lxSXeiWKHsI3cgzbXz+0n+e0eWbV37rQC5sxeI/I9KaA0Tx3S1N+Yc1Q==";
       };
     };
     "@prisma/debug-2.20.0-dev.6" = {
@@ -139,13 +139,13 @@ let
         sha512 = "i80AKova0e5hQRdDhloF7cCo9ydfZZsM230SmMq9hhw5KEckgldx/5g3Z885B98bCNYO6fh0VVsG1NgDG6pcdg==";
       };
     };
-    "@prisma/schema-files-loader-6.15.0-dev.5" = {
+    "@prisma/schema-files-loader-6.15.0-dev.6" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "6.15.0-dev.5";
+      version = "6.15.0-dev.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-6.15.0-dev.5.tgz";
-        sha512 = "C713MG+oEZCj+w281zFYgXGMChR3ldwfl1JfGf16gvuT/dbpjrotWw0UzDJjodB3QbtFRuvijH5ezRZWx2B78g==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-6.15.0-dev.6.tgz";
+        sha512 = "3VazPGxdt9xE0rQCmL8bd0lNNNL7+ZGb8f3w5WVS8lE0hlQtOUv9QQ15aCdSFgIHfwZTNoccBYyDkCpa9ZY/qA==";
       };
     };
     "@standard-schema/spec-1.0.0" = {
@@ -1572,19 +1572,19 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.7841";
+    version = "31.0.7842";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7841.tgz";
-      sha512 = "6T56s/Xy8WnqOBJnWRuQbed1lDa1NLLdtVJkXsHpE17nbEBCgAGe+hePUoWuwVCnUn1K+AVnUm0tvDytfxIB5g==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7842.tgz";
+      sha512 = "q6iRrlxCnK3O5NaMlz1oDzBGjzcBigT7fKcsm/eCZxhedYNF9i9gi2KEqvHSgxoj7KAePmJhAOYMl6DyQlEwAg==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.27.1"
       sources."@babel/parser-7.28.3"
       sources."@babel/types-7.28.2"
-      sources."@prisma/config-6.15.0-dev.5"
+      sources."@prisma/config-6.15.0-dev.6"
       sources."@prisma/prisma-schema-wasm-6.15.0-1.4d84597d45f23a11ea7673dd0d603d8aaa4a86b7"
-      sources."@prisma/schema-files-loader-6.15.0-dev.5"
+      sources."@prisma/schema-files-loader-6.15.0-dev.6"
       sources."@standard-schema/spec-1.0.0"
       sources."@types/js-levenshtein-1.1.3"
       sources."c12-3.1.0"
