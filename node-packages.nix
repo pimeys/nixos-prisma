@@ -1129,13 +1129,13 @@ let
         sha512 = "NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==";
       };
     };
-    "pkg-types-2.2.0" = {
+    "pkg-types-2.3.0" = {
       name = "pkg-types";
       packageName = "pkg-types";
-      version = "2.2.0";
+      version = "2.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-2.2.0.tgz";
-        sha512 = "2SM/GZGAEkPp3KWORxQZns4M+WSeXbC2HEvmOIJe3Cmiv6ieAJvdVhDldtHqM5J1Y7MrR1XhkBT/rMlhh9FdqQ==";
+        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-2.3.0.tgz";
+        sha512 = "SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==";
       };
     };
     "progress-2.0.3" = {
@@ -1545,7 +1545,7 @@ in
       sources."ohash-2.0.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
-      sources."pkg-types-2.2.0"
+      sources."pkg-types-2.3.0"
       sources."pure-rand-6.1.0"
       sources."rc9-2.1.2"
       sources."readdirp-4.1.2"
@@ -1613,7 +1613,7 @@ in
       sources."ohash-2.0.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
-      sources."pkg-types-2.2.0"
+      sources."pkg-types-2.3.0"
       sources."pure-rand-6.1.0"
       sources."rc9-2.1.2"
       sources."readdirp-4.1.2"
