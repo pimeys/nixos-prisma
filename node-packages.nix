@@ -922,13 +922,13 @@ let
         sha512 = "S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==";
       };
     };
-    "nypm-0.6.1" = {
+    "nypm-0.6.2" = {
       name = "nypm";
       packageName = "nypm";
-      version = "0.6.1";
+      version = "0.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nypm/-/nypm-0.6.1.tgz";
-        sha512 = "hlacBiRiv1k9hZFiphPUkfSQ/ZfQzZDzC+8z0wL3lvDAOUu/2NnChkKuMoMjNur/9OpKuz2QsIeiPVN0xM5Q0w==";
+        url = "https://registry.npmjs.org/nypm/-/nypm-0.6.2.tgz";
+        sha512 = "7eM+hpOtrKrBDCh7Ypu2lJ9Z7PNZBdi/8AT3AX8xoCj43BBVHD0hPSTEvMtkMpfs8FCqBGhxB+uToIQimA111g==";
       };
     };
     "ohash-2.0.11" = {
@@ -1532,7 +1532,7 @@ in
       sources."klona-2.0.6"
       sources."magicast-0.3.5"
       sources."node-fetch-native-1.6.7"
-      sources."nypm-0.6.1"
+      sources."nypm-0.6.2"
       sources."ohash-2.0.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
@@ -1600,7 +1600,7 @@ in
       sources."klona-2.0.6"
       sources."magicast-0.3.5"
       sources."node-fetch-native-1.6.7"
-      sources."nypm-0.6.1"
+      sources."nypm-0.6.2"
       sources."ohash-2.0.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
