@@ -751,13 +751,13 @@ let
         sha512 = "RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==";
       };
     };
-    "jiti-2.6.0" = {
+    "jiti-2.6.1" = {
       name = "jiti";
       packageName = "jiti";
-      version = "2.6.0";
+      version = "2.6.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jiti/-/jiti-2.6.0.tgz";
-        sha512 = "VXe6RjJkBPj0ohtqaO8vSWP3ZhAKo66fKrFNCll4BTcwljPLz03pCbaNKfzGP5MbrCYcbJ7v0nOYYwUzTEIdXQ==";
+        url = "https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz";
+        sha512 = "ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==";
       };
     };
     "js-levenshtein-1.1.6" = {
@@ -1535,7 +1535,7 @@ in
       sources."fs-extra-11.3.0"
       sources."giget-2.0.0"
       sources."graceful-fs-4.2.11"
-      sources."jiti-2.6.0"
+      sources."jiti-2.6.1"
       sources."js-levenshtein-1.1.6"
       sources."jsonfile-6.2.0"
       sources."klona-2.0.6"
@@ -1603,7 +1603,7 @@ in
       sources."fs-extra-11.3.0"
       sources."giget-2.0.0"
       sources."graceful-fs-4.2.11"
-      sources."jiti-2.6.0"
+      sources."jiti-2.6.1"
       sources."js-levenshtein-1.1.6"
       sources."jsonfile-6.2.0"
       sources."klona-2.0.6"
