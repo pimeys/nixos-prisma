@@ -1563,10 +1563,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.0.7962";
+    version = "31.0.7963";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7962.tgz";
-      sha512 = "iAZdjsk1SLv26Cs/Jso6nywdHJGEHBZ7dravWBwvzh5NveMSkqE9HCyVNt3SRRIx522z0raKO1j/KJOyBku7Bg==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.0.7963.tgz";
+      sha512 = "Yh/0nLa/dcBaIsSOhyoYJ1e6mYUlbGNGZXsyZTv5vsWhSrJg5VK6KGqp5RrWNFQQil/EI4olnZZ1qicBF+iFkg==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
