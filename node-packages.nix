@@ -463,13 +463,13 @@ let
         sha512 = "ov6w/2LCiuyO4RLYGdpFGjkcs0wMTgGE8PrkTHikeUy5iJekXyPIKUjifk5CsE0pt7sMCrMZ3YNqoCj6idQOnQ==";
       };
     };
-    "exsolve-1.0.7" = {
+    "exsolve-1.0.8" = {
       name = "exsolve";
       packageName = "exsolve";
-      version = "1.0.7";
+      version = "1.0.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/exsolve/-/exsolve-1.0.7.tgz";
-        sha512 = "VO5fQUzZtI6C+vx4w/4BWJpg3s/5l+6pRQEHzFRM8WFi4XffSP1Z+4qi7GbjWbvRQEbdIco5mIMq+zX4rPuLrw==";
+        url = "https://registry.npmjs.org/exsolve/-/exsolve-1.0.8.tgz";
+        sha512 = "LmDxfWXwcTArk8fUEnOfSZpHOJ6zOMUJKOtFLFqJLoKJetuQG874Uc7/Kki7zFLzYybmZhp1M7+98pfMqeX8yA==";
       };
     };
     "fast-check-3.23.2" = {
@@ -1530,7 +1530,7 @@ in
       sources."dotenv-16.6.1"
       sources."effect-3.18.4"
       sources."empathic-2.0.0"
-      sources."exsolve-1.0.7"
+      sources."exsolve-1.0.8"
       sources."fast-check-3.23.2"
       sources."fs-extra-11.3.0"
       sources."giget-2.0.0"
@@ -1598,7 +1598,7 @@ in
       sources."dotenv-16.6.1"
       sources."effect-3.18.4"
       sources."empathic-2.0.0"
-      sources."exsolve-1.0.7"
+      sources."exsolve-1.0.8"
       sources."fast-check-3.23.2"
       sources."fs-extra-11.3.0"
       sources."giget-2.0.0"
