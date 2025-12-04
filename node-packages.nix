@@ -58,13 +58,13 @@ let
         sha512 = "Uz+I43Wn1RYNHtuYtOhOnUcNMWp2Pd3GUDDKs37xlHptCGpzEG3MRR9L+8Y2ISMsMI24z/Ni+ww6OB/OO8M0sQ==";
       };
     };
-    "@prisma/config-7.1.0-dev.39" = {
+    "@prisma/config-7.2.0-dev.2" = {
       name = "_at_prisma_slash_config";
       packageName = "@prisma/config";
-      version = "7.1.0-dev.39";
+      version = "7.2.0-dev.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/config/-/config-7.1.0-dev.39.tgz";
-        sha512 = "+Rb+BIbWi7uQQqTn32cfnZqq5xjhNotw9eBhgdZsgQumoOSiSespk0AOV8z2dGkhtzNqptjscXB1KAnJVFeHjw==";
+        url = "https://registry.npmjs.org/@prisma/config/-/config-7.2.0-dev.2.tgz";
+        sha512 = "ZisgI9uMA1HbanymPG+enwLRHryqB0Xml6Z2Vkg1DQ2DVoKzWYZMcI8/C8hlsjsrWggSVlZ99p/fdHFHrM6Vdw==";
       };
     };
     "@prisma/prisma-schema-wasm-6.19.0-26.2ba551f319ab1df4bc874a89965d8b3641056773" = {
@@ -85,6 +85,15 @@ let
         sha512 = "Sl+4fTtdT/75Z22GAq/Ad68I9QxjmQZ2ClLwJrgQeD4jWAsxHZNX0mmftxZu5e9VfZPCgH0hBwEZ17+LpVL5Rg==";
       };
     };
+    "@prisma/prisma-schema-wasm-7.2.0-1.3f298657b368429158ee75de33d3dc7ca4b307a5" = {
+      name = "_at_prisma_slash_prisma-schema-wasm";
+      packageName = "@prisma/prisma-schema-wasm";
+      version = "7.2.0-1.3f298657b368429158ee75de33d3dc7ca4b307a5";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-7.2.0-1.3f298657b368429158ee75de33d3dc7ca4b307a5.tgz";
+        sha512 = "IypzeOLVpvrG6kL/nPWHRs8U+AZ1KAcY68TkCxhbfYW9PjnuFwo5eIoYn6NTtsBLDxyKJQU/055UYU5bdcWJMQ==";
+      };
+    };
     "@prisma/schema-files-loader-6.19.0-dev.10" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
@@ -103,13 +112,13 @@ let
         sha512 = "qULNCyLc6FqCDLnTMOne+rUgtga7uImgB2tPd2KzmgXnOzSTxMydq1a8c4bza4hNT4aC6QN4bYLg5LQrL5gAFA==";
       };
     };
-    "@prisma/schema-files-loader-7.1.0-dev.39" = {
+    "@prisma/schema-files-loader-7.2.0-dev.2" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "7.1.0-dev.39";
+      version = "7.2.0-dev.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-7.1.0-dev.39.tgz";
-        sha512 = "gW5t7acfR3UFRsxXLjWuoTsI+yKBM6m98D5BE8EpjWpTwKhfnV0EMohCucJ+pmDWS8ISObtg7RF3lMFOe/p1Tg==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-7.2.0-dev.2.tgz";
+        sha512 = "xiVZhbifvQYBvZIynFYvEthY0HsgFKrtnIRAgTLdB/nb/wQogW/xZc9NLAMxlpEHA9JR53hsFr072uxEfD92SA==";
       };
     };
     "@standard-schema/spec-1.0.0" = {
@@ -555,19 +564,19 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.1.1";
+    version = "31.1.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.1.1.tgz";
-      sha512 = "wAAe7wpGLMLCjsoSYOr3jpuyo4Oew9AA+7b2WwY19Dla1CYkNYnXqryJUsIJcaxry1nsqpppxa9CSYNg5LU+YQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.1.3.tgz";
+      sha512 = "ZIjzhDQKuMURHOpbVFau3W3/Y59frEznSr9CtXXM1d0tixwoerSbv4RvLECghp60afdBJHG5aW3UPiHbCBoYeg==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.28.5"
       sources."@babel/parser-7.28.5"
       sources."@babel/types-7.28.5"
-      sources."@prisma/config-7.1.0-dev.39"
-      sources."@prisma/prisma-schema-wasm-7.1.0-6.ab635e6b9d606fa5c8fb8b1a7f909c3c3c1c98ba"
-      sources."@prisma/schema-files-loader-7.1.0-dev.39"
+      sources."@prisma/config-7.2.0-dev.2"
+      sources."@prisma/prisma-schema-wasm-7.2.0-1.3f298657b368429158ee75de33d3dc7ca4b307a5"
+      sources."@prisma/schema-files-loader-7.2.0-dev.2"
       sources."@standard-schema/spec-1.0.0"
       sources."@types/js-levenshtein-1.1.3"
       sources."c12-3.1.0"
