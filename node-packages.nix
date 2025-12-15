@@ -121,13 +121,13 @@ let
         sha512 = "+UKwFXb16sP7c6utS1fPjwUP54XYXIns5uA5TNQiVMQ+kTw5S/dVjqURUp44fJlZnGVQVbyL+Ljo+jp9/ChzQg==";
       };
     };
-    "@standard-schema/spec-1.0.0" = {
+    "@standard-schema/spec-1.1.0" = {
       name = "_at_standard-schema_slash_spec";
       packageName = "@standard-schema/spec";
-      version = "1.0.0";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@standard-schema/spec/-/spec-1.0.0.tgz";
-        sha512 = "m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==";
+        url = "https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz";
+        sha512 = "l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==";
       };
     };
     "@types/js-levenshtein-1.1.3" = {
@@ -509,7 +509,7 @@ in
       sources."@prisma/config-7.1.0"
       sources."@prisma/prisma-schema-wasm-7.1.0-6.ab635e6b9d606fa5c8fb8b1a7f909c3c3c1c98ba"
       sources."@prisma/schema-files-loader-7.1.0"
-      sources."@standard-schema/spec-1.0.0"
+      sources."@standard-schema/spec-1.1.0"
       sources."@types/js-levenshtein-1.1.3"
       sources."c12-3.1.0"
       sources."chokidar-4.0.3"
@@ -577,7 +577,7 @@ in
       sources."@prisma/config-7.2.0-dev.3"
       sources."@prisma/prisma-schema-wasm-7.2.0-1.3f298657b368429158ee75de33d3dc7ca4b307a5"
       sources."@prisma/schema-files-loader-7.2.0-dev.3"
-      sources."@standard-schema/spec-1.0.0"
+      sources."@standard-schema/spec-1.1.0"
       sources."@types/js-levenshtein-1.1.3"
       sources."c12-3.1.0"
       sources."chokidar-4.0.3"
@@ -645,7 +645,7 @@ in
       sources."@prisma/config-6.19.0-dev.10"
       sources."@prisma/prisma-schema-wasm-6.19.0-26.2ba551f319ab1df4bc874a89965d8b3641056773"
       sources."@prisma/schema-files-loader-6.19.0-dev.10"
-      sources."@standard-schema/spec-1.0.0"
+      sources."@standard-schema/spec-1.1.0"
       sources."@types/js-levenshtein-1.1.3"
       sources."c12-3.1.0"
       sources."chokidar-4.0.3"
