@@ -166,6 +166,15 @@ let
         sha512 = "tskPPKEs8D2KPafUypv2gxwJP8h/OaJmC82QQGGDQcHvXX43xF2VDACcJVmZ0EuSxkpO9Kc4MlrA3q0+FG58AQ==";
       };
     };
+    "citty-0.2.0" = {
+      name = "citty";
+      packageName = "citty";
+      version = "0.2.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/citty/-/citty-0.2.0.tgz";
+        sha512 = "8csy5IBFI2ex2hTVpaHN2j+LNE199AgiI7y4dMintrr8i0lQiFn+0AWMZrWdHKIgMOer65f8IThysYhoReqjWA==";
+      };
+    };
     "confbox-0.2.2" = {
       name = "confbox";
       packageName = "confbox";
@@ -337,13 +346,13 @@ let
         sha512 = "g9yhqoedzIUm0nTnTqAQvueMPVOuIY16bqgAJJC8XOOubYFNwz6IER9qs0Gq2Xd0+CecCKFjtdDTMA4u4xG06Q==";
       };
     };
-    "nypm-0.6.2" = {
+    "nypm-0.6.4" = {
       name = "nypm";
       packageName = "nypm";
-      version = "0.6.2";
+      version = "0.6.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nypm/-/nypm-0.6.2.tgz";
-        sha512 = "7eM+hpOtrKrBDCh7Ypu2lJ9Z7PNZBdi/8AT3AX8xoCj43BBVHD0hPSTEvMtkMpfs8FCqBGhxB+uToIQimA111g==";
+        url = "https://registry.npmjs.org/nypm/-/nypm-0.6.4.tgz";
+        sha512 = "1TvCKjZyyklN+JJj2TS3P4uSQEInrM/HkkuSXsEzm1ApPgBffOn8gFguNnZf07r/1X6vlryfIqMUkJKQMzlZiw==";
       };
     };
     "ohash-2.0.11" = {
@@ -533,7 +542,11 @@ in
       sources."klona-2.0.6"
       sources."magicast-0.3.5"
       sources."node-fetch-native-1.6.7"
-      sources."nypm-0.6.2"
+      (sources."nypm-0.6.4" // {
+        dependencies = [
+          sources."citty-0.2.0"
+        ];
+      })
       sources."ohash-2.0.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
@@ -601,7 +614,11 @@ in
       sources."klona-2.0.6"
       sources."magicast-0.3.5"
       sources."node-fetch-native-1.6.7"
-      sources."nypm-0.6.2"
+      (sources."nypm-0.6.4" // {
+        dependencies = [
+          sources."citty-0.2.0"
+        ];
+      })
       sources."ohash-2.0.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
@@ -669,7 +686,11 @@ in
       sources."klona-2.0.6"
       sources."magicast-0.3.5"
       sources."node-fetch-native-1.6.7"
-      sources."nypm-0.6.2"
+      (sources."nypm-0.6.4" // {
+        dependencies = [
+          sources."citty-0.2.0"
+        ];
+      })
       sources."ohash-2.0.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
