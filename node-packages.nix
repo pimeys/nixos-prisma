@@ -58,13 +58,13 @@ let
         sha512 = "QyMV67+eXF7uMtKxTEeQqNu/Be7iH+3iDZOQZW5ttfbSwBamCSdwPszA0dum+Wx27I7anYTPLmRmMORKViSW1A==";
       };
     };
-    "@prisma/config-7.3.0-dev.19" = {
+    "@prisma/config-7.4.0-dev.1" = {
       name = "_at_prisma_slash_config";
       packageName = "@prisma/config";
-      version = "7.3.0-dev.19";
+      version = "7.4.0-dev.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/config/-/config-7.3.0-dev.19.tgz";
-        sha512 = "qJtn15592hh/OtY2tK7rbB+EnpnQD9ygerDH22LIpSPnuIfEJmQ5Tt48SXprnay3CKbx72UHohj0Tk35g8X4bA==";
+        url = "https://registry.npmjs.org/@prisma/config/-/config-7.4.0-dev.1.tgz";
+        sha512 = "SByZ98uT8Wxaf+41TgJJdP0cu0c++VhU5F/SaJ0dM04UnvDMpf7Ppu+5MfMkZ/CdmTiFPTBJVrLiWrp2ZgVreg==";
       };
     };
     "@prisma/prisma-schema-wasm-6.19.0-26.2ba551f319ab1df4bc874a89965d8b3641056773" = {
@@ -85,6 +85,15 @@ let
         sha512 = "pL9W918JLoK9fdAccH07ryjN9D4TZU1H3zBrLtYZbd+YhsAYQVvyM8hhyxzv8UrXVDKwsiYWoMdTb2PC+cjy3A==";
       };
     };
+    "@prisma/prisma-schema-wasm-7.4.0-1.0940115552e3c2e6432bc074fc6216a2e18f339e" = {
+      name = "_at_prisma_slash_prisma-schema-wasm";
+      packageName = "@prisma/prisma-schema-wasm";
+      version = "7.4.0-1.0940115552e3c2e6432bc074fc6216a2e18f339e";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-7.4.0-1.0940115552e3c2e6432bc074fc6216a2e18f339e.tgz";
+        sha512 = "6BfkEJ/2t1/glmwdb1U6LkDsnh/CoYvOkaZuMGxkvtyiUn5bVWHW7aoqEB3hlt+niukXhZvUXOMWDzr2ubGBMQ==";
+      };
+    };
     "@prisma/schema-files-loader-6.19.0-dev.10" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
@@ -103,13 +112,13 @@ let
         sha512 = "NDGctetgHLXRQodiiFIm0QPxq1ZJMo1+d66K3oOKKUKCLYOHnH2VemZbcwsf4oAXKlTRyLnxMR4Q2xiGTyNGRQ==";
       };
     };
-    "@prisma/schema-files-loader-7.3.0-dev.19" = {
+    "@prisma/schema-files-loader-7.4.0-dev.1" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "7.3.0-dev.19";
+      version = "7.4.0-dev.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-7.3.0-dev.19.tgz";
-        sha512 = "CHBhfuU1a6kNk+I37HZSSfp8V/jnWNC07yI51OIDH0tfAk3X8ntUJmw2JJ+b0+YvWieIdrEXuoRO/TiR8hkv8w==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-7.4.0-dev.1.tgz";
+        sha512 = "AQDVx+jXR125S5WwCDaFnoXvgT5KvKxP7iV0fK7NMMn/Pr67s/16hx8EpcmVXRzWH4Wfpby89XylMUf3NeTIIQ==";
       };
     };
     "@standard-schema/spec-1.1.0" = {
@@ -568,19 +577,19 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.3.27";
+    version = "31.4.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.3.27.tgz";
-      sha512 = "zUq47k6VBWPkwA/UxgA/8d6XZpctpB7wC47ZWi9t0iM8bzgEcRhyifhWYoKAQrhqZd361xx2WMXsXV8a7NQimA==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.4.1.tgz";
+      sha512 = "ASSaDXH7JDQCqc5UQ/vY33VljZsO/xTnc/+OudL2NpFvxPMa7YroUiqB84d8zpyc3meroPqzAsbeZXFZFRtl2g==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.28.5"
       sources."@babel/parser-7.28.6"
       sources."@babel/types-7.28.6"
-      sources."@prisma/config-7.3.0-dev.19"
-      sources."@prisma/prisma-schema-wasm-7.3.0-16.9d6ad21cbbceab97458517b147a6a09ff43aa735"
-      sources."@prisma/schema-files-loader-7.3.0-dev.19"
+      sources."@prisma/config-7.4.0-dev.1"
+      sources."@prisma/prisma-schema-wasm-7.4.0-1.0940115552e3c2e6432bc074fc6216a2e18f339e"
+      sources."@prisma/schema-files-loader-7.4.0-dev.1"
       sources."@standard-schema/spec-1.1.0"
       sources."@types/js-levenshtein-1.1.3"
       sources."c12-3.1.0"
