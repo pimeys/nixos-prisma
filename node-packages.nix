@@ -175,13 +175,13 @@ let
         sha512 = "8csy5IBFI2ex2hTVpaHN2j+LNE199AgiI7y4dMintrr8i0lQiFn+0AWMZrWdHKIgMOer65f8IThysYhoReqjWA==";
       };
     };
-    "confbox-0.2.3" = {
+    "confbox-0.2.4" = {
       name = "confbox";
       packageName = "confbox";
-      version = "0.2.3";
+      version = "0.2.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/confbox/-/confbox-0.2.3.tgz";
-        sha512 = "GnuRBl/Zn8Xb0+0oYmEd0N1roYIjiQfOm2ao0P22fklcuSzaKqDBE8vC4yRYpU4krZHtloveFsi/S3agpmZxpA==";
+        url = "https://registry.npmjs.org/confbox/-/confbox-0.2.4.tgz";
+        sha512 = "ysOGlgTFbN2/Y6Cg3Iye8YKulHw+R2fNXHrgSmXISQdMnomY6eNDprVdW9R5xBguEqI954+S6709UyiO7B+6OQ==";
       };
     };
     "consola-3.4.2" = {
@@ -523,7 +523,7 @@ in
       sources."c12-3.1.0"
       sources."chokidar-4.0.3"
       sources."citty-0.1.6"
-      sources."confbox-0.2.3"
+      sources."confbox-0.2.4"
       sources."consola-3.4.2"
       sources."deepmerge-ts-7.1.5"
       sources."defu-6.1.4"
@@ -595,7 +595,7 @@ in
       sources."c12-3.1.0"
       sources."chokidar-4.0.3"
       sources."citty-0.1.6"
-      sources."confbox-0.2.3"
+      sources."confbox-0.2.4"
       sources."consola-3.4.2"
       sources."deepmerge-ts-7.1.5"
       sources."defu-6.1.4"
@@ -667,7 +667,7 @@ in
       sources."c12-3.1.0"
       sources."chokidar-4.0.3"
       sources."citty-0.1.6"
-      sources."confbox-0.2.3"
+      sources."confbox-0.2.4"
       sources."consola-3.4.2"
       sources."deepmerge-ts-7.1.5"
       sources."defu-6.1.4"
