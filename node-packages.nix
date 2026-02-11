@@ -577,10 +577,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.4.19";
+    version = "31.4.20";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.4.19.tgz";
-      sha512 = "JbzdePDzqBZwoCAohywQpmZOCxCHqaSNPXpAGzRZvJOQRwiqGtp76AdtIl4Cea4TTp+haptpJDLMchpAXTwEbw==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.4.20.tgz";
+      sha512 = "Ebcf06Gc6pnP4Tgx3UHwM7Xc7+6Wmch8U8rh75fcUM+czyiMCe2QMRUEq1+FmHVpje/vec1+G+8BnUyUTkpyMA==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
