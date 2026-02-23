@@ -58,13 +58,13 @@ let
         sha512 = "vteSXm8N46bo3FW9MhPGVHAj+KRgrR6TWtlSk6GqToCKjTnOexXdPZyiDyEsfVW38YhqEmVl6w/6iHN8uYVJcw==";
       };
     };
-    "@prisma/config-7.5.0-dev.15" = {
+    "@prisma/config-7.5.0-dev.16" = {
       name = "_at_prisma_slash_config";
       packageName = "@prisma/config";
-      version = "7.5.0-dev.15";
+      version = "7.5.0-dev.16";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/config/-/config-7.5.0-dev.15.tgz";
-        sha512 = "00umW/T8JYM74kHMe1VMhxCgQe7gSHZIR07AjfrhuACDwKE8pC0Hd4nZiCIsp2ROPGNGgSaUMYhPSkHl0vx/Yg==";
+        url = "https://registry.npmjs.org/@prisma/config/-/config-7.5.0-dev.16.tgz";
+        sha512 = "rY2bohgSH6qP9rnPIL9OBvp6RhnAujmAORTd9aeQqrG2i/ZjvDHezMXXBMKUhsZarYrE2ayLhrIah1kyzGU6tw==";
       };
     };
     "@prisma/prisma-schema-wasm-6.19.0-26.2ba551f319ab1df4bc874a89965d8b3641056773" = {
@@ -85,6 +85,15 @@ let
         sha512 = "7J7kF0YCsY4blgM+VFq3rG1+mgFS8drZiKRKah1wsLN77t4ZS+6VwI89qTN6SlMakzlkd3giwQqDxr/utPgFXw==";
       };
     };
+    "@prisma/prisma-schema-wasm-7.5.0-5.6bddf5676887cb38db09da3fa10a471fa01d51b0" = {
+      name = "_at_prisma_slash_prisma-schema-wasm";
+      packageName = "@prisma/prisma-schema-wasm";
+      version = "7.5.0-5.6bddf5676887cb38db09da3fa10a471fa01d51b0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-7.5.0-5.6bddf5676887cb38db09da3fa10a471fa01d51b0.tgz";
+        sha512 = "bG7Ba40VlbYJFA84Lh7m1S7Xj7Iyl4UbvqCYwOmqTV3/X3QexrQPUAXc0G8cEanwIV16/PCp001qFwjhkmlybA==";
+      };
+    };
     "@prisma/schema-files-loader-6.19.0-dev.10" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
@@ -103,13 +112,13 @@ let
         sha512 = "w67qWHGPKvmemfk7BjMaOqzMZGc0d4BByxoQsP0B93svH/O3NwnC4gfFN4RG7T/IYgnpn6i7xAQQtPx2cyI6hQ==";
       };
     };
-    "@prisma/schema-files-loader-7.5.0-dev.15" = {
+    "@prisma/schema-files-loader-7.5.0-dev.16" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "7.5.0-dev.15";
+      version = "7.5.0-dev.16";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-7.5.0-dev.15.tgz";
-        sha512 = "cDMPJkhTEV2pLI13qImQ9CWF9vltr+/xRyLVTaHtbqvQ8g2zScGHL0T3iQID6qH6HUJxAZ7MYek4m3nLp6CvFg==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-7.5.0-dev.16.tgz";
+        sha512 = "rqXR2ATz1tzZ9xpU/2h8KeMpwlILbNw0UOpVUqklWm/uglPk3ymUl8SDai1zGqGf77TgMTecLaBOsefkE35HIg==";
       };
     };
     "@standard-schema/spec-1.1.0" = {
@@ -568,19 +577,19 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.5.16";
+    version = "31.5.17";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.5.16.tgz";
-      sha512 = "hCURuzWB/4QCGuLnFSK+eeEz+JYoKsbh/2gB45rSObVNNaifv7PwNQ1rG1vvkvduLZmdC14Su4UlC3FhLtEkeA==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.5.17.tgz";
+      sha512 = "PlTuOkwQFUio699lpaxWwYI6+pbLewHzlOi/RRR2w5M0wb/668jMT5745tYGFoQKF04druo5WEHcJmzSMv4Zig==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.28.5"
       sources."@babel/parser-7.29.0"
       sources."@babel/types-7.29.0"
-      sources."@prisma/config-7.5.0-dev.15"
-      sources."@prisma/prisma-schema-wasm-7.5.0-4.55ae170b1ced7fc6ed07a15f110549408c501bb3"
-      sources."@prisma/schema-files-loader-7.5.0-dev.15"
+      sources."@prisma/config-7.5.0-dev.16"
+      sources."@prisma/prisma-schema-wasm-7.5.0-5.6bddf5676887cb38db09da3fa10a471fa01d51b0"
+      sources."@prisma/schema-files-loader-7.5.0-dev.16"
       sources."@standard-schema/spec-1.1.0"
       sources."@types/js-levenshtein-1.1.3"
       sources."c12-3.1.0"
