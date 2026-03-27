@@ -49,13 +49,13 @@ let
         sha512 = "y3jJxFpPw8shOW+h1bpKIbEMrVOLOupcgzAxI+ixMOLzHH7041BYrotftRvAz/edQhEAeG2nAVDOyKS45o+H8A==";
       };
     };
-    "@prisma/config-7.5.0" = {
+    "@prisma/config-7.6.0" = {
       name = "_at_prisma_slash_config";
       packageName = "@prisma/config";
-      version = "7.5.0";
+      version = "7.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/config/-/config-7.5.0.tgz";
-        sha512 = "1J/9YEX7A889xM46PYg9e8VAuSL1IUmXJW3tEhMv7XQHDWlfC9YSkIw9sTYRaq5GswGlxZ+GnnyiNsUZ9JJhSQ==";
+        url = "https://registry.npmjs.org/@prisma/config/-/config-7.6.0.tgz";
+        sha512 = "MuAz1MK4PeG5/03YzfzX3CnFVHQ6qePGwUpQRzPzX5tT0ffJ3Tzi9zJZbBc+VzEGFCM8ghW/gTVDR85Syjt+Yw==";
       };
     };
     "@prisma/config-7.6.0-dev.17" = {
@@ -76,15 +76,6 @@ let
         sha512 = "5au1UH9+jky4TtIdgxDUA9Mk+40R2hDwZnhjjzR1io7WFtIKP6e5DI7yQ5QVysY8Ves8KWDsvwzDOn6gYNY4iA==";
       };
     };
-    "@prisma/prisma-schema-wasm-7.5.0-15.280c870be64f457428992c43c1f6d557fab6e29e" = {
-      name = "_at_prisma_slash_prisma-schema-wasm";
-      packageName = "@prisma/prisma-schema-wasm";
-      version = "7.5.0-15.280c870be64f457428992c43c1f6d557fab6e29e";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-7.5.0-15.280c870be64f457428992c43c1f6d557fab6e29e.tgz";
-        sha512 = "d96xJBWAC/NcnoducHu+vW0C+00C9ZKEeA9Ly5oUBr40nO865nOzG9cyJ1O0N97tDUj+S2AbzTyrkFWAWYy3rQ==";
-      };
-    };
     "@prisma/prisma-schema-wasm-7.6.0-1.75cbdc1eb7150937890ad5465d861175c6624711" = {
       name = "_at_prisma_slash_prisma-schema-wasm";
       packageName = "@prisma/prisma-schema-wasm";
@@ -103,13 +94,13 @@ let
         sha512 = "FpjL53iN1ApEUyNbbaBJ2Yn575SMYiwplEeMpeSS4249DSf4O9B1l+RB6wLnXQ6Gk415GX4Y6+MWS3DAZfw4Ow==";
       };
     };
-    "@prisma/schema-files-loader-7.5.0" = {
+    "@prisma/schema-files-loader-7.6.0" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "7.5.0";
+      version = "7.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-7.5.0.tgz";
-        sha512 = "H6D2ldMIn+v1s6fxSX0flwGo54Rtj14mXNbSvMtx/Er45TIgyuaGbRSOMgAckU94FC4DR2uNbmFttTwTvz3ENA==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-7.6.0.tgz";
+        sha512 = "D5JZLfDQyWPqit3lxNbGCxHSTQwJ2bB9lY6navoYYdL6lulPgsMj5+atAYaWF5hP4Akibr33CS3HZFZlUfH8IQ==";
       };
     };
     "@prisma/schema-files-loader-7.6.0-dev.17" = {
@@ -514,19 +505,19 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.6.0";
+    version = "31.7.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.6.0.tgz";
-      sha512 = "s/zl9UYy1kYMvINuLk9a2AnpZ3d7hZWsL/5XehKMJ7eVp6RSSuAzNeG7KwhsQ4czKpCBh+1FUgcxpPOFyrLVlQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.7.0.tgz";
+      sha512 = "m9PwG2FRx/Lelr1RxznDZ0eExdllIdu/N+m7qhymKx91PUcxpobzvwB4suIvNgjkYVqqrIIgETULqvvdqDwe7A==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.28.5"
       sources."@babel/parser-7.29.2"
       sources."@babel/types-7.29.0"
-      sources."@prisma/config-7.5.0"
-      sources."@prisma/prisma-schema-wasm-7.5.0-15.280c870be64f457428992c43c1f6d557fab6e29e"
-      sources."@prisma/schema-files-loader-7.5.0"
+      sources."@prisma/config-7.6.0"
+      sources."@prisma/prisma-schema-wasm-7.6.0-1.75cbdc1eb7150937890ad5465d861175c6624711"
+      sources."@prisma/schema-files-loader-7.6.0"
       sources."@standard-schema/spec-1.1.0"
       sources."@types/js-levenshtein-1.1.3"
       sources."c12-3.1.0"
@@ -538,7 +529,7 @@ in
       sources."defu-6.1.4"
       sources."destr-2.0.5"
       sources."dotenv-16.6.1"
-      sources."effect-3.18.4"
+      sources."effect-3.20.0"
       sources."empathic-2.0.0"
       sources."exsolve-1.0.8"
       sources."fast-check-3.23.2"
