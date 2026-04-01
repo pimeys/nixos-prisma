@@ -157,13 +157,13 @@ let
         sha512 = "tskPPKEs8D2KPafUypv2gxwJP8h/OaJmC82QQGGDQcHvXX43xF2VDACcJVmZ0EuSxkpO9Kc4MlrA3q0+FG58AQ==";
       };
     };
-    "citty-0.2.1" = {
+    "citty-0.2.2" = {
       name = "citty";
       packageName = "citty";
-      version = "0.2.1";
+      version = "0.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/citty/-/citty-0.2.1.tgz";
-        sha512 = "kEV95lFBhQgtogAPlQfJJ0WGVSokvLr/UEoFPiKKOXF7pl98HfUVUD0ejsuTCld/9xH9vogSywZ5KqHzXrZpqg==";
+        url = "https://registry.npmjs.org/citty/-/citty-0.2.2.tgz";
+        sha512 = "+6vJA3L98yv+IdfKGZHBNiGW5KHn22e/JwID0Strsz8h4S/csAu/OuICwxrg44k5MRiZHWIo8XXuJgQTriRP4w==";
       };
     };
     "confbox-0.2.4" = {
@@ -544,7 +544,7 @@ in
       sources."node-fetch-native-1.6.7"
       (sources."nypm-0.6.5" // {
         dependencies = [
-          sources."citty-0.2.1"
+          sources."citty-0.2.2"
         ];
       })
       sources."ohash-2.0.11"
@@ -616,7 +616,7 @@ in
       sources."node-fetch-native-1.6.7"
       (sources."nypm-0.6.5" // {
         dependencies = [
-          sources."citty-0.2.1"
+          sources."citty-0.2.2"
         ];
       })
       sources."ohash-2.0.11"
@@ -688,7 +688,7 @@ in
       sources."node-fetch-native-1.6.7"
       (sources."nypm-0.6.5" // {
         dependencies = [
-          sources."citty-0.2.1"
+          sources."citty-0.2.2"
         ];
       })
       sources."ohash-2.0.11"
