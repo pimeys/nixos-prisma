@@ -193,13 +193,13 @@ let
         sha512 = "HOJkrhaYsweh+W+e74Yn7YStZOilkoPb6fycpwNLKzSPtruFs48nYis0zy5yJz1+ktUhHxoRDJ27RQAWLIJVJw==";
       };
     };
-    "defu-6.1.4" = {
+    "defu-6.1.6" = {
       name = "defu";
       packageName = "defu";
-      version = "6.1.4";
+      version = "6.1.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/defu/-/defu-6.1.4.tgz";
-        sha512 = "mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==";
+        url = "https://registry.npmjs.org/defu/-/defu-6.1.6.tgz";
+        sha512 = "f8mefEW4WIVg4LckePx3mALjQSPQgFlg9U8yaPdlsbdYcHQyj9n2zL2LJEA52smeYxOvmd/nB7TpMtHGMTHcug==";
       };
     };
     "destr-2.0.5" = {
@@ -526,7 +526,7 @@ in
       sources."confbox-0.2.4"
       sources."consola-3.4.2"
       sources."deepmerge-ts-7.1.5"
-      sources."defu-6.1.4"
+      sources."defu-6.1.6"
       sources."destr-2.0.5"
       sources."dotenv-16.6.1"
       sources."effect-3.20.0"
@@ -598,7 +598,7 @@ in
       sources."confbox-0.2.4"
       sources."consola-3.4.2"
       sources."deepmerge-ts-7.1.5"
-      sources."defu-6.1.4"
+      sources."defu-6.1.6"
       sources."destr-2.0.5"
       sources."dotenv-16.6.1"
       sources."effect-3.20.0"
@@ -670,7 +670,7 @@ in
       sources."confbox-0.2.4"
       sources."consola-3.4.2"
       sources."deepmerge-ts-7.1.5"
-      sources."defu-6.1.4"
+      sources."defu-6.1.6"
       sources."destr-2.0.5"
       sources."dotenv-16.6.1"
       sources."effect-3.18.4"
