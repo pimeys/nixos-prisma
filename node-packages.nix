@@ -238,13 +238,13 @@ let
         sha512 = "uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==";
       };
     };
-    "dotenv-17.4.1" = {
+    "dotenv-17.4.2" = {
       name = "dotenv";
       packageName = "dotenv";
-      version = "17.4.1";
+      version = "17.4.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/dotenv/-/dotenv-17.4.1.tgz";
-        sha512 = "k8DaKGP6r1G30Lx8V4+pCsLzKr8vLmV2paqEj1Y55GdAgJuIqpRp5FfajGF8KtwMxCz9qJc6wUIJnm053d/WCw==";
+        url = "https://registry.npmjs.org/dotenv/-/dotenv-17.4.2.tgz";
+        sha512 = "nI4U3TottKAcAD9LLud4Cb7b2QztQMUEfHbvhTH09bqXTxnSie8WnjPALV/WMCrJZ6UV/qHJ6L03OqO3LcdYZw==";
       };
     };
     "effect-3.18.4" = {
@@ -670,7 +670,7 @@ in
       sources."deepmerge-ts-7.1.5"
       sources."defu-6.1.7"
       sources."destr-2.0.5"
-      sources."dotenv-17.4.1"
+      sources."dotenv-17.4.2"
       sources."effect-3.20.0"
       sources."empathic-2.0.0"
       sources."exsolve-1.0.8"
