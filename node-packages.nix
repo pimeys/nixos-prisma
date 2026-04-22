@@ -49,13 +49,13 @@ let
         sha512 = "y3jJxFpPw8shOW+h1bpKIbEMrVOLOupcgzAxI+ixMOLzHH7041BYrotftRvAz/edQhEAeG2nAVDOyKS45o+H8A==";
       };
     };
-    "@prisma/config-7.7.0" = {
+    "@prisma/config-7.8.0" = {
       name = "_at_prisma_slash_config";
       packageName = "@prisma/config";
-      version = "7.7.0";
+      version = "7.8.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/config/-/config-7.7.0.tgz";
-        sha512 = "hmPI3tKLO2aP0Y5vugbjcnA9qqlfJndiT6ds4tw28U5hNHLWg+mHJEWAhjsSPgxjtmxhJ/EDIeIlyh+3Us0OPg==";
+        url = "https://registry.npmjs.org/@prisma/config/-/config-7.8.0.tgz";
+        sha512 = "HFESzd9rx2ZQxlK+TL7tu1HPvCqrHiL6LCxYykI2c34mvaUuIVVl3lYuicJD/MNnzgPnyeBEMlK4WTomJCV5jw==";
       };
     };
     "@prisma/config-7.8.0-dev.12" = {
@@ -76,15 +76,6 @@ let
         sha512 = "5au1UH9+jky4TtIdgxDUA9Mk+40R2hDwZnhjjzR1io7WFtIKP6e5DI7yQ5QVysY8Ves8KWDsvwzDOn6gYNY4iA==";
       };
     };
-    "@prisma/prisma-schema-wasm-7.6.0-1.75cbdc1eb7150937890ad5465d861175c6624711" = {
-      name = "_at_prisma_slash_prisma-schema-wasm";
-      packageName = "@prisma/prisma-schema-wasm";
-      version = "7.6.0-1.75cbdc1eb7150937890ad5465d861175c6624711";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/prisma-schema-wasm/-/prisma-schema-wasm-7.6.0-1.75cbdc1eb7150937890ad5465d861175c6624711.tgz";
-        sha512 = "sGWZsHVJlxX/lDZiwFg00kyZGwZo3vwN4v5jaMus+7j1763SsXjrW1MSykDUZoy8W1Ent9kCyPRpu9dy/ajnIg==";
-      };
-    };
     "@prisma/prisma-schema-wasm-7.8.0-6.3c6e192761c0362d496ed980de936e2f3cebcd3a" = {
       name = "_at_prisma_slash_prisma-schema-wasm";
       packageName = "@prisma/prisma-schema-wasm";
@@ -103,13 +94,13 @@ let
         sha512 = "FpjL53iN1ApEUyNbbaBJ2Yn575SMYiwplEeMpeSS4249DSf4O9B1l+RB6wLnXQ6Gk415GX4Y6+MWS3DAZfw4Ow==";
       };
     };
-    "@prisma/schema-files-loader-7.7.0" = {
+    "@prisma/schema-files-loader-7.8.0" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "7.7.0";
+      version = "7.8.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-7.7.0.tgz";
-        sha512 = "vIrE9Pr2z7CCIvTeXN6pyd24UywYwSIQoG7gSJdgL4HCqiFJj7c7t3sTpoLb6W9n62UxMD/JlJhaCN50WdcODA==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-7.8.0.tgz";
+        sha512 = "WxCCsgreVggULyP5ElOOHYXjNK9qN+2U15uGRIyRWb87VZWsDZLlYOdC3zR2XKKmkzEq1ncJ5fFWcFyxnNCq7A==";
       };
     };
     "@prisma/schema-files-loader-7.8.0-dev.12" = {
@@ -586,57 +577,48 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.9.0";
+    version = "31.10.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.9.0.tgz";
-      sha512 = "bhPmR3UecEp66n+9V1BQTUgx1vlVqbolEKWmjvepwig/1tA22m+abzmREafEkieGSn1MDPc3bgCBmXbi4zUQug==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.10.0.tgz";
+      sha512 = "j/0QLNzZqlbe+43vDhBHPLd6xwuWtR/Eo/dsPhXMBjaCR1Vt/lqpZ0lC418HlAOxH4VHo+ywqIfPv6zWVIuPMQ==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.28.5"
       sources."@babel/parser-7.29.2"
       sources."@babel/types-7.29.0"
-      sources."@prisma/config-7.7.0"
-      sources."@prisma/prisma-schema-wasm-7.6.0-1.75cbdc1eb7150937890ad5465d861175c6624711"
-      sources."@prisma/schema-files-loader-7.7.0"
+      sources."@prisma/config-7.8.0"
+      sources."@prisma/prisma-schema-wasm-7.8.0-6.3c6e192761c0362d496ed980de936e2f3cebcd3a"
+      sources."@prisma/schema-files-loader-7.8.0"
       sources."@standard-schema/spec-1.1.0"
       sources."@types/js-levenshtein-1.1.3"
-      sources."c12-3.1.0"
-      sources."chokidar-4.0.3"
-      sources."citty-0.1.6"
+      sources."c12-3.3.4"
+      sources."chokidar-5.0.0"
       sources."confbox-0.2.4"
-      sources."consola-3.4.2"
       sources."deepmerge-ts-7.1.5"
       sources."defu-6.1.7"
       sources."destr-2.0.5"
-      sources."dotenv-16.6.1"
+      sources."dotenv-17.4.2"
       sources."effect-3.20.0"
       sources."empathic-2.0.0"
       sources."exsolve-1.0.8"
       sources."fast-check-3.23.2"
       sources."fs-extra-11.3.0"
-      sources."giget-2.0.0"
+      sources."giget-3.2.0"
       sources."graceful-fs-4.2.11"
       sources."jiti-2.6.1"
       sources."js-levenshtein-1.1.6"
       sources."jsonfile-6.2.1"
       sources."klona-2.0.6"
-      sources."magicast-0.3.5"
-      sources."node-fetch-native-1.6.7"
-      (sources."nypm-0.6.5" // {
-        dependencies = [
-          sources."citty-0.2.2"
-        ];
-      })
+      sources."magicast-0.5.2"
       sources."ohash-2.0.11"
       sources."pathe-2.0.3"
-      sources."perfect-debounce-1.0.0"
+      sources."perfect-debounce-2.1.0"
       sources."pkg-types-2.3.0"
       sources."pure-rand-6.1.0"
-      sources."rc9-2.1.2"
-      sources."readdirp-4.1.2"
+      sources."rc9-3.0.1"
+      sources."readdirp-5.0.0"
       sources."source-map-js-1.2.1"
-      sources."tinyexec-1.1.1"
       sources."universalify-2.0.1"
       sources."vscode-jsonrpc-8.1.0"
       sources."vscode-languageserver-8.1.0"
