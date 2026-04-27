@@ -58,13 +58,13 @@ let
         sha512 = "HFESzd9rx2ZQxlK+TL7tu1HPvCqrHiL6LCxYykI2c34mvaUuIVVl3lYuicJD/MNnzgPnyeBEMlK4WTomJCV5jw==";
       };
     };
-    "@prisma/config-7.8.0-dev.12" = {
+    "@prisma/config-7.9.0-dev.2" = {
       name = "_at_prisma_slash_config";
       packageName = "@prisma/config";
-      version = "7.8.0-dev.12";
+      version = "7.9.0-dev.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/config/-/config-7.8.0-dev.12.tgz";
-        sha512 = "Mj3DPF2NfVUj84a3JDf7mgNiE1kE7Z/S3zioCt/hPeewx9CXOTTsWOvkkrx3C5dvaPGIjlah2Sm8oRVlCo+B3w==";
+        url = "https://registry.npmjs.org/@prisma/config/-/config-7.9.0-dev.2.tgz";
+        sha512 = "ZGNKYT8Olecneaf/fVnAYxzuSZMqlGuDema6ALNt2uFmn698uyFiXR6uMS2vXpCi4ZSbnNrhVIqbMgYQZSLSig==";
       };
     };
     "@prisma/prisma-schema-wasm-6.19.0-26.2ba551f319ab1df4bc874a89965d8b3641056773" = {
@@ -103,13 +103,13 @@ let
         sha512 = "WxCCsgreVggULyP5ElOOHYXjNK9qN+2U15uGRIyRWb87VZWsDZLlYOdC3zR2XKKmkzEq1ncJ5fFWcFyxnNCq7A==";
       };
     };
-    "@prisma/schema-files-loader-7.8.0-dev.12" = {
+    "@prisma/schema-files-loader-7.9.0-dev.2" = {
       name = "_at_prisma_slash_schema-files-loader";
       packageName = "@prisma/schema-files-loader";
-      version = "7.8.0-dev.12";
+      version = "7.9.0-dev.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-7.8.0-dev.12.tgz";
-        sha512 = "hwE1e8c86hMM9p2lcXosG4MGiFFF1kT2NEUQCNcbwK/KoGmHtCri3b8Wrwhp2H0At/Nwm9eAst1KZD69A+t4VA==";
+        url = "https://registry.npmjs.org/@prisma/schema-files-loader/-/schema-files-loader-7.9.0-dev.2.tgz";
+        sha512 = "KDbt9d48xviSRNF9SAPNEziBDeK7VsjGv/7zM4+0AIXiV1gRzTj7rNYBhljuNNUAkTiU0FTkgvqDnGkZvTU6Tg==";
       };
     };
     "@standard-schema/spec-1.1.0" = {
@@ -436,13 +436,13 @@ let
         sha512 = "LjgdTytVFXeUgtHZr9WYViYSM/g8MkcTPYDlPa3cDqMirHjKiSZPYd6DoL7pK8AJQr+uWkQvCjHNdiMqsrJs+g==";
       };
     };
-    "pkg-types-2.3.0" = {
+    "pkg-types-2.3.1" = {
       name = "pkg-types";
       packageName = "pkg-types";
-      version = "2.3.0";
+      version = "2.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-2.3.0.tgz";
-        sha512 = "SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==";
+        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-2.3.1.tgz";
+        sha512 = "y+ichcgc2LrADuhLNAx8DFjVfgz91pRxfZdI3UDhxHvcVEZsenLO+7XaU5vOp0u/7V/wZ+plyuQxtrDlZJ+yeg==";
       };
     };
     "pure-rand-6.1.0" = {
@@ -614,7 +614,7 @@ in
       sources."ohash-2.0.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-2.1.0"
-      sources."pkg-types-2.3.0"
+      sources."pkg-types-2.3.1"
       sources."pure-rand-6.1.0"
       sources."rc9-3.0.1"
       sources."readdirp-5.0.0"
@@ -640,19 +640,19 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.9.12";
+    version = "31.10.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.9.12.tgz";
-      sha512 = "bTIUKDKdit1VMKk6/Z8gykOvC7uK/2pAakCVHPfsLEexoFH2uzeuIiPvlxbDiD5GV07X+qNgapbHqF6T9Fzn+w==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.10.1.tgz";
+      sha512 = "YvtMjbqeaC+Ks9C5qS0k4KLw+WOAk70leD/per/gTyaxRCqfiaPG1f+Aql+XMH2A6FN0ZafbepNqpjiA/9dIhA==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.28.5"
       sources."@babel/parser-7.29.2"
       sources."@babel/types-7.29.0"
-      sources."@prisma/config-7.8.0-dev.12"
+      sources."@prisma/config-7.9.0-dev.2"
       sources."@prisma/prisma-schema-wasm-7.8.0-6.3c6e192761c0362d496ed980de936e2f3cebcd3a"
-      sources."@prisma/schema-files-loader-7.8.0-dev.12"
+      sources."@prisma/schema-files-loader-7.9.0-dev.2"
       sources."@standard-schema/spec-1.1.0"
       sources."@types/js-levenshtein-1.1.3"
       sources."c12-3.3.4"
@@ -677,7 +677,7 @@ in
       sources."ohash-2.0.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-2.1.0"
-      sources."pkg-types-2.3.0"
+      sources."pkg-types-2.3.1"
       sources."pure-rand-6.1.0"
       sources."rc9-3.0.1"
       sources."readdirp-5.0.0"
@@ -748,7 +748,7 @@ in
       sources."ohash-2.0.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
-      sources."pkg-types-2.3.0"
+      sources."pkg-types-2.3.1"
       sources."pure-rand-6.1.0"
       sources."rc9-2.1.2"
       sources."readdirp-4.1.2"
