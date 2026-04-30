@@ -22,13 +22,13 @@ let
         sha512 = "qSs4ifwzKJSV39ucNjsvc6WVHs6b7S03sOh2OcHF9UHfVPqWWALUsNUVzhSBiItjRZoLHx7nIarVjqKVusUZ1Q==";
       };
     };
-    "@babel/parser-7.29.2" = {
+    "@babel/parser-7.29.3" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.29.2";
+      version = "7.29.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.29.2.tgz";
-        sha512 = "4GgRzy/+fsBa72/RZVJmGKPmZu9Byn8o4MoLpmNe1m8ZfYnz5emHLQz3U4gLud6Zwl0RZIcgiLD7Uq7ySFuDLA==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.29.3.tgz";
+        sha512 = "b3ctpQwp+PROvU/cttc4OYl4MzfJUWy6FZg+PMXfzmt/+39iHVF0sDfqay8TQM3JA2EUOyKcFZt75jWriQijsA==";
       };
     };
     "@babel/types-7.29.0" = {
@@ -585,7 +585,7 @@ in
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.28.5"
-      sources."@babel/parser-7.29.2"
+      sources."@babel/parser-7.29.3"
       sources."@babel/types-7.29.0"
       sources."@prisma/config-7.8.0"
       sources."@prisma/prisma-schema-wasm-7.8.0-6.3c6e192761c0362d496ed980de936e2f3cebcd3a"
@@ -648,7 +648,7 @@ in
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.28.5"
-      sources."@babel/parser-7.29.2"
+      sources."@babel/parser-7.29.3"
       sources."@babel/types-7.29.0"
       sources."@prisma/config-7.9.0-dev.4"
       sources."@prisma/prisma-schema-wasm-7.8.0-6.3c6e192761c0362d496ed980de936e2f3cebcd3a"
@@ -711,7 +711,7 @@ in
     dependencies = [
       sources."@babel/helper-string-parser-7.27.1"
       sources."@babel/helper-validator-identifier-7.28.5"
-      sources."@babel/parser-7.29.2"
+      sources."@babel/parser-7.29.3"
       sources."@babel/types-7.29.0"
       sources."@prisma/config-6.19.0-dev.10"
       sources."@prisma/prisma-schema-wasm-6.19.0-26.2ba551f319ab1df4bc874a89965d8b3641056773"
