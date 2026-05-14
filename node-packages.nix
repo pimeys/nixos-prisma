@@ -373,13 +373,13 @@ let
         sha512 = "L0WhttDl+2BOsybvEOLK7fW3UA0OQ0IQ2d6Zl2x/a6vVRs3bAY0ECOSHHeL5jD+SbOpOCUEi0y1DgHEn9Qn1AQ==";
       };
     };
-    "magicast-0.5.2" = {
+    "magicast-0.5.3" = {
       name = "magicast";
       packageName = "magicast";
-      version = "0.5.2";
+      version = "0.5.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/magicast/-/magicast-0.5.2.tgz";
-        sha512 = "E3ZJh4J3S9KfwdjZhe2afj6R9lGIN5Pher1pF39UGrXRqq/VDaGVIGN13BjHd2u8B61hArAGOnso7nBOouW3TQ==";
+        url = "https://registry.npmjs.org/magicast/-/magicast-0.5.3.tgz";
+        sha512 = "pVKE4UdSQ7DvHzivsCIFx2BJn1mHG6KsyrFcaxFx6tONdneEuThrDx0Cj3AMg58KyN4pzYT+LHOotxDQDjNvkw==";
       };
     };
     "node-fetch-native-1.6.7" = {
@@ -610,7 +610,7 @@ in
       sources."js-levenshtein-1.1.6"
       sources."jsonfile-6.2.1"
       sources."klona-2.0.6"
-      sources."magicast-0.5.2"
+      sources."magicast-0.5.3"
       sources."ohash-2.0.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-2.1.0"
@@ -673,7 +673,7 @@ in
       sources."js-levenshtein-1.1.6"
       sources."jsonfile-6.2.1"
       sources."klona-2.0.6"
-      sources."magicast-0.5.2"
+      sources."magicast-0.5.3"
       sources."ohash-2.0.11"
       sources."pathe-2.0.3"
       sources."perfect-debounce-2.1.0"
