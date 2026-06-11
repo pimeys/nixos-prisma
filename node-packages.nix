@@ -292,13 +292,13 @@ let
         sha512 = "L5bGsVkxJbJgdnwyuheIunkGatUF/zssUoxxjACCseZYAVbaqdh9Tsmmlkl8vYan09H7sbvKt4pS8GqKLBrEzA==";
       };
     };
-    "giget-3.2.0" = {
+    "giget-3.3.0" = {
       name = "giget";
       packageName = "giget";
-      version = "3.2.0";
+      version = "3.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/giget/-/giget-3.2.0.tgz";
-        sha512 = "GvHTWcykIR/fP8cj8dMpuMMkvaeJfPvYnhq0oW+chSeIr+ldX21ifU2Ms6KBoyKZQZmVaUAAhQ2EZ68KJF8a7A==";
+        url = "https://registry.npmjs.org/giget/-/giget-3.3.0.tgz";
+        sha512 = "gzi2D96p+AMfDcmJHGDj3KJ9NRiwvlFAU5yfa3ROwWZmFUjX4P43x3BcyRaOMMLto1vUo7C+86+MFhYTl6Ryiw==";
       };
     };
     "graceful-fs-4.2.11" = {
@@ -373,13 +373,13 @@ let
         sha512 = "g9yhqoedzIUm0nTnTqAQvueMPVOuIY16bqgAJJC8XOOubYFNwz6IER9qs0Gq2Xd0+CecCKFjtdDTMA4u4xG06Q==";
       };
     };
-    "nypm-0.6.6" = {
+    "nypm-0.6.7" = {
       name = "nypm";
       packageName = "nypm";
-      version = "0.6.6";
+      version = "0.6.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nypm/-/nypm-0.6.6.tgz";
-        sha512 = "vRyr0r4cbBapw07Xw8xrj9Teq3o7MUD35rSaTcanDbW+aK2XHDgJFiU6ZTj2GBw7Q12ysdsyFss+Vdz4hQ0Y6Q==";
+        url = "https://registry.npmjs.org/nypm/-/nypm-0.6.7.tgz";
+        sha512 = "s3ds97SD5pd1dULE+tHUk1DrV0cSHOnsfpcdGATJ8JpBo21DoKqN9exTH4/2nhPQNOLomBdTFMicN94S4DrZrQ==";
       };
     };
     "ohash-2.0.11" = {
@@ -586,7 +586,7 @@ in
       sources."exsolve-1.0.8"
       sources."fast-check-3.23.2"
       sources."fs-extra-11.3.0"
-      sources."giget-3.2.0"
+      sources."giget-3.3.0"
       sources."graceful-fs-4.2.11"
       sources."jiti-2.7.0"
       sources."js-levenshtein-1.1.6"
@@ -649,7 +649,7 @@ in
       sources."exsolve-1.0.8"
       sources."fast-check-3.23.2"
       sources."fs-extra-11.3.0"
-      sources."giget-3.2.0"
+      sources."giget-3.3.0"
       sources."graceful-fs-4.2.11"
       sources."jiti-2.7.0"
       sources."js-levenshtein-1.1.6"
@@ -722,7 +722,7 @@ in
       sources."klona-2.0.6"
       sources."magicast-0.3.5"
       sources."node-fetch-native-1.6.7"
-      (sources."nypm-0.6.6" // {
+      (sources."nypm-0.6.7" // {
         dependencies = [
           sources."citty-0.2.2"
         ];
