@@ -292,13 +292,13 @@ let
         sha512 = "L5bGsVkxJbJgdnwyuheIunkGatUF/zssUoxxjACCseZYAVbaqdh9Tsmmlkl8vYan09H7sbvKt4pS8GqKLBrEzA==";
       };
     };
-    "giget-3.3.0" = {
+    "giget-3.3.1" = {
       name = "giget";
       packageName = "giget";
-      version = "3.3.0";
+      version = "3.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/giget/-/giget-3.3.0.tgz";
-        sha512 = "gzi2D96p+AMfDcmJHGDj3KJ9NRiwvlFAU5yfa3ROwWZmFUjX4P43x3BcyRaOMMLto1vUo7C+86+MFhYTl6Ryiw==";
+        url = "https://registry.npmjs.org/giget/-/giget-3.3.1.tgz";
+        sha512 = "r+mvuDjrjMpsdw46Kmeydb8bdHm7wOKw8wNBtTndkjbPjgAp5oUJUxRE76wZFknxIPokfWvep2qSXK37aXE6zg==";
       };
     };
     "graceful-fs-4.2.11" = {
@@ -586,7 +586,7 @@ in
       sources."exsolve-1.1.0"
       sources."fast-check-3.23.2"
       sources."fs-extra-11.3.0"
-      sources."giget-3.3.0"
+      sources."giget-3.3.1"
       sources."graceful-fs-4.2.11"
       sources."jiti-2.7.0"
       sources."js-levenshtein-1.1.6"
@@ -649,7 +649,7 @@ in
       sources."exsolve-1.1.0"
       sources."fast-check-3.23.2"
       sources."fs-extra-11.3.0"
-      sources."giget-3.3.0"
+      sources."giget-3.3.1"
       sources."graceful-fs-4.2.11"
       sources."jiti-2.7.0"
       sources."js-levenshtein-1.1.6"
