@@ -463,13 +463,13 @@ let
         sha512 = "GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==";
       };
     };
-    "readdirp-5.0.0" = {
+    "readdirp-5.1.1" = {
       name = "readdirp";
       packageName = "readdirp";
-      version = "5.0.0";
+      version = "5.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/readdirp/-/readdirp-5.0.0.tgz";
-        sha512 = "9u/XQ1pvrQtYyMpZe7DXKv2p5CNvyVwzUB6uhLAnQwHMSgKMBR62lc7AHljaeteeHXn11XTAaLLUVZYVZyuRBQ==";
+        url = "https://registry.npmjs.org/readdirp/-/readdirp-5.1.1.tgz";
+        sha512 = "Kko+Y5XQ6fM+Ce3dq3m9YGxnacYZYl9cA1wZjaF3Vbry2L3i1qVg8+CAgNPsXRArPMUMCaOR7oa9Nqntc43JKA==";
       };
     };
     "source-map-js-1.2.1" = {
@@ -599,7 +599,7 @@ in
       sources."pkg-types-2.3.1"
       sources."pure-rand-6.1.0"
       sources."rc9-3.0.1"
-      sources."readdirp-5.0.0"
+      sources."readdirp-5.1.1"
       sources."source-map-js-1.2.1"
       sources."universalify-2.0.1"
       sources."vscode-jsonrpc-8.1.0"
@@ -662,7 +662,7 @@ in
       sources."pkg-types-2.3.1"
       sources."pure-rand-6.1.0"
       sources."rc9-3.0.1"
-      sources."readdirp-5.0.0"
+      sources."readdirp-5.1.1"
       sources."source-map-js-1.2.1"
       sources."universalify-2.0.1"
       sources."vscode-jsonrpc-8.1.0"
