@@ -382,13 +382,13 @@ let
         sha512 = "zxlE2yvSWZWmHcNdT3+5zV2lrCogeE9YOklHrR3dFjqutq5wO7GFDYLFDRXLsYnJzwvy/im9fYoxePvS0VTW0w==";
       };
     };
-    "ohash-2.0.11" = {
+    "ohash-2.0.12" = {
       name = "ohash";
       packageName = "ohash";
-      version = "2.0.11";
+      version = "2.0.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ohash/-/ohash-2.0.11.tgz";
-        sha512 = "RdR9FQrFwNBNXAr4GixM8YaRZRJ5PUWbKYbE5eOsrwAjJW0q2REGcf79oYPsLyskQCZG1PLN+S/K1V00joZAoQ==";
+        url = "https://registry.npmjs.org/ohash/-/ohash-2.0.12.tgz";
+        sha512 = "65S/5gk9YSsaRjcyf7Nfa6h/d3E8/1gslpXfI4W7Dxn/oap8IKRuNT5VXkLQ1YFKIEg4apRY4Pj6aiwFzrDdmw==";
       };
     };
     "pathe-2.0.3" = {
@@ -593,7 +593,7 @@ in
       sources."jsonfile-6.2.1"
       sources."klona-2.0.6"
       sources."magicast-0.5.4"
-      sources."ohash-2.0.11"
+      sources."ohash-2.0.12"
       sources."pathe-2.0.3"
       sources."perfect-debounce-2.1.0"
       sources."pkg-types-2.3.1"
@@ -656,7 +656,7 @@ in
       sources."jsonfile-6.2.1"
       sources."klona-2.0.6"
       sources."magicast-0.5.4"
-      sources."ohash-2.0.11"
+      sources."ohash-2.0.12"
       sources."pathe-2.0.3"
       sources."perfect-debounce-2.1.0"
       sources."pkg-types-2.3.1"
@@ -727,7 +727,7 @@ in
           sources."citty-0.2.2"
         ];
       })
-      sources."ohash-2.0.11"
+      sources."ohash-2.0.12"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
       sources."pkg-types-2.3.1"
