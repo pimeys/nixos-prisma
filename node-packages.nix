@@ -544,13 +544,13 @@ let
         sha512 = "SYU4z1dL0PyIMd4Vj8YOqFvHu7Hz/enbWtpfnVbJHU4Nd1YNYx8u0ennumc6h48GQNeOLxmwySmnADouT/AuZA==";
       };
     };
-    "vscode-uri-3.1.0" = {
+    "vscode-uri-3.2.0" = {
       name = "vscode-uri";
       packageName = "vscode-uri";
-      version = "3.1.0";
+      version = "3.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.1.0.tgz";
-        sha512 = "/BpdSx+yCQGnCvecbyXdxHDkuk55/G3xwnC0GqY4gmQ3j+A+g8kzzgB4Nk/SINjqn6+waqw3EgbVF2QKExkRxQ==";
+        url = "https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.2.0.tgz";
+        sha512 = "m2gXo3bn0G1kT9InzMf07fTbqMbGtyckj3bH5ktLO+1Ssv+yiATZ4dhwaQv9UZWxJh6E9IFGnQyjgWVDWVBDrg==";
       };
     };
   };
@@ -607,7 +607,7 @@ in
       sources."vscode-languageserver-protocol-3.17.3"
       sources."vscode-languageserver-textdocument-1.0.11"
       sources."vscode-languageserver-types-3.17.3"
-      sources."vscode-uri-3.1.0"
+      sources."vscode-uri-3.2.0"
     ];
     buildInputs = globalBuildInputs;
     meta = {
@@ -670,7 +670,7 @@ in
       sources."vscode-languageserver-protocol-3.17.3"
       sources."vscode-languageserver-textdocument-1.0.11"
       sources."vscode-languageserver-types-3.17.3"
-      sources."vscode-uri-3.1.0"
+      sources."vscode-uri-3.2.0"
     ];
     buildInputs = globalBuildInputs;
     meta = {
@@ -742,7 +742,7 @@ in
       sources."vscode-languageserver-protocol-3.17.3"
       sources."vscode-languageserver-textdocument-1.0.11"
       sources."vscode-languageserver-types-3.17.3"
-      sources."vscode-uri-3.1.0"
+      sources."vscode-uri-3.2.0"
     ];
     buildInputs = globalBuildInputs;
     meta = {
