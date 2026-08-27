@@ -622,10 +622,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.11.1";
+    version = "31.12.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.11.1.tgz";
-      sha512 = "Yd8Ss/qUeHLoW3Ff77/b7+6wKQaw9xAxxz3LVk+SE5RjRc/vusTzT+UxTsy5aTywBVv5LpZXKPpp2YK7j/wH3A==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.12.1.tgz";
+      sha512 = "4nwTJUZq1H/Hj6UPJ2t0PueWmwB3IG+hJLl4VFpLJ6GR7TWyaSl8q1NOmolU4PxI9mOOFDd84LI2hkJXQ7WtmQ==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.29.7"
