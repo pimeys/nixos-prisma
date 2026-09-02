@@ -445,13 +445,13 @@ let
         sha512 = "btXCnMmRIBINM2LDZoEmOogIZU7Qe7zn4BpomSKZ/ykbLObuBdvG+mFq11DL6fjH1DRwHhrlgtYWG96bJiC7Cg==";
       };
     };
-    "rc9-3.0.1" = {
+    "rc9-3.1.0" = {
       name = "rc9";
       packageName = "rc9";
-      version = "3.0.1";
+      version = "3.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/rc9/-/rc9-3.0.1.tgz";
-        sha512 = "gMDyleLWVE+i6Sgtc0QbbY6pEKqYs97NGi6isHQPqYlLemPoO8dxQ3uGi0f4NiP98c+jMW6cG1Kx9dDwfvqARQ==";
+        url = "https://registry.npmjs.org/rc9/-/rc9-3.1.0.tgz";
+        sha512 = "ufjkNVzbRHKcCOmTahZkmVsyc3W+MSk3jY03m+a7tGHkIsdVMG9l10/3HvFbWkkKzY5VFp3pkRsIo/UYgmFL7Q==";
       };
     };
     "readdirp-4.1.2" = {
@@ -598,7 +598,7 @@ in
       sources."perfect-debounce-2.1.0"
       sources."pkg-types-2.3.1"
       sources."pure-rand-6.1.0"
-      sources."rc9-3.0.1"
+      sources."rc9-3.1.0"
       sources."readdirp-5.1.1"
       sources."source-map-js-1.2.1"
       sources."universalify-2.0.1"
@@ -661,7 +661,7 @@ in
       sources."perfect-debounce-2.1.0"
       sources."pkg-types-2.3.1"
       sources."pure-rand-6.1.0"
-      sources."rc9-3.0.1"
+      sources."rc9-3.1.0"
       sources."readdirp-5.1.1"
       sources."source-map-js-1.2.1"
       sources."universalify-2.0.1"
