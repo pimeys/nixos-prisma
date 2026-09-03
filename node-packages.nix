@@ -175,6 +175,15 @@ let
         sha512 = "ysOGlgTFbN2/Y6Cg3Iye8YKulHw+R2fNXHrgSmXISQdMnomY6eNDprVdW9R5xBguEqI954+S6709UyiO7B+6OQ==";
       };
     };
+    "confbox-0.3.1" = {
+      name = "confbox";
+      packageName = "confbox";
+      version = "0.3.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/confbox/-/confbox-0.3.1.tgz";
+        sha512 = "cKUSoKa8YxFZZSmraVi7onONx3amu77ngK3kGpsYHDH7drPwCRkQE1RYMPlLRrMtnciRj274XNRxcHxnKmDSnA==";
+      };
+    };
     "consola-3.4.2" = {
       name = "consola";
       packageName = "consola";
@@ -418,13 +427,13 @@ let
         sha512 = "LjgdTytVFXeUgtHZr9WYViYSM/g8MkcTPYDlPa3cDqMirHjKiSZPYd6DoL7pK8AJQr+uWkQvCjHNdiMqsrJs+g==";
       };
     };
-    "pkg-types-2.3.1" = {
+    "pkg-types-2.3.2" = {
       name = "pkg-types";
       packageName = "pkg-types";
-      version = "2.3.1";
+      version = "2.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-2.3.1.tgz";
-        sha512 = "y+ichcgc2LrADuhLNAx8DFjVfgz91pRxfZdI3UDhxHvcVEZsenLO+7XaU5vOp0u/7V/wZ+plyuQxtrDlZJ+yeg==";
+        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-2.3.2.tgz";
+        sha512 = "v0sVXzj7oPGysr543YYZLYbcJNJsKikSsp/fFzoxQ12ewY3ZZr7oCPC8y7OlmxfYB3QPvriXmuPD8KZggE1vqg==";
       };
     };
     "pure-rand-6.1.0" = {
@@ -481,13 +490,13 @@ let
         sha512 = "UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==";
       };
     };
-    "tinyexec-1.3.0" = {
+    "tinyexec-1.3.1" = {
       name = "tinyexec";
       packageName = "tinyexec";
-      version = "1.3.0";
+      version = "1.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tinyexec/-/tinyexec-1.3.0.tgz";
-        sha512 = "QKAl9m8gWWGHV8jZcPeym6j+XULi6tOf1mT83WYJ4Lk2ytW/uwAWkrP0uFsdoYMdueVJ0qs26wZ+23xeB4ibNQ==";
+        url = "https://registry.npmjs.org/tinyexec/-/tinyexec-1.3.1.tgz";
+        sha512 = "GCvB3aoys96IuDFBMcTB46JOR6mdMtAToqwiW8JlWhsoh1mhHi/xn9ss/Dg7N555GiJyEt2qzoG/NHCwM6h1EA==";
       };
     };
     "universalify-2.0.1" = {
@@ -559,10 +568,10 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.12.0";
+    version = "31.12.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.12.0.tgz";
-      sha512 = "eCPCynThZf8AfMNnK3c2HaJU2hde0YNYYiKDRXV4KGpgFPl/XQTXCRm+jILC8XHWaVQcsuPae/tzw0AS2StiIA==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.12.2.tgz";
+      sha512 = "/9wMMF++e7EGrDPtFXOXUIR1UKd9a7hJ3dm5f5HDtZTXefRErE6Aofkch9MJZpwdTNwHu4UQl4WfGgLq3LnE4A==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.29.7"
@@ -596,7 +605,11 @@ in
       sources."ohash-2.0.12"
       sources."pathe-2.0.3"
       sources."perfect-debounce-2.1.0"
-      sources."pkg-types-2.3.1"
+      (sources."pkg-types-2.3.2" // {
+        dependencies = [
+          sources."confbox-0.3.1"
+        ];
+      })
       sources."pure-rand-6.1.0"
       sources."rc9-3.1.0"
       sources."readdirp-5.1.1"
@@ -622,10 +635,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.12.1";
+    version = "31.12.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.12.1.tgz";
-      sha512 = "4nwTJUZq1H/Hj6UPJ2t0PueWmwB3IG+hJLl4VFpLJ6GR7TWyaSl8q1NOmolU4PxI9mOOFDd84LI2hkJXQ7WtmQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.12.5.tgz";
+      sha512 = "55vIkJMJAzxD5Vx0jH09+I30cT84WmiCgQgwu5e8tEhQPOoYGKWU6pDt343WJR8eh7UqwnsM2tX82lEnTWflzQ==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.29.7"
@@ -659,7 +672,11 @@ in
       sources."ohash-2.0.12"
       sources."pathe-2.0.3"
       sources."perfect-debounce-2.1.0"
-      sources."pkg-types-2.3.1"
+      (sources."pkg-types-2.3.2" // {
+        dependencies = [
+          sources."confbox-0.3.1"
+        ];
+      })
       sources."pure-rand-6.1.0"
       sources."rc9-3.1.0"
       sources."readdirp-5.1.1"
@@ -730,12 +747,16 @@ in
       sources."ohash-2.0.12"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
-      sources."pkg-types-2.3.1"
+      (sources."pkg-types-2.3.2" // {
+        dependencies = [
+          sources."confbox-0.3.1"
+        ];
+      })
       sources."pure-rand-6.1.0"
       sources."rc9-2.1.2"
       sources."readdirp-4.1.2"
       sources."source-map-js-1.2.1"
-      sources."tinyexec-1.3.0"
+      sources."tinyexec-1.3.1"
       sources."universalify-2.0.1"
       sources."vscode-jsonrpc-8.1.0"
       sources."vscode-languageserver-8.1.0"
