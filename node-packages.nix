@@ -635,10 +635,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.12.5";
+    version = "31.12.6";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.12.5.tgz";
-      sha512 = "55vIkJMJAzxD5Vx0jH09+I30cT84WmiCgQgwu5e8tEhQPOoYGKWU6pDt343WJR8eh7UqwnsM2tX82lEnTWflzQ==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.12.6.tgz";
+      sha512 = "yhw/I0DsRXfHLdSMJi/KL5wux78BKvwdIK0OgeKF9ULX2wHDBe9Po6kvZJjpDUtyDOobp1gTa4itrOSkmmN/vQ==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.29.7"
@@ -692,7 +692,6 @@ in
     buildInputs = globalBuildInputs;
     meta = {
       description = "Prisma Language Server";
-      homepage = "https://github.com/prisma/language-tools#readme";
       license = "Apache-2.0";
     };
     production = true;
