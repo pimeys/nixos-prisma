@@ -481,13 +481,13 @@ let
         sha512 = "Kko+Y5XQ6fM+Ce3dq3m9YGxnacYZYl9cA1wZjaF3Vbry2L3i1qVg8+CAgNPsXRArPMUMCaOR7oa9Nqntc43JKA==";
       };
     };
-    "source-map-js-1.2.1" = {
+    "source-map-js-1.2.2" = {
       name = "source-map-js";
       packageName = "source-map-js";
-      version = "1.2.1";
+      version = "1.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz";
-        sha512 = "UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==";
+        url = "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz";
+        sha512 = "KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==";
       };
     };
     "tinyexec-1.3.1" = {
@@ -613,7 +613,7 @@ in
       sources."pure-rand-6.1.0"
       sources."rc9-3.1.0"
       sources."readdirp-5.1.1"
-      sources."source-map-js-1.2.1"
+      sources."source-map-js-1.2.2"
       sources."universalify-2.0.1"
       sources."vscode-jsonrpc-8.1.0"
       sources."vscode-languageserver-8.1.0"
@@ -679,7 +679,7 @@ in
       sources."pure-rand-6.1.0"
       sources."rc9-3.1.0"
       sources."readdirp-5.1.1"
-      sources."source-map-js-1.2.1"
+      sources."source-map-js-1.2.2"
       sources."universalify-2.0.1"
       sources."vscode-jsonrpc-8.1.0"
       sources."vscode-languageserver-8.1.0"
@@ -753,7 +753,7 @@ in
       sources."pure-rand-6.1.0"
       sources."rc9-2.1.2"
       sources."readdirp-4.1.2"
-      sources."source-map-js-1.2.1"
+      sources."source-map-js-1.2.2"
       sources."tinyexec-1.3.1"
       sources."universalify-2.0.1"
       sources."vscode-jsonrpc-8.1.0"
