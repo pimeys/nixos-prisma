@@ -568,10 +568,10 @@ in
   "@prisma/language-server" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.12.10";
+    version = "31.12.15";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.12.10.tgz";
-      sha512 = "72vmV3j8cH98yx0aPp7nn+rKTw1eKLYH6P1APKwgl3QNXMktffcZJEu6KFj1jX8RBI9Clh5L9WdRKFnV8HTe3A==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.12.15.tgz";
+      sha512 = "Julc5lkK71FyeCe1UMlZ+XGSCVta4G62laXhkQ3VTmWdTQw640OG/lTpPz5REQDcXF/dsGAX2fOEc2alLzSMVA==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.29.7"
@@ -634,10 +634,10 @@ in
   "@prisma/language-server-dev" = nodeEnv.buildNodePackage {
     name = "_at_prisma_slash_language-server";
     packageName = "@prisma/language-server";
-    version = "31.12.12";
+    version = "31.12.14";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.12.12.tgz";
-      sha512 = "lo7AJtRIQ6fYej4QXT/ksTMsUJESLSdWZFUk51Zwq2W+0htjW44nAoLoUXSRA6hC8xeY3VURlaClqNdy1+sC0w==";
+      url = "https://registry.npmjs.org/@prisma/language-server/-/language-server-31.12.14.tgz";
+      sha512 = "Qr/53DUiq/0kccO1v2kGuOgKEMkk7uq+KdskNUjP1fKWIXSaS327sdezP0WVlwshmnU9fDSsOWnUuFZ/m0h7Uw==";
     };
     dependencies = [
       sources."@babel/helper-string-parser-7.29.7"
