@@ -427,13 +427,13 @@ let
         sha512 = "LjgdTytVFXeUgtHZr9WYViYSM/g8MkcTPYDlPa3cDqMirHjKiSZPYd6DoL7pK8AJQr+uWkQvCjHNdiMqsrJs+g==";
       };
     };
-    "pkg-types-2.3.3" = {
+    "pkg-types-2.4.0" = {
       name = "pkg-types";
       packageName = "pkg-types";
-      version = "2.3.3";
+      version = "2.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-2.3.3.tgz";
-        sha512 = "j/lCFdcppV0JxWpCEITdbDltBxPP6cHT+yNJ6Go2OgoSA9518X847X9z0p6LtA4Nc16+eQzCZjRrWanTGvHJ5w==";
+        url = "https://registry.npmjs.org/pkg-types/-/pkg-types-2.4.0.tgz";
+        sha512 = "07Fys7iVx0X6TcviMOgogM1Lk33ZyqOezMnU79S+kffWqwolG/5W9V8EgQSeYCIfFTYVgssRbnH630Oa2+soBA==";
       };
     };
     "pure-rand-6.1.0" = {
@@ -605,7 +605,7 @@ in
       sources."ohash-2.0.12"
       sources."pathe-2.0.3"
       sources."perfect-debounce-2.1.0"
-      (sources."pkg-types-2.3.3" // {
+      (sources."pkg-types-2.4.0" // {
         dependencies = [
           sources."confbox-0.3.1"
         ];
@@ -671,7 +671,7 @@ in
       sources."ohash-2.0.12"
       sources."pathe-2.0.3"
       sources."perfect-debounce-2.1.0"
-      (sources."pkg-types-2.3.3" // {
+      (sources."pkg-types-2.4.0" // {
         dependencies = [
           sources."confbox-0.3.1"
         ];
@@ -745,7 +745,7 @@ in
       sources."ohash-2.0.12"
       sources."pathe-2.0.3"
       sources."perfect-debounce-1.0.0"
-      (sources."pkg-types-2.3.3" // {
+      (sources."pkg-types-2.4.0" // {
         dependencies = [
           sources."confbox-0.3.1"
         ];
