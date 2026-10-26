@@ -382,13 +382,13 @@ let
         sha512 = "g9yhqoedzIUm0nTnTqAQvueMPVOuIY16bqgAJJC8XOOubYFNwz6IER9qs0Gq2Xd0+CecCKFjtdDTMA4u4xG06Q==";
       };
     };
-    "nypm-0.6.11" = {
+    "nypm-0.6.12" = {
       name = "nypm";
       packageName = "nypm";
-      version = "0.6.11";
+      version = "0.6.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nypm/-/nypm-0.6.11.tgz";
-        sha512 = "wrVBTLWDu7nTUKGWplQebWOXWnhaIwyKQhBxobH/CGxJHoVw27r9vG5ba7kdZnxG+f4rC6dZd6m2oHmpkOcO7g==";
+        url = "https://registry.npmjs.org/nypm/-/nypm-0.6.12.tgz";
+        sha512 = "4AhWntz+ds/P5kz1rN25yGegTPYsO5ffOy+8S0TeuXKZrgjlmgcEBLA1xubzcP/dWX4zYfNybv4TQERlL9Z0LQ==";
       };
     };
     "ohash-2.0.12" = {
@@ -737,7 +737,7 @@ in
       sources."klona-2.0.6"
       sources."magicast-0.3.5"
       sources."node-fetch-native-1.6.7"
-      (sources."nypm-0.6.11" // {
+      (sources."nypm-0.6.12" // {
         dependencies = [
           sources."citty-0.2.2"
         ];
