@@ -175,13 +175,13 @@ let
         sha512 = "ysOGlgTFbN2/Y6Cg3Iye8YKulHw+R2fNXHrgSmXISQdMnomY6eNDprVdW9R5xBguEqI954+S6709UyiO7B+6OQ==";
       };
     };
-    "confbox-0.3.1" = {
+    "confbox-0.3.2" = {
       name = "confbox";
       packageName = "confbox";
-      version = "0.3.1";
+      version = "0.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/confbox/-/confbox-0.3.1.tgz";
-        sha512 = "cKUSoKa8YxFZZSmraVi7onONx3amu77ngK3kGpsYHDH7drPwCRkQE1RYMPlLRrMtnciRj274XNRxcHxnKmDSnA==";
+        url = "https://registry.npmjs.org/confbox/-/confbox-0.3.2.tgz";
+        sha512 = "ZUAKhKlkCOrIGKc8cj7zek9s9z1mveHif/25nUshI2BzCRzF7KH7KHa+Lnh2ubq+e1tIlaFuP763mzW4qVoehg==";
       };
     };
     "consola-3.4.2" = {
@@ -607,7 +607,7 @@ in
       sources."perfect-debounce-2.1.0"
       (sources."pkg-types-2.4.0" // {
         dependencies = [
-          sources."confbox-0.3.1"
+          sources."confbox-0.3.2"
         ];
       })
       sources."pure-rand-6.1.0"
@@ -673,7 +673,7 @@ in
       sources."perfect-debounce-2.1.0"
       (sources."pkg-types-2.4.0" // {
         dependencies = [
-          sources."confbox-0.3.1"
+          sources."confbox-0.3.2"
         ];
       })
       sources."pure-rand-6.1.0"
@@ -747,7 +747,7 @@ in
       sources."perfect-debounce-1.0.0"
       (sources."pkg-types-2.4.0" // {
         dependencies = [
-          sources."confbox-0.3.1"
+          sources."confbox-0.3.2"
         ];
       })
       sources."pure-rand-6.1.0"
