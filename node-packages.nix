@@ -310,13 +310,13 @@ let
         sha512 = "r+mvuDjrjMpsdw46Kmeydb8bdHm7wOKw8wNBtTndkjbPjgAp5oUJUxRE76wZFknxIPokfWvep2qSXK37aXE6zg==";
       };
     };
-    "graceful-fs-4.2.11" = {
+    "graceful-fs-4.2.12" = {
       name = "graceful-fs";
       packageName = "graceful-fs";
-      version = "4.2.11";
+      version = "4.2.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz";
-        sha512 = "RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==";
+        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.12.tgz";
+        sha512 = "iuyGF2E4oafQfPsRrG2wtY2ILupMhvtdrhzrxB+0VcjsPpSPttpfYdjnGFGsTi5MaJFjI1jOKHPQ6UTbTj9TAw==";
       };
     };
     "jiti-2.7.0" = {
@@ -596,7 +596,7 @@ in
       sources."fast-check-3.23.2"
       sources."fs-extra-11.3.0"
       sources."giget-3.3.1"
-      sources."graceful-fs-4.2.11"
+      sources."graceful-fs-4.2.12"
       sources."jiti-2.7.0"
       sources."js-levenshtein-1.1.6"
       sources."jsonfile-6.2.1"
@@ -662,7 +662,7 @@ in
       sources."fast-check-3.23.2"
       sources."fs-extra-11.3.0"
       sources."giget-3.3.1"
-      sources."graceful-fs-4.2.11"
+      sources."graceful-fs-4.2.12"
       sources."jiti-2.7.0"
       sources."js-levenshtein-1.1.6"
       sources."jsonfile-6.2.1"
@@ -730,7 +730,7 @@ in
       sources."fast-check-3.23.2"
       sources."fs-extra-11.3.0"
       sources."giget-2.0.0"
-      sources."graceful-fs-4.2.11"
+      sources."graceful-fs-4.2.12"
       sources."jiti-2.7.0"
       sources."js-levenshtein-1.1.6"
       sources."jsonfile-6.2.1"
