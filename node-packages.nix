@@ -4,13 +4,13 @@
 
 let
   sources = {
-    "@babel/helper-string-parser-7.29.14" = {
+    "@babel/helper-string-parser-7.29.15" = {
       name = "_at_babel_slash_helper-string-parser";
       packageName = "@babel/helper-string-parser";
-      version = "7.29.14";
+      version = "7.29.15";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.29.14.tgz";
-        sha512 = "CXvKMFvM80ihI7Vox9jb+kQjnyjESQNPM+vB7U0Zz6TWuZA+Z/FL0QPMH300h33qJtIx+REeBhXqWOPW48TcAQ==";
+        url = "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.29.15.tgz";
+        sha512 = "C2FuapQ2Kh1OnVHAoLi5rD3GBJ8COb9Q609T6HEpLqaBAo560PDP5OxBE5dCI/h951MBO/+bCUYU5SZ+8ZlV+w==";
       };
     };
     "@babel/helper-validator-identifier-7.29.7" = {
@@ -22,22 +22,22 @@ let
         sha512 = "qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==";
       };
     };
-    "@babel/parser-7.29.14" = {
+    "@babel/parser-7.29.15" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.29.14";
+      version = "7.29.15";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.29.14.tgz";
-        sha512 = "VL220vXuyO2z3rNIQwY7ftj9UwpqOt+33sH+sBWkOekbsSR2g7EEMnOx24ZlCH0xOA3DM/33SifVFGbnJD8r/w==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.29.15.tgz";
+        sha512 = "RpKWyisHoP81twtSCgmE02iU0RnPcq1DN5bBEbpUePrjA9Q3wXhufnCJrrayPpoZieqFh3zyZQqwtSK0gGccRA==";
       };
     };
-    "@babel/types-7.29.14" = {
+    "@babel/types-7.29.15" = {
       name = "_at_babel_slash_types";
       packageName = "@babel/types";
-      version = "7.29.14";
+      version = "7.29.15";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/types/-/types-7.29.14.tgz";
-        sha512 = "UjI/dKmwJwT9pOszJitq2G6EObZPnsZUfdCr92z2TlF3EZK9J3EdfOKUrCzHl6wFthbzwhzl1Soc/UIwxRiq6w==";
+        url = "https://registry.npmjs.org/@babel/types/-/types-7.29.15.tgz";
+        sha512 = "/XKpKDakL//LZ66bq1XsZOswuqeI5MZqPLDu18o3XdkU1fNJ7bdPtzgnc4ZNS+bBGHV0FJG8jjb8SwcC3nNVQQ==";
       };
     };
     "@prisma/config-6.19.0-dev.10" = {
@@ -574,10 +574,10 @@ in
       sha512 = "3ATe7MSnR4mFBCaiDyvNDrjWtfbz15y0guzGQ8oXOzJDBnHE4AzVxGobP7PgrWxsqry1CCY0x7/FfExZzAHKAA==";
     };
     dependencies = [
-      sources."@babel/helper-string-parser-7.29.14"
+      sources."@babel/helper-string-parser-7.29.15"
       sources."@babel/helper-validator-identifier-7.29.7"
-      sources."@babel/parser-7.29.14"
-      sources."@babel/types-7.29.14"
+      sources."@babel/parser-7.29.15"
+      sources."@babel/types-7.29.15"
       sources."@prisma/config-7.9.0-dev.4"
       sources."@prisma/prisma-schema-wasm-7.8.0-6.3c6e192761c0362d496ed980de936e2f3cebcd3a"
       sources."@prisma/schema-files-loader-7.9.0-dev.4"
@@ -640,10 +640,10 @@ in
       sha512 = "xziTdv+Vf2HBkLl6OTsfkEWq4s/xH1MLwUdOZP1ylfgQS2t3rkw0u4FxVU6d9iYKcSy479A/ow3ehfjGC6gZZQ==";
     };
     dependencies = [
-      sources."@babel/helper-string-parser-7.29.14"
+      sources."@babel/helper-string-parser-7.29.15"
       sources."@babel/helper-validator-identifier-7.29.7"
-      sources."@babel/parser-7.29.14"
-      sources."@babel/types-7.29.14"
+      sources."@babel/parser-7.29.15"
+      sources."@babel/types-7.29.15"
       sources."@prisma/config-7.9.0-dev.4"
       sources."@prisma/prisma-schema-wasm-7.8.0-6.3c6e192761c0362d496ed980de936e2f3cebcd3a"
       sources."@prisma/schema-files-loader-7.9.0-dev.4"
@@ -706,10 +706,10 @@ in
       sha512 = "3I5HiyEv5svyn5wZ+DJ0+Ht+mVVl58Q+YWzpCurZwi2QGDqAaD7vty4LDJ65iFWUMfQdFrQlSP0uZGOfrIngZw==";
     };
     dependencies = [
-      sources."@babel/helper-string-parser-7.29.14"
+      sources."@babel/helper-string-parser-7.29.15"
       sources."@babel/helper-validator-identifier-7.29.7"
-      sources."@babel/parser-7.29.14"
-      sources."@babel/types-7.29.14"
+      sources."@babel/parser-7.29.15"
+      sources."@babel/types-7.29.15"
       sources."@prisma/config-6.19.0-dev.10"
       sources."@prisma/prisma-schema-wasm-6.19.0-26.2ba551f319ab1df4bc874a89965d8b3641056773"
       sources."@prisma/schema-files-loader-6.19.0-dev.10"
