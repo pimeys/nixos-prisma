@@ -490,13 +490,13 @@ let
         sha512 = "J7ZjMvHd9O1fcT/5V09QWaaSl2BbWx3F6O08spde82Namf9UB0GxRVIPiNbVsdKkoizHiSpTodo3vp2bAy91MA==";
       };
     };
-    "tinyexec-1.3.1" = {
+    "tinyexec-1.4.0" = {
       name = "tinyexec";
       packageName = "tinyexec";
-      version = "1.3.1";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tinyexec/-/tinyexec-1.3.1.tgz";
-        sha512 = "GCvB3aoys96IuDFBMcTB46JOR6mdMtAToqwiW8JlWhsoh1mhHi/xn9ss/Dg7N555GiJyEt2qzoG/NHCwM6h1EA==";
+        url = "https://registry.npmjs.org/tinyexec/-/tinyexec-1.4.0.tgz";
+        sha512 = "PV6lIcJQh57aFeJDwx16JNHmgFRh5xguzallrDW1qe8nAghYgr5MKz2K5k7wEyV/ygZhdnIAP8+HZSarHPBCsg==";
       };
     };
     "universalify-2.0.1" = {
@@ -754,7 +754,7 @@ in
       sources."rc9-2.1.2"
       sources."readdirp-4.1.2"
       sources."source-map-js-1.2.4"
-      sources."tinyexec-1.3.1"
+      sources."tinyexec-1.4.0"
       sources."universalify-2.0.1"
       sources."vscode-jsonrpc-8.1.0"
       sources."vscode-languageserver-8.1.0"
